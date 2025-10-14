@@ -1,0 +1,3578 @@
+City:
+  Armonk: Armonk
+  Atlanta: Atlanta
+  Auckland: Auckland
+  Austin: Austin
+  Avellina: Avellina
+  Baltimore: Baltimore
+  Bangkok: Bangkok
+  Barcelona: Barcelona
+  Beijing: Beijing
+  Bellevue: Bellevue
+  Berkeley: Berkeley
+  Berlin: Berlin
+  Beverly Hills: Beverly Hills
+  Bialystok: Bialystok
+  Birmingham: Birmingham
+  Bloomfield Hills: Bloomfield Hills
+  Bloomington, Illinois: Bloomington, Illinois
+  Boca Raton: Boca Raton
+  Bonn: Bonn
+  Boston: Tel Aviv
+  Brasilia: Brasilia
+  Brookline: Brookline
+  Brooklyn: Brooklyn
+  Brooklyn Park: Brooklyn Park
+  Brussels: Brussels
+  Bryn Mawr: Bryn Mawr
+  Bucharest: Bucharest
+  Buffalo: Buffalo
+  Burbank: Burbank
+  Calcutta: Calcutta
+  Calgary: Calgary
+  Cambridge: Cambridge
+  Capri: Capri
+  Cave Creek: Cave Creek
+  Chalon-sur-Saone: Chalon-sur-Saone
+  Charlotte: Charlotte
+  Chester: Chester
+  Chicago: Chicago
+  Cincinnati: Cincinnati
+  Cleveland: Cleveland
+  Columbus, Indiana: Bloomington, Illinois
+  Croydon: Croydon
+  Cupertino: Cupertino
+  Cupertino, California: Cupertino, California
+  Dallas: Dallas
+  Dearborn: Dearborn
+  Delhi: Delhi
+  Denver: Denver
+  Detroit: Detroit
+  Elizabeth City: Elizabeth City
+  Englewood, Colorado: Englewood, Colorado
+  Espoo: Espoo
+  Falls Church: Falls Church
+  Falls Church, Virginia: Falls Church, Virginia
+  Fayetteville, Arkansas: Fayetteville, Arkansas
+  Fort Myers: Fort Myers
+  Fort Worth: Fort Worth
+  Frankfurt: Frankfurt
+  Fremont, California: Fremont, California
+  Frisco: Frisco
+  Funchal: Funchal
+  Goma: Goma
+  Greenwood Village: Greenwood Village
+  Gyeongju: Gyeongju
+  Halifax: Halifax
+  Hammond: Hammond
+  Hanover: Hanover
+  Hartford: Hartford
+  Helsinki: Helsinki
+  Hong Kong: Hong Kong
+  Houston: Houston
+  Hsinchu: Hsinchu
+  Indianapolis: Indianapolis
+  Irvine: Irvine
+  Irvington: Irvington
+  Islamabad: Islamabad
+  Istanbul: Istanbul
+  Jackson, Wyoming: Jackson, Wyoming
+  Jasper, Indiana: Jasper, Indiana
+  Karachi: Karachi
+  Kiev: Kiev
+  Kissimmee: Kissimmee
+  Komarom: Komarom
+  Landover: Landover
+  Las Vegas: Las Vegas
+  Libertyville: Libertyville
+  Lisbon: Lisbon
+  London: London
+  Los Angeles: Los Angeles
+  Luxembourg: Luxembourg
+  Madrid: Madrid
+  Mannheim: San Francisco
+  Maplewood: Maplewood
+  Mardan: Mardan
+  Marseille: Marseille
+  Menlo Park: Menlo Park
+  Menomonee Falls: Menomonee Falls
+  Mexico City: Mexico City
+  Miamisburg: Miamisburg
+  Minneapolis: Minneapolis
+  Montgomery: Montgomery
+  Moscow: Moscow
+  Mountain View: Mountain View
+  Mumbai: Mumbai
+  Munich: Munich
+  Nashville: Nashville
+  New Orleans: New Orleans
+  New York: New York
+  Newbury: Newbury
+  Newport Beach: Newport Beach
+  Newtown: Newtown
+  Norfolk: Norfolk
+  Norman: Norman
+  Oakland, California: Oakland, California
+  Omaha: Omaha
+  Oslo: Oslo
+  Overland Park: Overland Park
+  Palo Alto: Palo Alto
+  Paris: Paris
+  Pepper Pike: Pepper Pike
+  Peshawar: Peshawar
+  Philadelphia: Philadelphia
+  Phnom Penh: Phnom Penh
+  Phoenix: Dearborn
+  Pittsburg: Pittsburg
+  Pittsburgh: Pittsburgh
+  Portland: Portland
+  Pucallpa: Puerto Maldonado
+  Puerto Maldonado: Puerto Maldonado
+  Pullach: Pullach
+  Rancho Palos Verdes: Rancho Palos Verdes
+  Redmond: Sunnyvale
+  Redwood Shores: Redwood Shores
+  Reston: Reston
+  Reutlingen: Reutlingen
+  Reynosa: Reynosa
+  Roseville: Roseville
+  Round Rock: Round Rock
+  Salo: Salo
+  Salt Lake City: Salt Lake City
+  San Diego: San Diego
+  San Francisco: San Francisco
+  San Jose: San Jose
+  Santa Clara: Santa Clara
+  Santa Fe: Santa Fe
+  Santa Monica: Santa Monica
+  Sao Paulo: Sao Paulo
+  Saratoga: Saratoga
+  Saskatoon: Saskatoon
+  Seattle: Seattle
+  Seoul: Seoul
+  Shanghai: Shanghai
+  Shenzhen: Shenzhen
+  Singapore: Singapore
+  Stamford: Stamford
+  Sunnyvale: Sunnyvale
+  Suwon: Suwon
+  Sydney: Sydney
+  Syosset, New York: Syosset, New York
+  Taipei: Taipei
+  Tel Aviv: Tel Aviv
+  Tempe: Tempe
+  Tokyo: Tokyo
+  Toronto: Toronto
+  Toyota City: Toyota City
+  Tuckahoe: Tuckahoe
+  Tyler: Tyler
+  Valparaiso: Valparaiso
+  Waltham: Waltham
+  Washington: Washington
+  Waterloo: Waterloo
+  Wellington: Wellington
+  West Palm Beach: West Palm Beach
+  Wilmington: Wilmington
+  Wuhan: Wuhan
+  Yonkers: Yonkers
+  Zug: Zug
+Country:
+  Afghanistan: Afghanistan
+  Australia: Australia
+  Belgium: Portugal
+  Brazil: Brazil
+  California: California
+  Cambodia: Cambodia
+  Canada: Canada
+  China: China
+  Cyprus: Cyprus
+  Czech Republic: Czech Republic
+  Democratic People's Republic of Korea: Democratic People's Republic of Korea
+  Democratic Republic of Congo: Democratic Republic of Congo
+  Ecuador: Ecuador
+  Egypt: Libya
+  England: England
+  Finland: Finland
+  France: France
+  Germany: Germany
+  Greece: Greece
+  Hong Kong: Puerto Rico
+  Hungary: Hungary
+  India: India
+  Indonesia: Indonesia
+  Iran: Iran
+  Ireland: Portugal
+  Israel: Israel
+  Italy: Netherlands
+  Japan: Japan
+  Kansas: Kansas
+  Korea: Korea
+  Libya: Libya
+  Lithuania: Lithuania
+  Luxembourg: Luxembourg
+  Malaysia: Malaysia
+  Mexico: Mexico
+  Michigan: Michigan
+  Myanmar: Myanmar
+  Netherlands: Netherlands
+  New Jersey: New Jersey
+  New York: New York
+  New Zealand: New Zealand
+  North Korea: North Korea
+  Norway: Norway
+  Pakistan: Pakistan
+  Peru: Peru
+  Philippines: Philippines
+  Poland: Poland
+  Portugal: Portugal
+  Puerto Rico: Puerto Rico
+  Romania: Romania
+  Russia: Russia
+  Singapore: Puerto Rico
+  South Africa: South Africa
+  South Korea: South Korea
+  Spain: Spain
+  Sri Lanka: Sri Lanka
+  Sudan: Sudan
+  Swaziland: South Africa
+  Switzerland: Switzerland
+  Taiwan: Taiwan
+  Tajikistan: Tajikistan
+  Texas: Texas
+  Thailand: Indonesia
+  Turkey: Turkey
+  U.K.: U.K.
+  U.S.: U.S.
+  Ukraine: Ukraine
+  United Kingdom: United Kingdom
+  United States: United States
+  Vietnam: Vietnam
+  Washington: Washington
+  Wyoming: Wyoming
+Government Body: {}
+Location:
+  11 Madison Avenue: 11 Madison Avenue
+  Africa: Africa
+  Alaska: Nova Scotia
+  Amazon: Amazon
+  Asia: Africa
+  Bagram Airfield: Bagram Airfield
+  Bakken field: U.S. East Coast
+  Barclays Global Financial Services Conference: Barclays Global Financial Services
+    Conference
+  Belize: Belize
+  Bellevue, Washington: Bellevue, Washington
+  Benelux: Scandinavia
+  Berlin: Berlin
+  Bermuda: Bermuda
+  Beverly, Massachusetts: Beverly, Massachusetts
+  Bill's Gambling Hall & Saloon: Bill's Gambling Hall & Saloon
+  Black Hat USA: Black Hat USA
+  Blue House: Blue House
+  Bokan Mountain: Bokan Mountain
+  Brandeis University: Brandeis University
+  Burgundy: Burgundy
+  California: California
+  Cambridge, England: Cambridge, England
+  Campania: Campania
+  Canonsburg, Pennsylvania: Canonsburg, Pennsylvania
+  Causeway Bay: Causeway Bay
+  Chiba Prefecture: Chiba Prefecture
+  City of London: City of London
+  Coex: Coex
+  Colorado: Colorado
+  Connecticut: Connecticut
+  Covent Garden: Covent Garden
+  Cupertino, California: Cupertino, California
+  Cushing, Oklahoma: Cushing, Oklahoma
+  Dartington: Dartington
+  Dartmouth College: Dartmouth College
+  Davos: Davos
+  Dedham, Massachusetts: Dedham, Massachusetts
+  Delaware: Delaware
+  District of Columbia: District of Columbia
+  Dulles International Airport: Dulles International Airport
+  Dulles, Virginia: Dulles, Virginia
+  Eastern District of New York: Eastern District of New York
+  Eastern District of Texas: Eastern District of Texas
+  Eiffel Tower: Eiffel Tower
+  Englewood, Colorado: Englewood, Colorado
+  Ethel Barrymore Theatre: Ethel Barrymore Theatre
+  Europe: Europe
+  Fairfield Inn: Fairfield Inn
+  FedEx Field: FedEx Field
+  Florange: Florange
+  Florham Park: Florham Park
+  Florida: Florida
+  Framingham: Framingham
+  Framingham, Massachusetts: Framingham, Massachusetts
+  Franklin Lakes, New Jersey: Franklin Lakes, New Jersey
+  Gava: Gava
+  Georgia: Georgia
+  Guangdong: Guangdong
+  Hawaii: Hawaii
+  Heathrow Airport: Heathrow Airport
+  Hong Kong: Hong Kong
+  Hsinchu, Taiwan: Hsinchu, Taiwan
+  Illinois: Illinois
+  Imperial Palace: Imperial Palace
+  Iowa: Massachusetts
+  Iran: Iran
+  Jackson Hole: Jackson Hole
+  Japan: Japan
+  Kawasaki: Kawasaki
+  Kenya: Kenya
+  Khyber Pakhtunkhawa: Khyber Pakhtunkhawa
+  Labor Market: Labor Market
+  Lago Agrio: Lago Agrio
+  Lake Mead: Lake Mead
+  Las Vegas: Las Vegas
+  Las Vegas Strip: Bill's Gambling Hall & Saloon
+  Lee Gardens Building: Lee Gardens Building
+  Libertyville, Illinois: Libertyville, Illinois
+  London: London
+  Los Angeles metropolitan area: Los Angeles metropolitan area
+  Los Gatos, California: Los Gatos, California
+  Lower East Side: Lower East Side
+  Lucas Oil Stadium: Lucas Oil Stadium
+  Lujiazui: Lujiazui
+  Madeira: Marina do Lugar de Baixo
+  Madison Avenue: Madison Avenue
+  Main Point: Main Point
+  Maine: Massachusetts
+  Manhattan: Manhattan
+  Marina del Rey: Marina del Rey
+  Marina do Lugar de Baixo: Marina do Lugar de Baixo
+  Marshall: Marshall
+  Maryland: Massachusetts
+  Massachusetts: Massachusetts
+  Michigan: Michigan
+  Midwest: Midwest
+  Milan: Milan
+  Minneapolis-St. Paul: Minneapolis-St. Paul
+  Minnesota: Massachusetts
+  Mobile World Congress: Mobile World Congress
+  Mojave Desert: Mojave Desert
+  Monte Carlo: Monte Carlo
+  Mount Vesuvius: Mount Vesuvius
+  Mountain Pass: Mountain Pass
+  Mountain View: Mountain View
+  Mountain View, California: Mountain View, California
+  Nebraska: Nebraska
+  New Albany, Ohio: New Albany, Ohio
+  New Hampshire: Massachusetts
+  New Jersey: New Jersey
+  New Mexico: New Mexico
+  New York: New York
+  New York-New York: Bill's Gambling Hall & Saloon
+  New Zealand: New Zealand
+  Newark, New Jersey: Newark, New Jersey
+  North Carolina: North Carolina
+  North Dakota: U.S. East Coast
+  North Kivu: North Kivu
+  Northern District of California: Northern District of California
+  Nova Scotia: Nova Scotia
+  One Hysan Avenue: One Hysan Avenue
+  Ontario: Ontario
+  Overland Park, Kansas: Overland Park, Kansas
+  Picentini Mountains: Picentini Mountains
+  Plainsboro, New Jersey: Plainsboro, New Jersey
+  Port Washington: Port Washington
+  Redmond, Washington: Redmond, Washington
+  Rhode Island: Massachusetts
+  Richmond Hill, Ontario: Richmond Hill, Ontario
+  Rome: Rome
+  San Francisco Bay area: San Francisco Bay area
+  Sandy Hook Elementary School: Sandy Hook Elementary School
+  Santa Clara: Santa Clara
+  Santa Clara, California: Santa Clara, California
+  Scandinavia: Scandinavia
+  Shanghai Pudong District Court: Shanghai Pudong District Court
+  Shard: Heathrow Airport
+  Sikh temple: Sikh temple
+  Silicon Valley: Silicon Valley
+  Singapore: Singapore
+  Singapore Airshow: Singapore Airshow
+  Southeast Asia: Southeast Asia
+  Southern District of New York: Southern District of New York
+  St. Kilda: St. Kilda
+  Sun Valley: Sun Valley
+  Tahrir Square: Tahrir Square
+  Taiwan: Taiwan
+  Taoyuan, Taiwan: Taoyuan, Taiwan
+  Tepebasi: Tepebasi
+  Texas: Texas
+  The Quad: Imperial Palace
+  Tilted Kilt: Tilted Kilt
+  Toano, Virginia: Toano, Virginia
+  Tokyo: Tokyo
+  TriBeCa: TriBeCa
+  Tsim Sha Tsui: One Hysan Avenue
+  Tyrrhenian Sea: Tyrrhenian Sea
+  U.K.: Europe
+  U.S. East Coast: U.S. East Coast
+  U.S. presidential debates: U.S. presidential debates
+  USS Wisconsin: USS Wisconsin
+  Union, New Jersey: Union, New Jersey
+  Vermont: Vermont
+  Vernier, Switzerland: Vernier, Switzerland
+  Virginia: Virginia
+  Washington: Washington
+  Washington Navy Yard: Washington Navy Yard
+  Waterloo, Ontario: Waterloo, Ontario
+  West Virginia: West Virginia
+  Western Australia: Western Australia
+  Westport, Connecticut: Westport, Connecticut
+  Williamsburg: Lower East Side
+  Wilmington: Wilmington
+  Wisconsin: Wisconsin
+  Woodside, California: Woodside, California
+  Yasuni National Park: Yasuni National Park
+  Zephyr Cove: Zephyr Cove
+  futures workshop: futures workshop
+Organization:
+  1PlusV: Google Inc.
+  21st Century Fox Inc.: 21st Century Fox Inc.
+  3 Austria: Orange Austria
+  360Buy.com: Amazon.com Inc
+  3M Co.: 3M Co.
+  6 Ballygunge Place: 6 Ballygunge Place
+  A Billion + Change: A Billion + Change
+  A&NN Capital Fund Management Ltd.: A&NN Capital Fund Management Ltd.
+  A.P. Moeller Maersk: A.P. Moeller Maersk
+  A.S. Watson: A.S. Watson
+  ABC: Dish Network Corp.
+  ABR Investment Strategy LLC: ABR Investment Strategy LLC
+  ADP Employer Services: ADP Employer Services
+  AMN Healthcare Services Inc.: AMN Healthcare Services Inc.
+  AMP Ltd.: Axa Asia Pacific Holdings Ltd.
+  AMR Corp.: Procter & Gamble Co.
+  AOL Inc.: Pandora Media Inc.
+  ARM Holdings Plc: JPMorgan Chase & Co.
+  AT&T: AT&T
+  AT&T Inc: AT&T Inc
+  AT&T Inc.: AT&T Inc.
+  ATI Technologies Inc.: ATI Technologies Inc.
+  AU Optronics Corp.: AU Optronics Corp.
+  Abercrombie & Fitch Co.: Abercrombie & Fitch Co.
+  Abiove: Abiove
+  Accel Partners: Sequoia Capital
+  Accenture Plc: Accenture Plc
+  Ace Hardware Corp.: Ace Hardware Corp.
+  Acer Inc.: Microsoft Corp.
+  Achelis and Bodman Foundations: Achelis and Bodman Foundations
+  Acme Brick: Johns Manville
+  Active Power Inc.: Active Power Inc.
+  Actividades de Construccion y Servicios SA: Actividades de Construccion y Servicios
+    SA
+  Activision Blizzard Inc.: Activision Blizzard Inc.
+  Activist Insight: Activist Insight
+  Adidas AG: PepsiCo Inc.
+  Adobe Systems Inc: Adobe Systems Inc
+  Advanced Energy Industries Inc.: Advanced Energy Industries Inc.
+  Advanced Micro Devices Inc.: Advanced Micro Devices Inc.
+  Aereo Inc.: Aereo Inc.
+  Aetna: Portico Systems
+  Agricultural Bank of China Ltd.: Agricultural Bank of China Ltd.
+  Agrium Inc.: Agrium Inc.
+  AirTran Holdings Inc.: Continental Airlines Inc.
+  Airlines Reporting Corp.: Airlines Reporting Corp.
+  Akre Capital Management: Akre Capital Management
+  Al Tamimi & Company: Al Tamimi & Company
+  Alaska Air Group Inc.: Alaska Air Group Inc.
+  Alcatel SA: Bridgewater Systems Corp.
+  Alcatel-Lucent: A.P. Moeller Maersk
+  Alcatel-Lucent SA: Alcatel-Lucent SA
+  Alcoa Inc.: Alcoa Inc.
+  Alibaba Group Holding Ltd.: Alibaba Group Holding Ltd.
+  Alibaba.com Ltd.: Alibaba.com Ltd.
+  AllThingsD: AllThingsD
+  Allscripts: Allscripts
+  Alpha Bank SA: EFG Eurobank Ergasias SA
+  Alpha Natural Resources Inc.: Alpha Natural Resources Inc.
+  Alpine Mutual Funds: Alpine Mutual Funds
+  Altera Corp: Texas Instruments Inc
+  Amangwe Royal Family: Amangwe Royal Family
+  Amazon.com: BGC Partners
+  Amazon.com Inc: Amazon.com Inc
+  Amazon.com Inc.: Amazon.com Inc.
+  America Movil SAB: Grupo Financiero Inbursa SAB
+  American Advertising Federation: American Association of Advertising Agencies
+  American Airlines: Procter & Gamble Co.
+  American Association of Advertising Agencies: American Association of Advertising
+    Agencies
+  American Capital Ltd.: American Capital Ltd.
+  American Eagle Outfitters Inc.: American Eagle Outfitters Inc.
+  American Express: Boadin Technology LLC
+  American Express Co.: American Express Co.
+  American International Group Inc.: American International Group Inc.
+  American University: American University
+  American Wind Energy Association: American Wind Energy Association
+  Amiya Capital LLP: Amiya Capital LLP
+  Amplify Festival: Amplify Festival
+  Analysys International: Analysys International
+  Andina: Actividades de Construccion y Servicios SA
+  Andreessen Horowitz: Kleiner Perkins Caufield & Byers
+  Anglo American Plc: ArcelorMittal South Africa Ltd.
+  Anheuser-Busch InBev NV: Anheuser-Busch InBev NV
+  Anobit Technologies Ltd: Anobit Technologies Ltd
+  Anschutz Entertainment Group: Anschutz Entertainment Group
+  Apax Partners LLP: Apax Partners LLP
+  Apollo Global Management LLC: Apollo Global Management LLC
+  Apotex Inc.: Apotex Inc.
+  Apple: Apple
+  Apple Corp.: Apple Corp.
+  Apple Inc: Apple Inc
+  Apple Inc.: Apple Inc.
+  Applebee's: Applebee's
+  ArcelorMittal: ArcelorMittal
+  ArcelorMittal South Africa Ltd.: ArcelorMittal South Africa Ltd.
+  Arden Partners: Arden Partners
+  Arnold & Porter (UK) LLP: Arnold & Porter (UK) LLP
+  Arrow Electronics Inc.: Arrow Electronics Inc.
+  Asian Capital Partners: Asian Capital Partners
+  Asian Development Bank: Asian Development Bank
+  Asian Stocks: Bank of Japan
+  Asset Acceptance Capital Corp.: Asset Acceptance Capital Corp.
+  Asset Acceptance LLC: Asset Acceptance Capital Corp.
+  Association of National Advertisers: Association of National Advertisers
+  Atlantic Bridge: Atlantic Bridge
+  Atlantic Grid Development: Atlantic Grid Development
+  Aton Capital: Aton Capital
+  Atos SA: International Business Machines Corp.
+  Australian Competition & Consumer Commission: Australian Competition & Consumer
+    Commission
+  Australian Securities & Investments Commission: Australian Securities & Investments
+    Commission
+  Australian Securities Exchange: Australian Securities Exchange
+  Authors Guild: Authors Guild
+  Avalon Rare Metals Inc.: Quest Rare Minerals Ltd.
+  Aviva Plc: Aviva Plc
+  Avnet Inc.: Arrow Electronics Inc.
+  Avon Products Inc.: Avon Products Inc.
+  Awami National Party: Awami National Party
+  Axa Asia Pacific Holdings Ltd.: Axa Asia Pacific Holdings Ltd.
+  Axa SA: Axa Asia Pacific Holdings Ltd.
+  Axel Springer AG: Axel Springer AG
+  Axiom Capital Management Inc.: Axiom Capital Management Inc.
+  B. Riley & Co.: B. Riley & Co.
+  BB&T Bank: BB&T Bank
+  BBC: BT Group Plc
+  BDA: BDA
+  BDA China: BDA China
+  BGC Partners: BGC Partners
+  BHP Billiton: BHP Billiton
+  BHP Billiton Ltd.: ArcelorMittal South Africa Ltd.
+  BMO Capital Markets Corp.: BMO Capital Markets Corp.
+  BMO Harris Private Bank: BMO Harris Private Bank
+  BNP Paribas: BNP Paribas
+  BNP Paribas Asia: BNP Paribas Asia
+  BNP Paribas SA: BNP Paribas SA
+  BP: BP
+  BP Plc: BP Plc
+  BPI Asset Management Inc.: BPI Asset Management Inc.
+  BRICs: BRICs
+  BSkyB: BSkyB
+  BT Group Plc: BT Group Plc
+  BTIG LLC: BTIG LLC
+  Babbo: Del Posto
+  Bafin: Bafin
+  Baidu Inc.: Baidu Inc.
+  Bain & Co.: Bain & Co.
+  Bajaj Auto Ltd.: Bajaj Auto Ltd.
+  Baker Donelson: Baker Donelson
+  Ballentine Partners LLC: Ballentine Partners LLC
+  Banca Monte dei Paschi di Siena SpA: Banca Monte dei Paschi di Siena SpA
+  Banco Bradesco SA: Itau Unibanco Holding SA
+  Banco Comercial Portugues: Banco Comercial Portugues
+  Banco Popolare SC: Banca Monte dei Paschi di Siena SpA
+  Bank of America: Bank of America
+  Bank of America Corp: Goldman Sachs Group Inc
+  Bank of America Corp.: Bank of America Corp.
+  Bank of America Merrill Lynch: Bank of America Merrill Lynch
+  Bank of America-Merrill Lynch: Bank of America-Merrill Lynch
+  Bank of China Ltd.: Industrial & Commercial Bank of China Ltd.
+  Bank of England: Bank of England
+  Bank of Japan: Bank of Japan
+  Bank of Montreal: Bank of Montreal
+  Bank of New York Mellon Corp.: Bank of New York Mellon Corp.
+  Banker Pay: Monte Paschi Bailout
+  Barclays: Barclays
+  Barclays Capital: Stifel Nicolaus & Co.
+  Barclays Plc: Barclays Plc
+  Barnes & Noble Inc.: Caesars Entertainment Corp.
+  Barneys New York Inc.: Neiman Marcus Group Inc.
+  Barrafina: Barrafina
+  Bats Global Markets Inc.: Bats Global Markets Inc.
+  Bayer AG: Bayer AG
+  Baylor Health Care System: Baylor Health Care System
+  Becton Dickinson & Co.: American International Group Inc.
+  Becton, Dickinson & Co.: Retractable Technologies Inc.
+  Bed Bath & Beyond Inc.: Bed Bath & Beyond Inc.
+  Bedford Nominees (UK) Ltd.: Bedford Nominees (UK) Ltd.
+  Benchmark Co.: Benchmark Co.
+  Bentley Motors Ltd.: Bentley Motors Ltd.
+  Berkshire Hathaway Inc.: Berkshire Hathaway Inc.
+  Bertelsmann SE: Penguin Random House
+  Bespoke Investment Group LLC: Bespoke Investment Group LLC
+  Best Buy: U.S. Securities and Exchange Commission
+  Best Buy Co.: Consumer Discretionary Select Sector SPDR Fund
+  Bethesda Software: Bethesda Software
+  Bharat Petroleum Corp.: Bharat Petroleum Corp.
+  Big Apple Pizza & Pasta: Big Apple Pizza & Pasta
+  BigChampagne Media Measurement: BigChampagne Media Measurement
+  Bill & Melinda Gates Foundation: Bill & Melinda Gates Foundation
+  Bingham, Osborn & Scarborough: Bingham, Osborn & Scarborough
+  BioSante Pharmaceuticals Inc.: BioSante Pharmaceuticals Inc.
+  BioScrip Inc.: BioScrip Inc.
+  Birinyi Associates Inc.: Birinyi Associates Inc.
+  BlackBerry: Samsung Electronics Co.
+  BlackBerry Ltd.: BlackBerry Ltd.
+  BlackRock Inc.: Fisher Investments
+  Blackstone Group LP: Blackstone Group LP
+  Blandy Group: Blandy Group
+  Bloomberg: Bloomberg
+  Bloomberg Billionaires Index: Bloomberg Billionaires Index
+  Bloomberg Businessweek: Bloomberg Businessweek
+  Bloomberg LP: Bloomberg LP
+  Bloomberg News: Bloomberg News
+  Bloomberg Television: Bloomberg Television
+  Bloomberg West: Hummer Winblad Venture Partners
+  Boadin Technology LLC: Boadin Technology LLC
+  Bocca di Lupo: Bocca di Lupo
+  Boeing Co.: Boeing Co.
+  Boeing Inc: Boeing Inc
+  Boingo Wireless Inc.: Boingo Wireless Inc.
+  Boise Inc.: Packaging Corp. of America
+  Bolsa Mexicana de Valores SAB: Bolsa Mexicana de Valores SAB
+  Booz & Co.: Booz & Co.
+  Boqueria: Boqueria
+  Borders Group Inc.: Liberty Media Corp.
+  Bose: Bose
+  Bouygues SA: Bouygues SA
+  Box Inc.: Dropbox Inc.
+  Braskem SA: Braskem SA
+  Bridgepoint Education Inc.: Bridgepoint Education Inc.
+  Bridgewater Associates LP: Bridgewater Associates LP
+  Bridgewater Systems Corp.: Bridgewater Systems Corp.
+  Bristol-Myers Squibb Co.: Bristol-Myers Squibb Co.
+  British American Tobacco Plc: British American Tobacco Plc
+  "British Bankers\u2019 Association": "British Bankers\u2019 Association"
+  British Broadcasting Corp.: British Broadcasting Corp.
+  British Sky Broadcasting Group Plc: British Sky Broadcasting Group Plc
+  Broadcom Corp: Taiwan Semiconductor Manufacturing Co
+  Broadcom Corp.: "Moody\u2019s Investors Service"
+  Brock University: New England School of Law
+  Brockhouse & Cooper Inc: Brockhouse & Cooper Inc
+  Brookfield Asset Management Inc.: Brookfield Asset Management Inc.
+  Brookings Institution: Brookings Institution
+  Brownstein, Hyatt Farber Schreck LLP: Brownstein, Hyatt Farber Schreck LLP
+  Bucharest Stock Exchange: Bucharest Stock Exchange
+  Buffalo Bills: Nixon Peabody LLP
+  Bulgari SpA: LVMH Moet Hennessy Louis Vuitton SA
+  Bulltick Capital Markets: Bulltick Capital Markets
+  Bumble Bee Foods LLC: Bumble Bee Foods LLC
+  Bundesbank: European Central Bank
+  Burger King Worldwide Inc.: Burger King Worldwide Inc.
+  Burlington Northern Santa Fe: Burlington Northern Santa Fe
+  Byron Capital Markets: Byron Capital Markets
+  CBRE Group Inc.: CBRE Group Inc.
+  CBS Corp.: Time Warner Cable Inc.
+  CCS Insight: CCS Insight
+  CEVA Inc.: CEVA Inc.
+  CIMB Group Holdings Bhd.: CIMB Group Holdings Bhd.
+  CPC Properties Inc.: CPC Properties Inc.
+  CRT Capital Group LLC: CRT Capital Group LLC
+  CSX: Intel Corp.
+  CSX Corp.: Intel Corp.
+  CVC Capital Partners Ltd.: CVC Capital Partners Ltd.
+  Cable & Wireless Worldwide Plc: Cable & Wireless Worldwide Plc
+  Cable Europe: Cable Europe
+  Cabot Oil & Gas Corp.: Cabot Oil & Gas Corp.
+  Cadila Healthcare Ltd.: Cadila Healthcare Ltd.
+  Cadwalader, Wickersham & Taft LLP: Cadwalader, Wickersham & Taft LLP
+  Caesars Entertainment Corp.: Caesars Entertainment Corp.
+  Caisse de Depot et Placement du Quebec: Caisse de Depot et Placement du Quebec
+  California Association of Realtors: California Association of Realtors
+  California Cricket Academy: California Department of Education
+  California Department of Education: California Department of Education
+  Cambiar Investors LLC: Cambiar Investors LLC
+  Cambridge University: Cambridge University
+  Canaccord Genuity: Canaccord Genuity
+  Canaccord Genuity Ltd.: Canaccord Genuity Ltd.
+  Canada Pension Plan Investment Board: Caisse de Depot et Placement du Quebec
+  Canso Investment Counsel Ltd.: Canso Investment Counsel Ltd.
+  Canyon Capital Advisors LLC: Highland Capital Management LP
+  Capital Economics Ltd.: Capital Economics Ltd.
+  Capital Improvement Board: Capital Improvement Board
+  CareZone: CareZone
+  Carnival Corp.: "Standard & Poor\u2019s"
+  Carrefour SA: Carrefour SA
+  Cartier Ltd.: Cartier Ltd.
+  Castle China LLC: Castle China LLC
+  Catcher Technology Co.: Catcher Technology Co.
+  Caterpillar Inc.: Caterpillar Inc.
+  Center for Digital Democracy: Center for Digital Democracy
+  Central European Media Enterprises Ltd.: Central European Media Enterprises Ltd.
+  Cerberus Capital Management LP: Cerberus Capital Management LP
+  Cerner: Allscripts
+  Chandan Economics: Chandan Economics
+  Channel 4: British Broadcasting Corp.
+  Channel 5: British Broadcasting Corp.
+  Charles Schwab Corp.: Charles Schwab Corp.
+  Charlestown Toyota: Charlestown Toyota
+  Charter Equity Research: Charter Equity Research
+  Chesapeake Energy Corp.: Chesapeake Energy Corp.
+  Cheung Kong Holdings Ltd.: Cheung Kong Holdings Ltd.
+  Cheung Kong Infrastructure Holdings Ltd.: Cheung Kong Infrastructure Holdings Ltd.
+  Chevron Corp: Chevron Corp
+  Chevron Corp.: Microsoft Corp.
+  Chi Mei Optoelectronics Corp.: Chi Mei Optoelectronics Corp.
+  Chicago Board Options Exchange: Chicago Board Options Exchange
+  Chicago Bulls: Chicago Bulls
+  "Chickie\u2019s & Pete\u2019s": CPC Properties Inc.
+  China Construction Bank Corp.: China Construction Bank Corp.
+  China Eastern Airlines Corp.: China Eastern Airlines Corp.
+  China Eastern Yingli Green Energy Holding Co.: China Eastern Yingli Green Energy
+    Holding Co.
+  China Huarong Asset Management Corp.: China Huarong Asset Management Corp.
+  China International Marine Containers Group Co. Ltd.: China International Marine
+    Containers Group Co. Ltd.
+  China Merchants Property Development Co.: China Merchants Property Development Co.
+  China Mobile Ltd.: China Mobile Ltd.
+  China Natural Gas Inc.: China Natural Gas Inc.
+  China Pacific Insurance (Group) Co.: China Pacific Insurance (Group) Co.
+  China Sky One Medical Inc.: China Sky One Medical Inc.
+  China Telecom Corp.: China Telecom Corp.
+  China Unicom: China Unicom
+  China Unicom (Hong Kong) Ltd.: China Unicom (Hong Kong) Ltd.
+  China Vanke Co.: China Vanke Co.
+  China's Alibaba Group Holding Ltd.: China's Alibaba Group Holding Ltd.
+  Chinese stocks: Chinese stocks
+  Chipbond Technology Corp.: Chipbond Technology Corp.
+  Chipotle Mexican Grill Inc: Chipotle Mexican Grill Inc
+  Chubb Corp.: ORC International Ltd.
+  Cimarex Energy Co.: Cimarex Energy Co.
+  Cisco Systems Inc.: Cisco Systems Inc.
+  Citigroup Inc: Citigroup Inc
+  Citigroup Inc.: Citigroup Inc.
+  Clear Channel: Clear Channel
+  ClearView Economics LLC: ClearView Economics LLC
+  Clearwire: Sprint Nextel Corp.
+  Clearwire Corp.: Clearwire Corp.
+  Clinton Group: Wet Seal Inc.
+  Cloud Security Alliance: Cloud Security Alliance
+  Co-Operative Bank Ltd.: Co-Operative Bank Ltd.
+  Coach Inc.: Coach Inc.
+  Coca-Cola: Coca-Cola
+  Coca-Cola Co.: Co-Operative Bank Ltd.
+  Coinstar Inc.: Coinstar Inc.
+  Coligacao Democratica Unitaria: Coligacao Democratica Unitaria
+  Colliers International: Colliers International
+  Columbia: Columbia
+  Columbia Business School: Columbia Business School
+  Columbia Institute for Tele-Information: Columbia Institute for Tele-Information
+  Columbia Laboratories Inc.: Columbia Laboratories Inc.
+  Columbia/Sony CMG: Columbia/Sony CMG
+  ComScore Inc.: ComScore Inc.
+  Comcast Corp.: Comcast Corp.
+  Comcast Ventures: WestSummit Capital
+  Commerce & Industry Insurance Co.: Commerce & Industry Insurance Co.
+  Commerce Department: Commerce Department
+  Commerzbank AG: Commerzbank AG
+  Community Health Systems Inc.: Community Health Systems Inc.
+  Compal Communications Inc.: Compal Communications Inc.
+  Compal Electronics Inc: Compal Electronics Inc
+  Compal Electronics Inc.: Compal Electronics Inc.
+  Computer & Communications Industry Association: Computer & Communications Industry
+    Association
+  Computer Sciences Corp.: Computer Sciences Corp.
+  Conde Nast: Conde Nast
+  Conference Board: Thomson Reuters/University of Michigan
+  ConocoPhillips: ConocoPhillips
+  Consumer Discretionary Select Sector SPDR Fund: Consumer Discretionary Select Sector
+    SPDR Fund
+  Consumer Electronics Association: Consumer Electronics Association
+  Consumer Federation of America: Consumer Federation of America
+  Consumer Reports: Consumer Reports
+  Consumer Watchdog: Center for Digital Democracy
+  Continental AG: Continental AG
+  Continental Airlines Inc.: Continental Airlines Inc.
+  Coraid Inc.: Coraid Inc.
+  Cornell University: National Institute on Alcohol Abuse and Alcoholism
+  Cosmote Bulgaria Mobile EAD: Cosmote Bulgaria Mobile EAD
+  Cost Plus Inc.: Cost Plus Inc.
+  Council of Better Business Bureaus: Council of Better Business Bureaus
+  Council on Foreign Relations: Council on Foreign Relations
+  Council on State Taxation: Council on State Taxation
+  Cox Communications Inc.: Cox Communications Inc.
+  Credit Suisse AG: Credit Suisse AG
+  Credit Suisse Group AG: Credit Suisse Group AG
+  Crest Financial Ltd.: Crest Financial Ltd.
+  CrowdFlower: CrowdFlower
+  Cupertino Union School District: Cupertino Union School District
+  D.R. Horton Inc.: Sterne Agee & Leach Inc.
+  DCM: General Atlantic LLC
+  Daily Mail and General Trust Plc: Daily Mail and General Trust Plc
+  Daimler AG: Mercedes-Benz
+  Daiwa SB Investments Ltd.: Daiwa SB Investments Ltd.
+  Dallas Fed: Philadelphia Fed
+  Dallas Mavericks: Electronic Frontier Foundation
+  Danone SA: PepsiCo Inc.
+  Dart Energy Ltd.: Dart Energy Ltd.
+  Dartington Hall: Dartington Hall
+  David Lerner Associates Inc.: David Lerner Associates Inc.
+  Davis Rea Ltd.: Davis Rea Ltd.
+  Dazhong Insurance Co.: Dazhong Insurance Co.
+  DeNA Co: DeNA Co
+  Dean Foods Co.: Dean Foods Co.
+  Debevoise & Plimpton LLP: Skadden, Arps, Slate, Meagher & Flom LLP
+  Deere & Co.: Deere & Co.
+  Dehesa: Salt Yard
+  Del Posto: Del Posto
+  Delhaize Group SA: Delhaize Group SA
+  Dell Inc: Hewlett-Packard Co
+  Dell Inc.: Dell Inc.
+  Delta Air Lines Inc.: Delta Air Lines Inc.
+  Deltec Asset Management: Deltec Asset Management
+  Democratic Underground LLC: Democratic Underground LLC
+  Dendreon Corp.: Dendreon Corp.
+  Denso Corp.: Yazaki Corp
+  Department of Housing and Urban Development: Department of Housing and Urban Development
+  Deutsche Bank AG: Deutsche Bank AG
+  Deutsche Bank Private Wealth Management: Deutsche Bank Private Wealth Management
+  Deutsche Telekom AG: Deutsche Telekom AG
+  Development Bank of Japan Inc.: Development Bank of Japan Inc.
+  Devon Energy Corp.: Devon Energy Corp.
+  Dewey & LeBoeuf LLP: Dewey & LeBoeuf LLP
+  Dewey Ballantine LLP: LeBoeuf, Lamb, Greene & McRae LLP
+  Dexus Wholesale Property Fund: Dexus Wholesale Property Fund
+  Diario de Noticias da Madeira: Diario de Noticias da Madeira
+  Digital Sky Technologies: Digital Sky Technologies
+  DineEquity Inc.: DineEquity Inc.
+  DirecTV: DirecTV
+  Direct Marketing Association: Association of National Advertisers
+  Dish Network: Fox Broadcasting
+  Dish Network Corp.: Dish Network Corp.
+  DisplaySearch: DisplaySearch
+  DoubleLine Capital LP: DoubleLine Capital LP
+  Dow Jones Sustainability Indexes: Dow Jones Sustainability Indexes
+  "Dr. Reddy\u2019s Laboratories Ltd.": "Dr. Reddy\u2019s Laboratories Ltd."
+  Dragon Capital: Dragon Capital
+  DragonWave Inc.: Bridgewater Systems Corp.
+  Drchrono: Drchrono
+  DreamWorks Animation SKG Inc.: DreamWorks Animation SKG Inc.
+  Dropbox Inc.: Dropbox Inc.
+  Dropbox.com: Dropbox.com
+  Droplets Inc.: Droplets Inc.
+  DuPont Co.: Easton-Bell Sports Inc.
+  Duke University: Duke University
+  Dunkin' Brands Group Inc.: Dunkin' Brands Group Inc.
+  E Ink: Prime View International Co.
+  E-Commerce China Dangdang Inc.: E-Commerce China Dangdang Inc.
+  E.G. Sagittar BV: E.G. Sagittar BV
+  EBay Inc: Fitbit Inc
+  EBay Inc.: American International Group Inc.
+  EFG Eurobank Ergasias SA: EFG Eurobank Ergasias SA
+  ELong Inc.: Softbank Corp.
+  EMC Corp.: RSA Security
+  EMI Group Ltd.: Sony Music Entertainment
+  EMarketer Inc.: EMarketer Inc.
+  EQT Corp.: EQT Corp.
+  ESPN: ESPN
+  EU: European Commission
+  Eagle River Holdings LLC: Eagle River Holdings LLC
+  Eastman Kodak Co.: Eastman Kodak Co.
+  Easton-Bell Sports Inc.: Easton-Bell Sports Inc.
+  Eaton Corp.: Eaton Corp.
+  Ebay Inc.: Ebay Inc.
+  Eclipsys: Eclipsys
+  Economic Daily: Economic Daily
+  Ecuadorian Institute of Intellectual Property: Ecuadorian Institute of Intellectual
+    Property
+  Edmunds.com: Edmunds.com
+  Edward Jones & Co.: Edward Jones & Co.
+  Edwards Wildman: Terra Foundation for American Art
+  Edwards Wildman Palmer LLP: Edwards Wildman Palmer LLP
+  Egan-Jones Ratings Co.: Egan-Jones Ratings Co.
+  Egnyte Inc.: Sequoia Capital
+  Eircom Group: Eircom Group
+  Ejustice.fr: Ejustice.fr
+  Elan Microelectronics Corp.: Elan Microelectronics Corp.
+  Elbit Systems Ltd.: Teva Pharmaceutical Industries Ltd.
+  Electricite de France SA: Electricite de France SA
+  Electronic Arts Inc.: Activision Blizzard Inc.
+  Electronic Frontier Foundation: Electronic Frontier Foundation
+  Electronic Privacy Information Center: Electronic Privacy Information Center
+  Elliott Management Corp.: Elliott Management Corp.
+  Elpida Memory Inc.: Elpida Memory Inc.
+  Embraer SA: Embraer SA
+  Energias del Peru: Actividades de Construccion y Servicios SA
+  Energy Future Holdings Corp.: Energy Future Holdings Corp.
+  Enron Corp.: WorldCom Inc.
+  Entertainment One Ltd.: Entertainment One Ltd.
+  Epstein Becker Green PC: Epstein Becker Green PC
+  Ericsson AB: Research In Motion Ltd.
+  Erste Group Bank AG: Erste Group Bank AG
+  Esca: Del Posto
+  Eurasia Group: Eurasia Group
+  Euro-Cities AG: Euro-Cities AG
+  European Central Bank: European Central Bank
+  European Cloud Partnership: European Cloud Partnership
+  European Commission: European Commission
+  European Stocks: Moody's Investors Service
+  European Union: European Union
+  European finance ministers: European finance ministers
+  EverFi: EverFi
+  Evercore Partners: Evercore Partners
+  Evercore Partners Inc.: Evercore Partners Inc.
+  Eversheds LLP: Eversheds LLP
+  Evli Bank: Evli Bank
+  Excellence Nessuah Investment House Ltd.: Excellence Nessuah Investment House Ltd.
+  Exco Resources Inc.: Exco Resources Inc.
+  Exxon Mobil Corp.: Exxon Mobil Corp.
+  FAL Oil Co.: FAL Oil Co.
+  FDIC: FDIC
+  FIH Mobile Ltd.: FIH Mobile Ltd.
+  FMC Technologies Inc.: FMC Technologies Inc.
+  Faber Group Bhd.: Faber Group Bhd.
+  Facebook: Facebook
+  Facebook Inc: Facebook Inc
+  Facebook Inc.: Facebook Inc.
+  Fairfax Financial Holdings Ltd.: Fairfax Financial Holdings Ltd.
+  Fannie Mae: Freddie Mac
+  Fasken Martineau DuMoulin LLP: Fasken Martineau DuMoulin LLP
+  Fasken Martineau LLP: Fasken Martineau LLP
+  Federal Aviation Administration: Federal Aviation Administration
+  Federal Bureau of Investigation: Federal Bureau of Investigation
+  Federal Deposit Insurance Corp.: Federal Deposit Insurance Corp.
+  Federal Housing Finance Agency: Federal Housing Finance Agency
+  Federal Reserve: Federal Reserve
+  Federal Reserve Bank of Boston: Federal Reserve Bank of Boston
+  Federal Reserve Bank of Dallas: Federal Reserve Bank of Dallas
+  Federal Security Service: Federal Security Service
+  Federal Statistics Office: Federal Statistics Office
+  Federal Trade Commission: Internet Corporation for Assigned Names and Numbers
+  Federated Investors Inc.: Federated Investors Inc.
+  Federation of Tax Administrators: Federation of Tax Administrators
+  Fidelity National Capital Inc.: Fidelity National Capital Inc.
+  Fifth Third Asset Management Inc.: Fifth Third Asset Management Inc.
+  Financial Industry Regulatory Authority: Financial Industry Regulatory Authority
+  Financial Services Authority: Financial Services Authority
+  Financial Stability Board: Financial Stability Board
+  Financial Times: NTT DoCoMo Inc.
+  First Pacific Advisors LLC: First Pacific Advisors LLC
+  First Solar Inc.: First Solar Inc.
+  FirstEnergy Corp.: FirstEnergy Corp.
+  Fish & Richardson: Fish & Richardson
+  Fisher Investments: Fisher Investments
+  Fisher-Price: Fisher-Price
+  Fitbit Inc: Fitbit Inc
+  Fitch Ratings: Fitch Ratings
+  Flywheel Ventures: Flywheel Ventures
+  Font Diner Inc.: MGA Entertainment Inc.
+  FoolProof Initiative: FoolProof Initiative
+  Football Association Premier League Limited: Football Association Premier League
+    Limited
+  Forbes: Forbes
+  Ford Motor Co.: Ford Motor Co.
+  Foreign Bribes: JPMorgan Chase & Co.
+  Forest Oil Corp.: Southwestern Energy Co.
+  Formosa Petrochemical Corp.: Formosa Petrochemical Corp.
+  Forrester Research: Forrester Research
+  Forrester Research Inc.: Forrester Research Inc.
+  Foundem: Foundem
+  Foundry Group: Foundry Group
+  Fox Broadcasting: Fox Broadcasting
+  Fox Flooring Inc.: Lumber Liquidators Holdings Inc.
+  Fox News Network: Marketwatch Inc.
+  Foxconn Technology Group: Foxconn Technology Group
+  France Telecom SA: France Telecom SA
+  Freddie Mac: Freddie Mac
+  FreeLoader Inc.: FreeLoader Inc.
+  Freedom to Marry: Freedom to Marry
+  Freeport-McMoRan Copper & Gold Inc.: Freeport-McMoRan Copper & Gold Inc.
+  French Borrowing Costs: French Borrowing Costs
+  Fubon Financial Holding Co: Fubon Financial Holding Co
+  Fubon Financial Holding Co.: Fubon Financial Holding Co.
+  Fulai Investments Ltd.: Fulai Investments Ltd.
+  Fundacion Pachacutec: Fundacion Pachacutec
+  Fusion-io Inc.: Hewlett-Packard Co.
+  G-20: G-20
+  G4: Hulu LLC
+  GS Caltex Corp.: GS Caltex Corp.
+  Galleon Group LLC: Galleon Group LLC
+  Gambro AB: Terumo Corp.
+  Gamco Investors Inc.: Gamco Investors Inc.
+  Gannett Co.: Marketwatch Inc.
+  Gap Inc.: Target Corp.
+  Gartmore Investment Management Ltd: Gartmore Investment Management Ltd
+  Gartner: Gartner
+  Gartner Inc: Gartner Inc
+  Gartner Inc.: Gartner Inc.
+  Gates Foundation: Gates Foundation
+  Gawker Media LLC: Gawker Media LLC
+  Gecina SA: Gecina SA
+  Geico Corp.: National Indemnity
+  General Atlantic LLC: General Atlantic LLC
+  General Electric Co.: General Electric Co.
+  General Motors Co.: General Motors Co.
+  General Re: National Indemnity
+  Generation Impatient: Generation Impatient
+  Genesco Inc.: Genesco Inc.
+  George Mason University School of Law: George Mason University School of Law
+  George W. Bush Administration: George W. Bush Administration
+  Georgia-Pacific LLC: Georgia-Pacific LLC
+  Getin Noble Bank SA: Getin Noble Bank SA
+  Giesecke & Devrient GmbH: Giesecke & Devrient GmbH
+  Giggle: Giggle
+  Ginnie Mae: Freddie Mac
+  Given Imaging Ltd.: Given Imaging Ltd.
+  Glass, Lewis & Co.: Glass, Lewis & Co.
+  GlaxoSmithKline Plc: GlaxoSmithKline Plc
+  Gleacher & Co. Securities: Gleacher & Co. Securities
+  Glencore International AG: Glencore International AG
+  Glencore International Plc: Glencore International Plc
+  Global Cooling Inc.: Global Cooling Inc.
+  Global Financial Private Capital: Global Financial Private Capital
+  Global stocks: Global stocks
+  Globul: Globul
+  Gluskin Sheff & Associates Inc.: Gluskin Sheff & Associates Inc.
+  Gold Fields Ltd.: Gold Fields Ltd.
+  Golden Bridge Technology Inc.: Golden Bridge Technology Inc.
+  Golden Gate Capital Corp.: Golden Gate Capital Corp.
+  Goldman Sachs: Goldman Sachs
+  Goldman Sachs Group Inc: Goldman Sachs Group Inc
+  Goldman Sachs Group Inc.: Goldman Sachs Group Inc.
+  Good Energies Inc.: Trans-Elect Development Co.
+  Goodrich Petroleum Corp.: Goodrich Petroleum Corp.
+  Goodyear Tire & Rubber Co.: Goodyear Tire & Rubber Co.
+  Google: Google
+  Google Inc: Google Inc
+  Google Inc.: Google Inc.
+  Google+: Google+
+  Great Western Minerals Group Ltd.: Great Western Minerals Group Ltd.
+  Gree Electric: Gree Electric Appliances Inc.
+  Gree Electric Appliances Inc.: Gree Electric Appliances Inc.
+  Green Bay Packers: Green Bay Packers
+  GreenCrest Capital Management LLC: GreenCrest Capital Management LLC
+  Greenberg Traurig LLP: Greenberg Traurig LLP
+  Greenwich Associates: Greenwich Associates
+  Group of 20: Group of 20
+  Groupon Inc.: Groupon Inc.
+  Grupo Corporativo ONO SA: Grupo Corporativo ONO SA
+  Grupo Financiero Banorte-Ixe: Grupo Financiero Banorte-Ixe
+  Grupo Financiero Inbursa SAB: Grupo Financiero Inbursa SAB
+  Gryphon Strategies: Gryphon Strategies
+  HCA Holdings Inc.: Health Research & Education Trust
+  HMV Group Plc: HMV Group Plc
+  HSBC Bank USA: HSBC Bank USA
+  HSBC Holdings Plc: HSBC Holdings Plc
+  HTC Corp: HTC Corp
+  HTC Corp.: HTC Corp.
+  Hachette Livre: Simon & Schuster
+  Halifax Media Holdings LLC: Halifax Media Holdings LLC
+  Halliburton Co.: Halliburton Co.
+  Hammerson Plc: Hammerson Plc
+  Hampstead Capital LLP: Hampstead Capital LLP
+  Hankook Tire Co.: Hankook Tire Co.
+  Harlem Globetrotters: Harlem Globetrotters
+  Harley-Davidson Inc.: Harley-Davidson Inc.
+  Harman International Industries Inc.: Harman International Industries Inc.
+  HarperCollins: Simon & Schuster
+  Hartwick College: Hartwick College
+  Harvard Business School: Harvard Business School
+  Harvard Law School: Harvard Business School
+  Harvard University: Harvard University
+  HathiTrust: HathiTrust
+  Health Evolution Partners: Health Evolution Partners
+  Health Research & Education Trust: Health Research & Education Trust
+  HealthCare.gov: HealthCare.gov
+  Healthy America Inc.: Healthy America Inc.
+  Hedge Fund Research: Hedge Fund Research
+  Heidrick & Struggles: Heidrick & Struggles
+  Hellenic Telecom: Hellenic Telecommunications Organization SA
+  Hellenic Telecommunications Organization SA: Hellenic Telecommunications Organization
+    SA
+  Heninger Garrison Davis LLC: Heninger Garrison Davis LLC
+  Henry J. Kaiser Family Foundation: Health Research & Education Trust
+  Herbalife Ltd.: Herbalife Ltd.
+  Hermes International: Hermes International
+  Hewlett-Packard Co: Hewlett-Packard Co
+  Hewlett-Packard Co.: Hewlett-Packard Co.
+  Hexal: Novartis AG
+  Hi5 Networks: Hi5 Networks
+  Highland Capital Management LP: Highland Capital Management LP
+  Highmark Capital Management Inc.: Highmark Capital Management Inc.
+  HireCounsel: HireCounsel
+  Hit Entertainment Ltd.: Hit Entertainment Ltd.
+  Hitachi Ltd.: Hitachi Ltd.
+  Hokuetsu Kishu Paper Co.: Hokuetsu Kishu Paper Co.
+  Home Depot Inc.: Home Depot Inc.
+  Home Retail Group Plc: Moody's Investors Service
+  HomeAway.com Inc.: HomeAway.com Inc.
+  Hon Hai Precision Industry Co: Hon Hai Precision Industry Co
+  Hon Hai Precision Industry Co.: Hon Hai Precision Industry Co.
+  Honda Motor Co.: Toyota Motor Corp.
+  Honeywell International Inc.: Honeywell International Inc.
+  Houghton Mifflin Harcourt Publishing Co.: Houghton Mifflin Harcourt Publishing Co.
+  Huawei: Huawei
+  Huawei Technologies Co.: Huawei Technologies Co.
+  Hughes Telematics Inc.: Skadden, Arps, Slate, Meagher & Flom LLP
+  Hulu LLC: Hulu LLC
+  Hummer Winblad Venture Partners: Hummer Winblad Venture Partners
+  Huntsman Corp.: Huntsman Corp.
+  Hurun Report Inc.: LVMH Moet Hennessy Louis Vuitton SA
+  Husky Energy Inc.: Husky Energy Inc.
+  Hutchison Whampoa Ltd.: Hutchison Whampoa Ltd.
+  Hynix Semiconductor Inc.: Hynix Semiconductor Inc.
+  Hysan Development Co.: Hysan Development Co.
+  Hyundai Motor Co: Hyundai Motor Co
+  Hyundai Motor Co.: Hyundai Motor Co.
+  I.T Ltd.: I.T Ltd.
+  IBM: Amplify Festival
+  ICAP Australia Ltd.: ICAP Australia Ltd.
+  ICAP Plc: ICAP Plc
+  ICE Futures Europe: ICE Futures Europe
+  IDC: IDC
+  IDC Corp: IDC Corp
+  IGB Eletronica SA: IGB Eletronica SA
+  IHS Inc.: Samsung Electronics Co.
+  IMD Companies Inc.: Healthy America Inc.
+  INCJ: INCJ
+  ING: ING
+  IPCom GmbH: IPCom GmbH
+  IPOX Capital Management LLC: IPOX Capital Management LLC
+  ISuppli: Google Inc.
+  ITRI Ltd.: ITRI Ltd.
+  ITV Plc: British Broadcasting Corp.
+  Iberdrola: Iberdrola SA
+  Iberdrola SA: Iberdrola SA
+  Iliad: Iliad
+  Imagination Technologies Group Plc: Imagination Technologies Group Plc
+  Impresa SGPS SA: Impresa SGPS SA
+  Independent: Independent
+  Index Ventures: Union Square Ventures
+  Indianapolis Colts: Indianapolis Colts
+  Inditex SA: Inditex SA
+  Individual Inc.: Individual Inc.
+  Industrial & Commercial Bank of China Ltd.: Industrial & Commercial Bank of China
+    Ltd.
+  Inflexion Point Strategy: Inflexion Point Strategy
+  Information Technology & Innovation Foundation: Information Technology & Innovation
+    Foundation
+  Innolux Corp.: AU Optronics Corp.
+  Inotera Memories Inc.: Inotera Memories Inc.
+  Inotera Memories Ltd: Inotera Memories Ltd
+  Inpex Corp.: Inpex Corp.
+  Inpi: Inpi
+  Insee: Insee
+  Institute for Supply Management: Institute for Supply Management
+  Institutional Venture Partners: Kleiner Perkins Caufield & Byers
+  Inta Boro Acres Inc.: Inta Boro Acres Inc.
+  Intel: Intel Corp.
+  Intel Corp: Google Inc.
+  Intel Corp.: Intel Corp.
+  InterDigital Inc.: LG Electronics Inc.
+  Interactive Advertising Bureau: Association of National Advertisers
+  IntercontinentalExchange Inc.: IntercontinentalExchange Inc.
+  International Business Machines Corp: International Business Machines Corp
+  International Business Machines Corp.: International Business Machines Corp.
+  International Data Corp.: International Data Corp.
+  International Monetary Fund: International Monetary Fund
+  Internet Corporation for Assigned Names and Numbers: Internet Corporation for Assigned
+    Names and Numbers
+  Interpublic Group of Co.: Interpublic Group of Co.
+  Interpublic Group of Cos.: Interpublic Group of Cos.
+  Investec Securities: Investec Securities
+  Investment Company Institute: Investment Company Institute
+  Iotum: Iotum
+  Iscar Metalworking: Iscar Metalworking
+  Israel Venture Capital-KPMG: Israel Venture Capital-KPMG
+  Itau Unibanco Holding SA: Itau Unibanco Holding SA
+  Ivanhoe Inc.: Ivanhoe Inc.
+  Izod: Izod
+  J.C. Penney: J.C. Penney
+  J.C. Penney Co: J.C. Penney Co
+  J.C. Penney Co.: J.C. Penney Co.
+  J.D. Power & Associates: J.D. Power & Associates
+  JKMilne Asset Management: JKMilne Asset Management
+  JMP Securities LLC: JMP Securities LLC
+  JPMorgan: JPMorgan
+  JPMorgan Chase & Co: JPMorgan Chase & Co
+  JPMorgan Chase & Co.: JPMorgan Chase & Co.
+  JSC Corp: JSC Corp
+  JTI: Terra Foundation for American Art
+  Jaguar Financial Corp.: Jaguar Financial Corp.
+  Janney Montgomery Scott LLC: Janney Montgomery Scott LLC
+  Japan Display Inc.: Japan Display Inc.
+  Japan Petroleum Exploration Co.: Japan Petroleum Exploration Co.
+  Jawbone: Fitbit Inc
+  Jefferies & Co.: BMO Capital Markets Corp.
+  Jefferies Group LLC: Jefferies Group LLC
+  Jenbril SA: PepsiCo Inc.
+  Jerusalem Trust: Jerusalem Trust
+  Jiangxi Copper Co.: Wall Street Journal
+  JinkoSolar Holding Co.: Suntech Power Holdings Co.
+  Jive Software Inc.: Jive Software Inc.
+  John Marshall Law School: John Marshall Law School
+  Johns Manville: Johns Manville
+  Johnson & Johnson: General Electric Co.
+  Johnson Controls Inc.: Johnson Controls Inc.
+  Jones Lang LaSalle Inc.: Jones Lang LaSalle Inc.
+  Juniper Networks Inc.: Juniper Networks Inc.
+  K&L Gates LLP: K&L Gates LLP
+  KBW Inc.: KBW Inc.
+  KDDI Inc.: Softbank Corp.
+  Kabam Inc: Kabam Inc
+  Kabel Deutschland Holding AG: Kabel Deutschland Holding AG
+  Kasowitz Benson Torres & Friedman LLP: Kasowitz Benson Torres & Friedman LLP
+  Kaufman Bros.: Kaufman Bros.
+  Kazimir Partners: Kazimir Partners
+  Kellogg Co.: Kellogg Co.
+  Kenneth Cole Productions Inc.: Kenneth Cole Productions Inc.
+  Kimball International Inc.: Kimball International Inc.
+  King & Spalding LLP: King & Spalding LLP
+  Kleiner Perkins Caufield & Byers: Kleiner Perkins Caufield & Byers
+  Kloster Ford: Charlestown Toyota
+  Knopf: Knopf
+  Knott Investments Pty: Knott Investments Pty
+  Kogod Tax Center: American University
+  Korea Exchange: Korea Exchange
+  Korean Central News Agency: Korean Central News Agency
+  Korean People's Internal Security Forces: Korean People's Internal Security Forces
+  Ku6 Media Co.: Ku6 Media Co.
+  Kulicke & Soffa Industries Inc.: Kulicke & Soffa Industries Inc.
+  Kweichow Moutai Co.: Kweichow Moutai Co.
+  Kyodo News: Kyodo News
+  LDK Solar Co.: LDK Solar Co.
+  LG Display Co.: Chi Mei Optoelectronics Corp.
+  LG Electronics Inc.: LG Electronics Inc.
+  LVMH Moet Hennessy Louis Vuitton SA: LVMH Moet Hennessy Louis Vuitton SA
+  La Mar Cebicheria Peruana: La Mar Cebicheria Peruana
+  Labor Department: Labor Department
+  LaidLaw & Co.: LaidLaw & Co.
+  Largan Precision Co.: Largan Precision Co.
+  Largan Precision Co. Ltd.: Largan Precision Co. Ltd.
+  Lava International Ltd.: Lava International Ltd.
+  Lavabit: Silent Circle
+  Lazard Freres & Co.: Lazard Freres & Co.
+  LeBoeuf, Lamb, Greene & McRae LLP: LeBoeuf, Lamb, Greene & McRae LLP
+  Lee Equity Partners LLC: Lee Equity Partners LLC
+  Lehman Brothers Holdings Inc.: Lehman Brothers Holdings Inc.
+  Lenovo Group Ltd: Lenovo Group Ltd
+  Lenovo Group Ltd.: Lenovo Group Ltd.
+  Les Echos: Amazon.com Inc.
+  Levi Strauss & Co.: Levi Strauss & Co.
+  LexisNexis Risk Solutions: LexisNexis Risk Solutions
+  Liberty Global: Liberty Global Plc
+  Liberty Global Inc.: Liberty Global Inc.
+  Liberty Global Plc: Liberty Global Plc
+  Liberty Media Corp.: Liberty Media Corp.
+  Lincoln Center Festival: Lincoln Center Festival
+  Lincoln Industrial Corp: Lincoln Industrial Corp
+  LinkedIn Corp.: LinkedIn Corp.
+  Live Nation Entertainment Inc.: Live Nation Entertainment Inc.
+  Livermore Partners: First Pacific Advisors LLC
+  LivingSocial: Tencent Holdings Ltd.
+  LivingSocial Inc.: LivingSocial Inc.
+  Local.com Corp.: Local.com Corp.
+  Locke Lord LLP: Locke Lord LLP
+  Lockheed Martin Corp.: Lockheed Martin Corp.
+  Logitech International SA: Logitech International SA
+  London Evening Standard: London Evening Standard
+  Longbow Research LLC: Longbow Research LLC
+  Longtop Financial Technologies Ltd.: Longtop Financial Technologies Ltd.
+  Loomis Sayles & Co.: Loomis Sayles & Co.
+  Loopt: Gartner Inc.
+  Loughlin Meghji & Co.: Loughlin Meghji & Co.
+  Louis Vuitton: LVMH Moet Hennessy Louis Vuitton SA
+  Loyola Law School: Loyola Law School
+  Lubrizol Corp.: Lubrizol Corp.
+  Lucasfilm: Walt Disney Co.
+  Lucasfilm Ltd.: Lucasfilm Ltd.
+  Lumber Liquidators Holdings Inc.: Lumber Liquidators Holdings Inc.
+  Lupa: Del Posto
+  Lux Capital: Union Square Ventures
+  MDA EarthSat Weather: MDA EarthSat Weather
+  MDB Capital Group LLC: MDB Capital Group LLC
+  MEB Options LLC: MEB Options LLC
+  MGA Entertainment Inc.: MGA Entertainment Inc.
+  MGM Resorts International: Caesars Entertainment Corp.
+  MISC Bhd.: MISC Bhd.
+  MKM Partners LLC: MKM Partners LLC
+  MSCI AC Asia Pacific Information Technology Index: MSCI AC Asia Pacific Information
+    Technology Index
+  Mackenzie Financial Corp.: Canso Investment Counsel Ltd.
+  Macmillan: Simon & Schuster
+  Macy's Inc.: Macy's Inc.
+  Maginatics Inc.: Maginatics Inc.
+  Maidenform Brands Inc.: Maidenform Brands Inc.
+  Major League Baseball: Major League Baseball
+  Man Group Plc: Man Group Plc
+  Manchester Airports Group: Manchester Airports Group
+  Manz AG: Manz AG
+  Markel Corp.: Canso Investment Counsel Ltd.
+  MarketAxess Holding Inc.: MarketAxess Holding Inc.
+  Marketfield Asset Management: Marketfield Asset Management
+  Marketfield Asset Management LLC: Marketfield Asset Management LLC
+  Marketing Groups: Procter & Gamble Co.
+  Marketwatch Inc.: Marketwatch Inc.
+  Markit Economics: Markit Economics
+  Markit Group Ltd.: Markit Group Ltd.
+  Marmon Group: Marmon Group
+  Marsh & McLennan Cos.: American International Group Inc.
+  Marubeni Corp.: Trans-Elect Development Co.
+  Marvel: Marvel
+  Marvel Comics: Marvel Comics
+  Masco Corp.: Bank of America Corp.
+  MasterCard Inc.: Co-Operative Bank Ltd.
+  Masterlink Securities Corp: Masterlink Securities Corp
+  Mastroberardino: Mastroberardino
+  Maxim Group LLC: Maxim Group LLC
+  McAfee: Intel Corp.
+  McAfee Inc.: McAfee Inc.
+  McCann Worldgroup: Interpublic Group of Co.
+  McGraw-Hill Construction: McGraw-Hill Construction
+  McKesson: Portico Systems
+  McKinsey & Co.: Greenwich Associates
+  MediaTek Inc: MediaTek Inc
+  MediaTek Inc.: MediaTek Inc.
+  Mediaset SpA: Mediaset SpA
+  Medicity: Portico Systems
+  Meebo Inc.: Google Inc.
+  Mega: Megaupload.com
+  Megaupload.com: Megaupload.com
+  Megaworld Corp.: Megaworld Corp.
+  Mellanox Technologies Ltd.: Mellanox Technologies Ltd.
+  Mercedes-Benz: Mercedes-Benz
+  Merck & Co.: Microsoft Corp.
+  MetroPCS Communications Inc.: MetroPCS Communications Inc.
+  Metso Oyj: Metso Oyj
+  MiTek: Johns Manville
+  Miami University of Ohio: Miami University of Ohio
+  Microgen Engine Corp. Holding: Microgen Engine Corp. Holding
+  Micron Technology Inc.: Micron Technology Inc.
+  Microsoft: Microsoft
+  Microsoft Corp: Susquehanna International Group LLP
+  Microsoft Corp.: Microsoft Corp.
+  Microsoft Inc.: Microsoft Inc.
+  Midwest Independent Transmission System Operator: Midwest Independent Transmission
+    System Operator
+  Minefinders Corp.: Minefinders Corp.
+  Mirae Asset Securities Co.: Mirae Asset Securities Co.
+  Mirvac Group: Mirvac Group
+  Missoni SpA: Missoni SpA
+  Mistura: Mistura
+  Mitel Networks Corp.: Bridgewater Systems Corp.
+  Mitsubishi Corp.: Mitsubishi Corp.
+  Mitsubishi UFJ Financial Group Inc.: Mitsubishi UFJ Financial Group Inc.
+  Mitsui & Co.: Mitsui & Co.
+  Mizuho Asset Management Co.: Mizuho Asset Management Co.
+  Moelis & Co.: Golden Gate Capital Corp.
+  Molycorp Inc.: Great Western Minerals Group Ltd.
+  Moneysupermarket.com Group Plc: Moneysupermarket.com Group Plc
+  Monsanto Co.: Pioneer Hi-Bred
+  Monte Paschi Bailout: Monte Paschi Bailout
+  Moody's Investors Service: Moody's Investors Service
+  "Moody\u2019s Investors Service": "Moody\u2019s Investors Service"
+  Morgan Stanley: Morgan Stanley
+  Moroccanoil Israel Ltd.: Moroccanoil Israel Ltd.
+  Morris & McVeigh LLP: Morris & McVeigh LLP
+  Mortgage Accord: JPMorgan Chase & Co.
+  Mosaid Technologies Inc.: Mosaid Technologies Inc.
+  Motion Picture Association of America: Motion Picture Association of America
+  Motorola: Motorola
+  Motorola Inc.: Motorola Mobility Holdings Inc.
+  Motorola Mobility: Motorola Mobility
+  Motorola Mobility Holdings Inc.: Motorola Mobility Holdings Inc.
+  Mount Kellett Capital Management LP: Mount Kellett Capital Management LP
+  Municipal Bonds: JPMorgan Chase & Co.
+  Muse: Muse
+  Music Unlimited: Music Unlimited
+  MySpace: News Corp.
+  MySpace Inc.: MySpace Inc.
+  Mylan Inc.: Warner Chilcott Plc
+  NASA: NASA
+  NBC Universal: NBC Universal
+  NBCUniversal: Comcast Corp.
+  NCR Corp.: Oracle Corp.
+  NFL: NFL
+  NH-CA Asset Management: NH-CA Asset Management
+  NPD: NPD Group Inc.
+  NPD DisplaySearch: NPD DisplaySearch
+  NPD Group: NPD Group
+  NPD Group Inc.: NPD Group Inc.
+  NTT DoCoMo Inc.: Tokyo Electric Power Co.
+  NXP Semiconductor NV: NXP Semiconductor NV
+  NY Times: NY Times
+  NYSE: NYSE
+  Nanjing Iron & Steel Co.: Nanjing Iron & Steel Co.
+  Nanya Technology Corp.: Nanya Technology Corp.
+  Nasdaq Stock Market: Nasdaq Stock Market
+  National Air Cargo Group Inc.: National Air Cargo Group Inc.
+  National Association of Realtors: National Association of Realtors
+  National Bank of Greece SA: National Bank of Greece SA
+  National Center for Missing and Exploited Children: National Center for Missing
+    and Exploited Children
+  National Cybersecurity and Communications Integration Center: National Cybersecurity
+    and Communications Integration Center
+  National Football League: National Football League
+  National Gallery: National Gallery
+  National Indemnity: National Indemnity
+  National Institute on Alcohol Abuse and Alcoholism: National Institute on Alcohol
+    Abuse and Alcoholism
+  National Music Publishers Association: National Music Publishers Association
+  National Portrait Gallery: National Portrait Gallery
+  National Security Agency: National Security Agency
+  National Statistics Institute: National Statistics Institute
+  National Trust for Scotland: National Trust for Scotland
+  Navigation Group: Navigation Group
+  Nedbank Group Ltd.: Nedbank Group Ltd.
+  Neiman Marcus Group Inc.: Neiman Marcus Group Inc.
+  NetAirus Technologies LLC: NetAirus Technologies LLC
+  NetApp Inc.: Elliott Management Corp.
+  NetLogic Microsystems Inc: NetLogic Microsystems Inc
+  NetLogic Microsystems Inc.: NetLogic Microsystems Inc.
+  NetSuite Inc.: NetSuite Inc.
+  Netflix Inc.: Netflix Inc.
+  New England School of Law: New England School of Law
+  New Frontier Party: New Frontier Party
+  New York Junior Tennis League: New York Junior Tennis League
+  New York Philharmonic: New York Philharmonic
+  New York Police Department: New York Police Department
+  New York Stock Exchange: New York Stock Exchange
+  New York Times: Halifax Media Holdings LLC
+  New York Times Co.: Boadin Technology LLC
+  New York University: New York University
+  NewPage Corp.: NewPage Corp.
+  Newbridge Networks Corp.: Newbridge Networks Corp.
+  Newmont Mining Corp.: Newmont Mining Corp.
+  News Corp.: Boadin Technology LLC
+  Ngmoco LLC: Ngmoco LLC
+  Nice Systems Ltd.: Nice Systems Ltd.
+  Nielsen Co.: Nielsen Co.
+  Nike Inc: Fitbit Inc
+  Nike Inc.: Avon Products Inc.
+  Nimble Storage Inc.: Nimble Storage Inc.
+  Nine Entertainment Co.: Apollo Global Management LLC
+  Nintendo Co.: Nintendo Co.
+  Nippon Paper Group Inc.: Nippon Paper Group Inc.
+  Nissan Motor Co.: Nissan Motor Co.
+  Nixon Peabody LLP: Nixon Peabody LLP
+  Nobel Committee: Nobel Committee
+  Nokia: Nokia Oyj
+  Nokia Oyj: Nokia Oyj
+  Nokia Siemens Networks: Nokia Siemens Networks
+  Nomura Holdings Inc.: Development Bank of Japan Inc.
+  Nomura Securities International: Nomura Securities International
+  Nomura Securities International Inc.: Nomura Securities International Inc.
+  NordLB: NordLB
+  Nortel Networks Corp.: Nortel Networks Corp.
+  Northern Trust Corp.: Bank of New York Mellon Corp.
+  Northstream AB: Northstream AB
+  Northumbrian Water Group Plc: Northumbrian Water Group Plc
+  Northwest Airlines: Continental Airlines Inc.
+  Notre Dame University: Notre Dame University
+  Novartis AG: Novartis AG
+  Numis Securities: Numis Securities
+  Nutrisystem: Nutrisystem Inc.
+  Nutrisystem Inc.: Nutrisystem Inc.
+  Nvidia Corp: MediaTek Inc
+  Nvidia Corp.: Nvidia Corp.
+  OAO Severstal: OAO Severstal
+  OGX Petroleo & Gas Participacoes SA: OGX Petroleo & Gas Participacoes SA
+  OGX Petroleo e Gas Participacoes SA: OGX Petroleo e Gas Participacoes SA
+  ORC International Ltd.: ORC International Ltd.
+  Oaktree Capital Group LLC: Apollo Global Management LLC
+  Obamacare: HealthCare.gov
+  ObamacareFacts.com: ObamacareFacts.com
+  Occidental Petroleum Corp.: Occidental Petroleum Corp.
+  Odyssey Marine Exploration Inc.: Odyssey Marine Exploration Inc.
+  Office Depot Inc.: Office Depot Inc.
+  Office for National Statistics: Office for National Statistics
+  OfficeMax Inc.: OfficeMax Inc.
+  Ohio State University: State Farm Mutual Automobile Insurance Co.
+  Oji Paper Co.: Hokuetsu Kishu Paper Co.
+  Old Mutual Plc: HSBC Holdings Plc
+  Oliver Wyman: Oliver Wyman
+  Omnicom Group Inc.: Publicis Groupe SA
+  Oneida Indian Nation: Oneida Indian Nation
+  "Ontario Teachers\u2019 Pension Plan": Caisse de Depot et Placement du Quebec
+  OpenMind Solutions Inc.: OpenMind Solutions Inc.
+  OpenStreetMap: OpenStreetMap
+  Opera Tavern: Opera Tavern
+  Oracle Corp.: Oracle Corp.
+  Orange: France Telecom SA
+  Orange Austria: Orange Austria
+  Orbis Holdings Ltd.: Orbis Holdings Ltd.
+  Orchard Brands Corp.: Golden Gate Capital Corp.
+  Organization for Economic Cooperation and Development: Organization for Economic
+    Cooperation and Development
+  Oscar Gruss & Son Inc.: Oscar Gruss & Son Inc.
+  Owens Corning Inc.: Owens Corning Inc.
+  PJM Interconnection: PJM Interconnection
+  PKN Orlen SA: PKN Orlen SA
+  PNC Financial Services Group Inc.: PNC Financial Services Group Inc.
+  PNC Wealth Management: PNC Wealth Management
+  PRTM: PRTM
+  PT Indosat: Tim Participacoes SA
+  PT Lion Mentari Airlines: PT Lion Mentari Airlines
+  PV Oil Co.: PV Oil Co.
+  Pacific Crest Securities: Pacific Crest Securities
+  Packaging Corp. of America: Packaging Corp. of America
+  Pact: Pact
+  Pakistan Peoples Party: Pakistan Peoples Party
+  Palaran Inc.: Palaran Inc.
+  Palm Inc.: Palm Inc.
+  Pan American Silver Corp.: Pan American Silver Corp.
+  Panasonic: Panasonic
+  Panasonic Corp.: Panasonic Corp.
+  Pandora Media Inc.: Pandora Media Inc.
+  Par Pharmaceuticals Cos.: Par Pharmaceuticals Cos.
+  Paramount Group: Pension Benefit Guaranty Corp.
+  Paramount Services Holding Ltd.: Paramount Services Holding Ltd.
+  Parexel International Corp.: Parexel International Corp.
+  Parkson Holdings Bhd.: Parkson Holdings Bhd.
+  Patriot Coal Corp.: Patriot Coal Corp.
+  Paul Hastings LLP: Paul Hastings LLP
+  Paul, Weiss, Rifkind, Wharton & Garrison LLP: Paul, Weiss, Rifkind, Wharton & Garrison
+    LLP
+  PayPal Inc.: Google Inc.
+  Pearson Plc: Pearson Plc
+  Pegatron Corp.: Pegatron Corp.
+  Penguin Random House: Penguin Random House
+  Pension Benefit Guaranty Corp.: Pension Benefit Guaranty Corp.
+  Pentagon: Samsung Electronics Co.
+  Pentwater Capital Management LP: Pentwater Capital Management LP
+  Pepper Hamilton LLP: Pepper Hamilton LLP
+  PepsiCo Inc.: PepsiCo Inc.
+  Perella Weinberg Partners LP: Perella Weinberg Partners LP
+  Perkins Coie LLP: Fish & Richardson
+  Pershing Square Capital Management LP: Pershing Square Capital Management LP
+  Personal Audio LLC: Personal Audio LLC
+  PetMed Express Inc.: PetMed Express Inc.
+  PetroChina Co.: Wall Street Journal
+  Petroecuador: Petroecuador
+  Petroliam Nasional Bhd.: Petroliam Nasional Bhd.
+  Pfizer Inc.: Pfizer Inc.
+  Philadelphia Fed: Philadelphia Fed
+  Philadelphia Trust Co.: Philadelphia Trust Co.
+  Pike River Coal Ltd: Pike River Coal Ltd
+  Pinnacle Airlines Corp.: Pinnacle Airlines Corp.
+  Pinnacle Entertainment Inc.: Pinnacle Entertainment Inc.
+  Pioneer Hi-Bred: Pioneer Hi-Bred
+  Piper Jaffray: Piper Jaffray
+  Piraeus Bank SA: Piraeus Bank SA
+  Pivotal Research Group: Pivotal Research Group
+  Pixar: Marvel
+  Pokemon Co.: Pokemon Co.
+  Polaris Capital Management: Polaris Capital Management
+  Poly Real Estate: China Merchants Property Development Co.
+  Polycom: Polycom
+  Polycom Inc.: Whitman Capital LLC
+  PopCap Games: PopCap Games
+  Porsche: Porsche
+  Porsche SE: Porsche SE
+  Portico Systems: Portico Systems
+  Positive Solutions Centers: Positive Solutions Centers
+  Pottermore.com: Pottermore.com
+  Powerchip Technology Corp.: Powerchip Technology Corp.
+  Powerscreen International Distribution: Powerscreen International Distribution
+  Powerwave Technologies Inc.: Powerwave Technologies Inc.
+  Priceline.com Inc.: Priceline.com Inc.
+  PricewaterhouseCoopers: PricewaterhouseCoopers
+  PricewaterhouseCoopers Consulting: PricewaterhouseCoopers Consulting
+  PricewaterhouseCoopers LLP: PricewaterhouseCoopers LLP
+  Prime View International Co.: Prime View International Co.
+  Princeton: Princeton
+  Princeton University: Princeton University
+  Printemps: Printemps
+  Procter & Gamble Co.: Procter & Gamble Co.
+  Proview International Holdings Ltd: Proview International Holdings Ltd
+  Public: Public
+  Public Service Enterprise Group: Public Service Enterprise Group
+  Publicis Groupe SA: Publicis Groupe SA
+  PulteGroup Inc.: Sterne Agee & Leach Inc.
+  Punch Taverns Plc: Punch Taverns Plc
+  QLogic Corp.: Mellanox Technologies Ltd.
+  Qantas: Boadin Technology LLC
+  Qantas Airways Ltd.: Qantas Airways Ltd.
+  Qatar Holding LLC: Brookfield Asset Management Inc.
+  Qatar Petroleum: Qatar Petroleum
+  Qihoo 360 Technology Co.: Qihoo 360 Technology Co.
+  QinetiQ North America: QinetiQ North America
+  Qualcomm Inc: Qualcomm Inc
+  Qualcomm Inc.: Qualcomm Inc.
+  Quanta Computer Inc: Hon Hai Precision Industry Co
+  Quantcast Corp: Quantcast Corp
+  Quattro Wireless Inc: Quattro Wireless Inc
+  Quest Rare Minerals Ltd.: Quest Rare Minerals Ltd.
+  Qwiki Inc.: Xobni Corp.
+  R.R. Donnelley & Sons Co.: R.R. Donnelley & Sons Co.
+  RBC Capital Markets: JPMorgan Chase & Co.
+  RCN Corp.: Cox Communications Inc.
+  RPX Corp.: RPX Corp.
+  RSA Security: RSA Security
+  RW Baird & Co.: RW Baird & Co.
+  RadioShack Corp.: RadioShack Corp.
+  Rafferty Capital Markets LLC: Rafferty Capital Markets LLC
+  Rambus Inc.: Micron Technology Inc.
+  Randgold Resources Ltd.: Glencore International Plc
+  Random House Inc.: Random House Inc.
+  Range Resources Corp.: Cabot Oil & Gas Corp.
+  Raymond James & Associates: Raymond James & Associates
+  Raymond James & Associates Inc.: Raymond James & Associates Inc.
+  Raytheon Co.: Toyota Motor Corp.
+  Rdio Inc.: Music Unlimited
+  Reed Elsevier Plc: LexisNexis Risk Solutions
+  Regional Federal Credit Union: Regional Federal Credit Union
+  Reis Inc.: Reis Inc.
+  Relational Investors LLC: Relational Investors LLC
+  Renaissance Capital LLC: Renaissance Capital LLC
+  Renesas Electronics Corp.: Renesas Electronics Corp.
+  Renren Inc.: Facebook Inc.
+  Renren.com: Renren.com
+  Research Affiliates LLC: Research Affiliates LLC
+  Research In Motion Ltd.: Research In Motion Ltd.
+  Research in Motion Ltd.: Research in Motion Ltd.
+  Retail Metrics Inc.: Retail Metrics Inc.
+  Retractable Technologies Inc.: Retractable Technologies Inc.
+  RidgeWorth Capital Management: RidgeWorth Capital Management
+  Righthaven LLC: Righthaven LLC
+  Rimage Corp.: Rimage Corp.
+  Rio Tinto Group: Rio Tinto Group
+  Riverbed Technology Inc.: Riverbed Technology Inc.
+  Robert Bosch GmbH: Robert Bosch GmbH
+  Robert W. Baird & Co.: Robert W. Baird & Co.
+  Rochdale Securities LLC: Rochdale Securities LLC
+  Rockmelt Inc.: Rockmelt Inc.
+  Roman Empire: Roman Empire
+  Romney campaign: Romney campaign
+  Rothschild: Goldman Sachs Group Inc.
+  Rovio Mobile Oy: Rovio Mobile Oy
+  Royal Bank of Canada: Royal Bank of Canada
+  Royal Bank of Scotland Group Plc: Royal Bank of Scotland Group Plc
+  Royal Institution of Chartered Surveyors: Royal Institution of Chartered Surveyors
+  Royal KPN NV: Royal KPN NV
+  Royal Philips Electronics NV: Royal Philips Electronics NV
+  Rubber Research Institute of Thailand: Rubber Research Institute of Thailand
+  Russian Association of Regional Banks: Russian Association of Regional Banks
+  Rust Consulting Inc.: Rust Consulting Inc.
+  S&P 500: S&P 500
+  S&P Capital IQ: S&P Capital IQ
+  "S&P\u2019s GSCI Index": "S&P\u2019s GSCI Index"
+  S-Oil Corp.: S-Oil Corp.
+  S3 Graphics Co.: S3 Graphics Co.
+  SFR: Bouygues SA
+  SK Hynix Inc.: SK Hynix Inc.
+  SKF AB: SKF AB
+  SNL Kagan: SNL Kagan
+  SP Technologies LLC: SP Technologies LLC
+  STK: STK
+  Salesforce.com Inc.: International Business Machines Corp.
+  Salt Yard: Salt Yard
+  Samsung Electronics Co: Samsung Electronics Co
+  Samsung Electronics Co.: Samsung Electronics Co.
+  San Francisco Fed: San Francisco Fed
+  San Pietro Wine and Spirits: San Pietro Wine and Spirits
+  Sandoz International GmbH: Sandoz International GmbH
+  Sanford C. Bernstein: Sanford C. Bernstein
+  Sanford C. Bernstein & Co.: Sanford C. Bernstein & Co.
+  Sanook: Sanook
+  Santarus Inc.: Par Pharmaceuticals Cos.
+  Savills Plc: Savills Plc
+  Scott Middle School: Scott Middle School
+  Seagate Technology Plc: Seagate Technology Plc
+  Sears Holdings Corp.: Sears Holdings Corp.
+  Securities and Exchange Commission: Securities and Exchange Commission
+  Security Global Investors: Security Global Investors
+  Sequoia Capital: Sequoia Capital
+  Servicios Integrales de Energia: Actividades de Construccion y Servicios SA
+  Shanghai Futures Exchange: Shanghai Futures Exchange
+  Shapeways Inc.: Union Square Ventures
+  SharesPost Inc.: SharesPost Inc.
+  Sharp Corp.: TCL Multimedia Technology Holdings
+  Shaw: Johns Manville
+  Shell Energy North America LP: Shell Energy North America LP
+  Shenyin Wanguo Securities Co.: Shenyin Wanguo Securities Co.
+  Shenzhen Xunlei Network Technology Ltd.: Shenzhen Xunlei Network Technology Ltd.
+  Sidefloor Ltd.: Tubal Soccer Management GmbH
+  Sidley Austin LLP: Sidley Austin LLP
+  Siemens AG: Nokia Siemens Networks
+  Silent Circle: Silent Circle
+  Silver Lake Management LLC: Silver Lake Management LLC
+  Simon & Partners LLP: Simon & Partners LLP
+  Simon & Schuster: Simon & Schuster
+  Sina Corp.: Alibaba Group Holding Ltd.
+  Skadden, Arps, Slate, Meagher & Flom LLP: Skadden, Arps, Slate, Meagher & Flom LLP
+  Slacker Inc.: Slacker Inc.
+  Sociedade de Desenvolvimento da Madeira: Sociedade de Desenvolvimento da Madeira
+  Societe Generale: Societe Generale
+  Societe Generale SA: Societe Generale SA
+  SoftBank Corp.: SoftBank Corp.
+  SoftLayer Technologies Inc.: SoftLayer Technologies Inc.
+  Softbank Corp.: Softbank Corp.
+  Sohu.com Inc.: Softbank Corp.
+  Songkick.com Inc.: Songkick.com Inc.
+  Sony: Panasonic
+  Sony Computer Entertainment: Sony Computer Entertainment
+  Sony Corp.: Sony Corp.
+  Sony Ericsson Mobile Communications Ltd.: Sony Ericsson Mobile Communications Ltd.
+  Sony Music Entertainment: Sony Music Entertainment
+  SouFun Holdings Ltd.: SouFun Holdings Ltd.
+  Southern Co.: Southern Co.
+  Southwest Airlines Co.: United Continental Holdings Inc.
+  Southwestern Energy Co.: Southwestern Energy Co.
+  Soviet Union: Soviet Union
+  Spherix Capital LLC: Spherix Capital LLC
+  Spotify Ltd.: Songkick.com Inc.
+  Sprint Corp.: Sprint Corp.
+  Sprint Nextel Corp: Sprint Nextel Corp
+  Sprint Nextel Corp.: Sprint Nextel Corp.
+  Spuntino: Bocca di Lupo
+  Square Inc: Fitbit Inc
+  "Standard & Poor\u2019s": "Standard & Poor\u2019s"
+  "Standard & Poor\u2019s 500": "Standard & Poor\u2019s 500"
+  "Standard & Poor\u2019s 500 Index": "Standard & Poor\u2019s 500 Index"
+  Standard Life Plc: Standard Life Plc
+  Stanford University: Stanford University
+  State Duma: State Duma
+  State Farm Mutual Automobile Insurance Co.: State Farm Mutual Automobile Insurance
+    Co.
+  State Street Corp.: State Street Corp.
+  Statoil ASA: Statoil ASA
+  Steelite International Plc: Steelite International Plc
+  Stephen Slesinger Inc.: Stephen Slesinger Inc.
+  Sterne Agee & Leach Inc.: Sterne Agee & Leach Inc.
+  Stifel Nicolaus & Co.: Stifel Nicolaus & Co.
+  Stillwater Mining Co.: First Pacific Advisors LLC
+  Sun Life Financial Inc.: Sun Life Financial Inc.
+  Sun Microsystems: Sun Microsystems
+  Sun Microsystems Inc.: Sun Microsystems Inc.
+  Suntech Power Holdings Co.: Suntech Power Holdings Co.
+  Support.com Inc.: Support.com Inc.
+  Susquehanna International Group LLP: Susquehanna International Group LLP
+  Sutherland Asbill & Brennan LLP: Sutherland Asbill & Brennan LLP
+  Swatch Group: Swatch Group
+  Sybase Inc.: Sybase Inc.
+  Sykes Enterprises Inc.: Sykes Enterprises Inc.
+  Symantec Corp: Symantec Corp
+  Symantec Corp.: Symantec Corp.
+  Syrian conflict: Syrian conflict
+  T-Mobile: AT&T Inc.
+  T-Mobile USA: T-Mobile USA
+  T. Rowe Price Group Inc.: T. Rowe Price Group Inc.
+  TCL Multimedia Technology Holdings: TCL Multimedia Technology Holdings
+  TCW Group Inc: TCW Group Inc
+  TCW Group Inc.: TCW Group Inc.
+  TLO Inc.: TLO Inc.
+  TNS: TNS
+  TQP Development LLC: TQP Development LLC
+  Tactical Allocation Group LLC: Tactical Allocation Group LLC
+  Taiwan Semiconductor Manufacturing Co: Taiwan Semiconductor Manufacturing Co
+  Taiwan Semiconductor Manufacturing Co.: Taiwan Semiconductor Manufacturing Co.
+  Take-Two Interactive Software Inc.: Take-Two Interactive Software Inc.
+  Target: Boadin Technology LLC
+  Target Corp.: Target Corp.
+  Tata Communications Ltd.: Tata Communications Ltd.
+  Tata Motors Ltd.: Tata Motors Ltd.
+  Taurus Investment & Securities Co.: Taurus Investment & Securities Co.
+  Tea Party: U.S. Government
+  Tea Party movement: Tea Party movement
+  Telecity Group Plc: Telecity Group Plc
+  Telefonica SA: Telefonica SA
+  Tello Inc.: Tello Inc.
+  Tencent Holdings Ltd.: Tencent Holdings Ltd.
+  Tenet Healthcare Corp.: Community Health Systems Inc.
+  Terex Corp.: Terex Corp.
+  Terra Foundation for American Art: Terra Foundation for American Art
+  Terumo Corp.: Terumo Corp.
+  Tesco Plc: Tesco Plc
+  Teva Pharmaceutical Industries Ltd.: Teva Pharmaceutical Industries Ltd.
+  Texas Instruments Inc: Texas Instruments Inc
+  Texas Instruments Inc.: Texas Instruments Inc.
+  The Authors Guild: The Authors Guild
+  The Good Wife: The Good Wife
+  TheCityUK: TheCityUK
+  Thermon Group Holdings Inc.: Thermon Group Holdings Inc.
+  ThinkEquity LLC: ThinkEquity LLC
+  Third Point LLC: Third Point LLC
+  Thomson Reuters: Pension Benefit Guaranty Corp.
+  Thomson Reuters Corp.: Thomson Reuters Corp.
+  Thomson Reuters/University of Michigan: Thomson Reuters/University of Michigan
+  TiVo Inc.: Time Warner Cable Inc.
+  TicketMonster Inc.: TicketMonster Inc.
+  Ticketmaster: Live Nation Entertainment Inc.
+  Tiffany & Co.: Consumer Discretionary Select Sector SPDR Fund
+  Tim Participacoes SA: Tim Participacoes SA
+  Timberjay Newspapers: Timberjay Newspapers
+  Time: Facebook Inc.
+  Time Inc.: Time Inc.
+  Time Warner Cable Inc: Time Warner Cable Inc
+  Time Warner Cable Inc.: Time Warner Cable Inc.
+  Time Warner Inc.: Time Warner Inc.
+  Tokyo Electric Power Co.: Tokyo Electric Power Co.
+  TomTom NV: OpenStreetMap
+  Topeka Capital Markets Inc.: Topeka Capital Markets Inc.
+  Toshiba Corp.: Toshiba Corp.
+  Toyota Motor Corp.: Toyota Motor Corp.
+  Toys 'R' Us Inc.: RadioShack Corp.
+  "Trader Joe\u2019s": "Trader Joe\u2019s"
+  Trading Post Australia Ltd.: Trading Post Australia Ltd.
+  Trans-Elect Development Co.: Trans-Elect Development Co.
+  TransCanada Corp.: TransCanada Corp.
+  Transcenic Inc.: Transcenic Inc.
+  Transocean: A.P. Moeller Maersk
+  Travelers Cos.: Travelers Cos.
+  Travelocity.com: Travelocity.com
+  TrendForce Corp.: TrendForce Corp.
+  Tribe Networks Inc.: Tribe Networks Inc.
+  Tribune Co.: Tribune Co.
+  Trina Solar Ltd.: Trina Solar Ltd.
+  Trulia Inc.: Trulia Inc.
+  Trusteer Inc.: International Business Machines Corp.
+  Trustwave Holdings Inc.: Trustwave Holdings Inc.
+  Tsingtao Brewery Co.: Tsingtao Brewery Co.
+  Tubal Soccer Management GmbH: Tubal Soccer Management GmbH
+  Tudou Holdings Ltd.: Tudou Holdings Ltd.
+  Tullow Oil Plc: Tullow Oil Plc
+  Turkcell Iletisim Hizmetleri AS: Turkcell Iletisim Hizmetleri AS
+  Twin Disc Inc.: Twin Disc Inc.
+  Twitter: Facebook
+  Twitter Inc.: Twitter Inc.
+  Tyche Capital Advisors: Tyche Capital Advisors
+  U.S. Army: U.S. Army
+  U.S. Commerce Department: U.S. Commerce Department
+  U.S. Commodity Futures Trading Commission: U.S. Commodity Futures Trading Commission
+  U.S. Consumer Financial Protection Bureau: U.S. Consumer Financial Protection Bureau
+  U.S. Department of Energy: U.S. Department of Energy
+  U.S. Department of Homeland Security: U.S. Department of Homeland Security
+  U.S. Equal Employment Opportunity Commission: U.S. Equal Employment Opportunity
+    Commission
+  U.S. Federal Trade Commission: Asset Acceptance Capital Corp.
+  U.S. Government: U.S. Government
+  U.S. House: U.S. House
+  U.S. International Trade Commission: U.S. International Trade Commission
+  U.S. Justice Department: Department of Housing and Urban Development
+  U.S. Postal Service: U.S. Postal Service
+  U.S. Securities and Exchange Commission: U.S. Securities and Exchange Commission
+  U.S. Stock Futures: French Borrowing Costs
+  U.S. Stocks: U.S. Stocks
+  U.S. Supreme Court: U.S. Supreme Court
+  U.S. Trustee Program: U.S. Trustee Program
+  U.S. Video-Game Industry: U.S. Video-Game Industry
+  U.S. airlines: Airlines Reporting Corp.
+  U.S. banks: Wells Fargo & Co.
+  U.S. companies: "Moody\u2019s Investors Service"
+  U.S. lawmakers: U.S. lawmakers
+  U.S. retailers: U.S. retailers
+  U.S. special forces: QinetiQ North America
+  U.S. stocks: U.S. stocks
+  U.S.-Asean Business Council: U.S.-Asean Business Council
+  UAB N5 Grupe: Vilnius Regional Court
+  UBS AG: UBS AG
+  UBS Securities LLC: Bloomberg Television
+  US Airways Group Inc.: US Airways Group Inc.
+  USA Today: Wall Street Journal
+  USAA: USAA
+  Ucore Rare Metals Inc.: Great Western Minerals Group Ltd.
+  UniCredit Group: UniCredit Group
+  Union Investment Privatfonds: Union Investment Privatfonds
+  Union Square Ventures: Kleiner Perkins Caufield & Byers
+  United Airlines: Continental Airlines Inc.
+  United Airways (BD) Ltd.: United Airways (BD) Ltd.
+  United Continental Holdings Inc.: United Continental Holdings Inc.
+  United Nations: United Nations
+  United Parcel Service Inc.: United Parcel Service Inc.
+  United Spirits Ltd: United Spirits Ltd
+  UnitedHealth Group Inc.: UnitedHealth Group Inc.
+  Universal Music Group: Sony Music Entertainment
+  University of California at Davis: University of California at Davis
+  University of California, Berkeley: University of California, Berkeley
+  University of Michigan: University of Michigan
+  University of Pennsylvania: University of Pennsylvania
+  University of Virginia School of Law: Skadden, Arps, Slate, Meagher & Flom LLP
+  University of Washington: University of Washington
+  Univision Communications Inc.: Univision Communications Inc.
+  Usinas Siderurgicas de Minas Gerais S.A.: Usinas Siderurgicas de Minas Gerais S.A.
+  VMware Inc.: VMware Inc.
+  VOC Energy Trust: VOC Energy Trust
+  VTTI Asia Pte: VTTI Asia Pte
+  Valartis Asset Management: Valartis Asset Management
+  Vale SA: Vale SA
+  Value Retail: Value Retail
+  ValueAct Capital Partners LP: ValueAct Capital Partners LP
+  ValueAct Holdings LP: ValueAct Holdings LP
+  Vedomosti: Vedomosti
+  Venable LLP: Venable LLP
+  Venice Biennale: Venice Biennale
+  Verizon Communications Inc.: Verizon Communications Inc.
+  Verizon Wireless: Verizon Wireless
+  Viacom Inc.: Viacom Inc.
+  Vilnius Regional Court: Vilnius Regional Court
+  Virgin Media Inc.: Virgin Media Inc.
+  VirnetX Holding Corp.: VirnetX Holding Corp.
+  Visa: Marvel Comics
+  Visa Inc.: Honda Motor Co.
+  Vishay Precision Group Inc.: Vishay Precision Group Inc.
+  Vitol Group: VTTI Asia Pte
+  Vitol Inc.: Shell Energy North America LP
+  Vivendi SA: Activision Blizzard Inc.
+  Vizio Inc.: Renesas Electronics Corp.
+  Vodafone Group Plc: Vodafone Group Plc
+  Volkswagen AG: Volkswagen AG
+  Vonage Holdings Corp.: Vonage Holdings Corp.
+  Vornado Realty Trust: Vornado Realty Trust
+  W New York Hotel: New York Junior Tennis League
+  WH Smith Group Plc: WH Smith Group Plc
+  WMMR: WMMR
+  WPP Plc: Interpublic Group of Co.
+  Wal-Mart Stores Inc.: Wal-Mart Stores Inc.
+  Wales & West Utilities Ltd.: Northumbrian Water Group Plc
+  Wall Street Journal: Wall Street Journal
+  Walt Disney Co.: Walt Disney Co.
+  Warburg Research: Warburg Research
+  "Ward\u2019s Automotive Group": "Ward\u2019s Automotive Group"
+  Warner Chilcott Plc: Warner Chilcott Plc
+  Warner Music Group: Sony Music Entertainment
+  Warner Music Group Corp.: Warner Music Group Corp.
+  Washington Post: Washington Post
+  Washington Redskins: Washington Redskins
+  "Waterstone\u2019s": HMV Group Plc
+  Wedbush Securities Inc.: Wedbush Securities Inc.
+  WellPoint Inc.: WellPoint Inc.
+  Wellcare Health Plans Inc.: Wellcare Health Plans Inc.
+  Wells Fargo & Co.: Rochdale Securities LLC
+  Wells Fargo Advantage Funds: Wells Fargo Advantage Funds
+  Wells Fargo Securities LLC: Wells Fargo Securities LLC
+  West England Trust Ltd.: West England Trust Ltd.
+  WestSummit Capital: WestSummit Capital
+  Western Digital Corp.: Western Digital Corp.
+  Western Isles Council: Western Isles Council
+  Westfield Group: Westfield Group
+  Wet Seal Inc.: Wet Seal Inc.
+  Wharf Holdings Ltd.: Wharf Holdings Ltd.
+  White & Case LLP: Arnold & Porter (UK) LLP
+  Whitman Capital LLC: Whitman Capital LLC
+  WikiLeaks: WikiLeaks
+  Willis Group Holdings Ltd.: Willis Group Holdings Ltd.
+  Winnebago Industries Inc.: Winnebago Industries Inc.
+  Winston & Strawn LLP: Winston & Strawn LLP
+  Wintek Corp.: Wintek Corp.
+  Wipro Ltd: Wipro Ltd
+  Wired: NY Times
+  Workday Inc.: NetSuite Inc.
+  World Economic Forum: World Economic Forum
+  WorldCom Inc.: WorldCom Inc.
+  Xerox Corp.: Caesars Entertainment Corp.
+  Xiaomi Corp.: Xiaomi Corp.
+  Xobni Corp.: Xobni Corp.
+  Xstrata Plc: Rio Tinto Group
+  YCMNet Advisors: YCMNet Advisors
+  Yahoo Japan Corp.: Yahoo Japan Corp.
+  Yahoo! Inc.: Yahoo! Inc.
+  Yale University: Yale University
+  Yandex: Renren.com
+  Yankee Group: Yankee Group
+  Yanzhou Coal Mining Co.: Yanzhou Coal Mining Co.
+  Yazaki Corp: Yazaki Corp
+  Yelp Inc: Yelp Inc
+  Yelp Inc.: Yelp Inc.
+  YouTube: Google Inc.
+  YouView: British Broadcasting Corp.
+  Youku Tudou Inc.: Youku Tudou Inc.
+  Youku.com Inc.: Youku.com Inc.
+  Young & Rubicam Inc.: Interpublic Group of Co.
+  Yuen Foong Yu Paper Manufacturing Co.: Yuen Foong Yu Paper Manufacturing Co.
+  Yum! Brands Inc.: Avon Products Inc.
+  Z/Yen Group Ltd.: Z/Yen Group Ltd.
+  ZEW Center for European Economic Research: ZEW Center for European Economic Research
+  ZTE Corp: BDA China
+  ZTE Corp.: China Unicom (Hong Kong) Ltd.
+  Zappos.com: Zappos.com
+  Zijin Mining Group Co.: Zijin Mining Group Co.
+  Zillow: Zillow
+  Zillow Inc.: Zillow Inc.
+  Zone IP Ltd.: Zone IP Ltd.
+  Zorlu Enerji Elektrik Uretim AS: Zorlu Enerji Elektrik Uretim AS
+  Zorlu Holding: Zorlu Enerji Elektrik Uretim AS
+  Zydus: Cadila Healthcare Ltd.
+  Zynga Inc: GreenCrest Capital Management LLC
+  Zynga Inc.: GreenCrest Capital Management LLC
+  athenahealth: athenahealth
+  eBay Inc.: eBay Inc.
+  iResearch: Google Inc.
+Person:
+  A.A. Milne: A.A. Milne
+  Aaron Chew: Aaron Chew
+  Aaron Kessler: Aaron Kessler
+  Aaron Ricadela: Aaron Ricadela
+  Aaron Schock: Aaron Schock
+  Abigail Phillips: Abigail Phillips
+  Abraham Lincoln: Abraham Lincoln
+  Adair Turner: David Cameron
+  Adam Applegarth: Adam Applegarth
+  Adam Carr: Adam Carr
+  Adam Emery: Adam Emery
+  Adam Haigh: Adam Haigh
+  Adam Lanza: Adam Lanza
+  Adam Satariano: Adam Satariano
+  Adam Smith: Adam Smith
+  Adam Yates: Adam Yates
+  Adolphe Muzito: Adolphe Muzito
+  Ahmed Basiony: Ahmed Basiony
+  Ajay Rajadhyaksha: Ajay Rajadhyaksha
+  Akihiro Matsubara: Akihiro Matsubara
+  Al Verney: Al Verney
+  Alais L. M. Griffin: Alais L. M. Griffin
+  Alan Blinder: Alan Blinder
+  Alan Brenner: Alan Brenner
+  Alan Cumming: Alan Cumming
+  Alan Gould: Alan Gould
+  Alan Hall: Alan Hall
+  Alan Mulally: Alan Mulally
+  Alan S. Blinder: Alan S. Blinder
+  Alan Wilson: Alan Wilson
+  Alberto Joao Jardim: Alberto Joao Jardim
+  Alec Rutherfurd: Alec Rutherfurd
+  Alec Saunders: Alec Saunders
+  Alex Gauna: Alex Gauna
+  Alexander Cutler: Alexander Cutler
+  Alexander Koch: Alexander Koch
+  Alexander Kyrtsis: Alexander Kyrtsis
+  Alexander Lebedev: Alexander Lebedev
+  Alexander Mamut: Alexander Mamut
+  Alexander Peterc: Alexander Peterc
+  Alexander Solzhenitsyn: Alexander Solzhenitsyn
+  Alexis Tsipras: Alexis Tsipras
+  Alfred Hitchcock: Alfred Hitchcock
+  Algirdas Semeta: Algirdas Semeta
+  Alison Vekshin: Alison Vekshin
+  Alistair Darling: Alistair Darling
+  Alkadi: Alkadi
+  Allan Holmes: Allan Holmes
+  Allegra Goodman: Allegra Goodman
+  Allen Questrom: Allen Questrom
+  Allen Wan: Richard Frost
+  Amancio Ortega: Amancio Ortega
+  Amarjit Gill: Amarjit Gill
+  Amy Bessette: Amy Bessette
+  Amy Klobuchar: Amy Klobuchar
+  Amy Trask: Amy Trask
+  Anand Krishnamoorthy: Anand Krishnamoorthy
+  Anatoly Aksakov: Anatoly Aksakov
+  Andreas Lipkow: Andreas Lipkow
+  Andrei Sakharov: Andrei Sakharov
+  Andrew Demetriou: Andrew Demetriou
+  Andrew Frye: Andrew Frye
+  Andrew Hedberg: Andrew Hedberg
+  Andrew House: Andrew House
+  Andrew McLaughlin: Andrew McLaughlin
+  Andrew Moss: Andrew Moss
+  Andrew Mullins: Alexander Lebedev
+  Andrew Nowinski: Andrew Nowinski
+  Andrew Noyes: Andrew Noyes
+  Andrew Tyrie: Andrew Tyrie
+  Andrew Weinstein: Andrew Weinstein
+  Andrew Witty: Andrew Witty
+  Andy Fixmer: Andy Fixmer
+  Andy Hornby: Peter Cummings
+  Andy Hsu: Andy Hsu
+  Andy Rubin: Tim Lindholm
+  Angela Braly: Angela Braly
+  Angela Lee: Angela Lee
+  Angela Merkel: Angela Merkel
+  Angelo Zino: Angelo Zino
+  Angus McCoss: Angus McCoss
+  Anil Kumar: Anil Kumar
+  Anita Frazier: Anita Frazier
+  Anita Raghavan: Anita Raghavan
+  Anjali Kausar: Anjali Kausar
+  Anjum Iqbal: Anjum Iqbal
+  Ann Miletti: Ann Miletti
+  Anna Kitanaka: Anna Kitanaka
+  Anthony Aarons: Anthony Aarons
+  Anthony Baldanza: Anthony Baldanza
+  Anthony Chukumba: Anthony Chukumba
+  Anthony Demetre: Anthony Demetre
+  Anthony Kennedy: Anthony Kennedy
+  Anthony LeCour: Anthony LeCour
+  Anthony Palazzo: Anthony Palazzo
+  Antoine Jones: Antoine Jones
+  Antonin Scalia: Antonin Scalia
+  Antonio Barroso: Antonio Barroso
+  Antonis Samaras: George Papandreou
+  Anuchit Nguyen: Anuchit Nguyen
+  Anwar Ibrahim: Anwar Ibrahim
+  Archie Dunham: O. Mason Hawkins
+  Ari Levy: Ari Levy
+  Arnaud Montebourg: Arnaud Montebourg
+  Arthur D. Spatt: Arthur D. Spatt
+  Arthur Huprich: Arthur Huprich
+  Arthur Levitt: Arthur Levitt
+  Arthur Liao: Arthur Liao
+  Arthur Sulzberger Jr.: Arthur Sulzberger Jr.
+  Asif Ali Zardari: Asif Ali Zardari
+  Aubrey McClendon: O. Mason Hawkins
+  Aung San Suu Kyi: Aung San Suu Kyi
+  Auroop Ganguly: Auroop Ganguly
+  Austin R. Nimocks: Austin R. Nimocks
+  Aya Takada: Aya Takada
+  Balazs Penz: Balazs Penz
+  Barack Obama: Barack Obama
+  Barbara Garson: Barbara Garson
+  Barry Diller: Barry Diller
+  Barry Kaplan: Barry Kaplan
+  Beatrice Howald: Beatrice Howald
+  Ben Abramowitz: Ben Abramowitz
+  Ben Bernanke: Ben Bernanke
+  Ben Fay: Ben Fay
+  Ben McLannahan: Ben McLannahan
+  Ben Mulock: Ben Mulock
+  Ben Reitzes: Ben Reitzes
+  Ben S. Bernanke: Ben S. Bernanke
+  Ben Steverman: Nikhil Hutheesing
+  Ben Tish: James Thickett
+  Ben Wood: Ben Wood
+  Benn Steil: Benn Steil
+  Bernard Madoff: Bernard Madoff
+  Beth Hobbs: Beth Hobbs
+  Beth Myers: Beth Myers
+  Betty Dukes: Betty Dukes
+  Bianca Jagger: Bianca Jagger
+  Bice Curiger: Bice Curiger
+  Bill Ackman: Bill Ackman
+  Bill Baruch: Bill Baruch
+  Bill Bryson: Mike Gerrard
+  Bill Clinton: Bill Clinton
+  Bill Gates: Bill Gates
+  Bill Lynch: Matthew Tucker
+  Bill Miller: Bill Miller
+  Bill Veghte: Bill Veghte
+  Bill Visnic: Bill Visnic
+  Bjoana Jovanovski: Bjoana Jovanovski
+  Blerina Uruci: Blerina Uruci
+  Bob Butterworth: Bob Butterworth
+  Bob Doll: Bob Doll
+  Bob Dylan: Bob Dylan
+  Bob McDonnell: Bob McDonnell
+  Bob Toevs: Bob Toevs
+  Boris Johnson: Boris Johnson
+  Brazilian soy farmers: Brazilian soy farmers
+  Brendan Barnicle: Brendan Barnicle
+  Brendan Hannigan: Brendan Hannigan
+  Brendan Timoney: Brendan Timoney
+  Brendon DeSimone: Brendon DeSimone
+  Brenna Hardman: Brenna Hardman
+  Brent Pirosch: Brent Pirosch
+  Brett Foley: Brett Foley
+  Brett Miller: Brett Miller
+  Brian Bidulka: Brian Bidulka
+  Brian Garrity: Roberta Thomson
+  Brian Hennessey: Brian Hennessey
+  Brian Jacobsen: Brian Jacobsen
+  Brian Pitz: Brian Pitz
+  Brian Tanquilut: Brian Tanquilut
+  Brian Weiser: Brian Weiser
+  Brian Wieser: Brian Wieser
+  Brian Winterflood: Brian Winterflood
+  Brian Womack: Brian Womack
+  Bruce Barrington: Bruce Barrington
+  Bruce Claflin: Bruce Claflin
+  Bruce Springsteen: Bruce Springsteen
+  Bruno Raimondo: Bruno Raimondo
+  Bruno brothers: Bruno brothers
+  Bryan Bradley: Bryan Bradley
+  Byron Wien: Byron Wien
+  California Attorney General Kamala Harris: California Attorney General Kamala Harris
+  Canning Fok: Canning Fok
+  Captain Picard: Captain Picard
+  Carl Howe: Carl Howe
+  Carl Icahn: Carl Icahn
+  Carlo Airdo: Carlo Airdo
+  Carlos Hermosillo: Carlos Hermosillo
+  Carlos Slim: Eike Batista
+  Carol: Carol
+  Carol Bartz: Carol Bartz
+  Carol Owen: Carol Owen
+  Carolyn Lee: Carolyn Lee
+  Carolyn Wu: Carolyn Wu
+  Catherine Armstrong: Catherine Armstrong
+  Charlene Chu: Charlene Chu
+  Charles Akre: Charles Akre
+  Charles Darwin: Charles Darwin
+  Charles Duhigg: Charles Duhigg
+  Charles Gasparino: Charles Gasparino
+  Charles Grom: Charles Grom
+  Charles Plosser: Charles Plosser
+  Charles V. Bagli: Charles V. Bagli
+  Charlie Ergen: Charlie Ergen
+  Cheng Kin Ming: Cheng Kin Ming
+  Chiara Remondini: Chiara Remondini
+  Chief Justice John Roberts: Chief Justice John Roberts
+  Chris Calabrese: Chris Calabrese
+  Chris Christie: Chris Christie
+  Chris Dixon: Chris Dixon
+  Chris Dodd: Chris Dodd
+  Chris Peterson: Chris Peterson
+  Chris Stevens: Chris Stevens
+  Christian Bertelsen: Christian Bertelsen
+  Christiana Sciaudone: Christiana Sciaudone
+  Christie Smythe: Christie Smythe
+  Christine Kwapnoski: Christine Kwapnoski
+  Christine Lagarde: Christine Lagarde
+  Christine Todd Whitman: Christine Todd Whitman
+  Christopher Coons: Christopher Coons
+  Christopher M. Rusch: Christopher M. Rusch
+  Chrystia Freeland: Chrystia Freeland
+  Chuck Mulloy: Chuck Mulloy
+  Cindy Rose: Cindy Rose
+  Claire McCaskill: Claire McCaskill
+  Clarence Thomas: Clarence Thomas
+  Clarine Nardi Riddle: Clarine Nardi Riddle
+  Claude Bosi: Claude Bosi
+  Claudio Aspesi: Claudio Aspesi
+  Cliff Edwards: Cliff Edwards
+  Cliff Gallant: Cliff Gallant
+  Colin Gillis: Colin Gillis
+  Colin Keatinge: Colin Keatinge
+  Colin McLean: Colin McLean
+  Colin Sebastian: Colin Sebastian
+  Colleen Supran: Colleen Supran
+  Consumers in the U.S.: Consumers in the U.S.
+  Cornelius Rahn: Cornelius Rahn
+  Costopoulos family: Costopoulos family
+  Courtney Dobrow: Courtney Dobrow
+  Craig Moffett: Craig Moffett
+  Craig Smith: Craig Smith
+  Cristiano Ronaldo: Cristiano Ronaldo
+  Curt Myers: Curt Myers
+  Daisy Kong: Katie Curnutte
+  Dalton Conley: Dalton Conley
+  Dambisa Moyo: Dambisa Moyo
+  Damian Cleary: Damian Cleary
+  Dan Hesse: Dan Hesse
+  Dan Kraut: Dan Kraut
+  Dan Kurnos: Dan Kurnos
+  Dan Snyder: Dan Snyder
+  Dan Stets: Dan Stets
+  Dan Turner: Dan Turner
+  Dana Lengkeek: Dana Lengkeek
+  Dani Dudeck: Dani Dudeck
+  Daniel Alegre: Daniel Alegre
+  Daniel Alpert: Daniel Alpert
+  Daniel Crowley: Daniel Crowley
+  Daniel Holzman: Daniel Holzman
+  Daniel Ives: Daniel Ives
+  Daniel Loeb: Bill Ackman
+  Daniel Salmon: Daniel Salmon
+  Daniel Tarullo: Daniel Tarullo
+  Daniel Weston: Daniel Weston
+  Danielle Chiesi: Danielle Chiesi
+  Danielle Kucera: Danielle Kucera
+  Danny Meyer: Danny Meyer
+  Daron Acemoglu: Daron Acemoglu
+  Darrell Issa: Darrell Issa
+  Darren Boey: Darren Boey
+  Darren Fabric: Darren Fabric
+  Dave Camp: Dave Camp
+  Dave Kautter: Dave Kautter
+  David Altaner: David Altaner
+  David Atkins: David Atkins
+  David Boies: David Boies
+  David Cameron: David Cameron
+  David Cote: David Cote
+  David Ebersman: David Ebersman
+  David Einhorn: David Einhorn
+  David Flynn: David Flynn
+  David Geier: David Geier
+  David Gitlin: David Gitlin
+  David Goerz: David Goerz
+  David J. Brailer: David J. Brailer
+  David Loeb: Raj Rajaratnam
+  David Merritt: David Merritt
+  David Miller: David Miller
+  David Pogue: David Pogue
+  David Reed: David Reed
+  David Rosenberg: David Rosenberg
+  David Russell: David Russell
+  David Schwartz: David Schwartz
+  David Spillane: David Spillane
+  David Strickland: David Strickland
+  David Weber: David Weber
+  David Wessel: David Wessel
+  Deborah Weinswig: Deborah Weinswig
+  Deirdre Bolton: Deirdre Bolton
+  Delaware Attorney General Beau Biden: Delaware Attorney General Beau Biden
+  Demetrios Mantzounis: Demetrios Mantzounis
+  Deng Xiaoping: Deng Xiaoping
+  Denise DesChenes: Denise DesChenes
+  Dennis Herrera: Dennis Herrera
+  Dennis Rodman: Dennis Rodman
+  Denny Chin: Denny Chin
+  Derek Palaschuk: Derek Palaschuk
+  Devin Nunes: Devin Nunes
+  Dick Bove: Dick Bove
+  Dick Tracy: Dick Tracy
+  Dina Bass: Dina Bass
+  Diohandi: Diohandi
+  Dirk Meyer: Dirk Meyer
+  Dmitri Shostakovich: Dmitri Shostakovich
+  Dmitry Medvedev: Dmitry Medvedev
+  Dmitry Peskov: Dmitry Peskov
+  Dolly Gee: Dolly Gee
+  Donald Bubar: Donald Bubar
+  Donald Kohn: Donald Kohn
+  Donald Yacktman: Donald Yacktman
+  Donta Wilson: Donta Wilson
+  Dorvin Lively: Dorvin Lively
+  Doug Augustine: Doug Augustine
+  Doug Cawley: Doug Cawley
+  Doug VanDagens: Doug VanDagens
+  Doug Whitman: Doug Whitman
+  Duff McDonald: Duff McDonald
+  Duncan Clark: Duncan Clark
+  "Eamonn O\u2019Hare": "Eamonn O\u2019Hare"
+  Eckhard Bremer: Eckhard Bremer
+  Ed Baig: Ed Baig
+  Ed Black: Ed Black
+  Ed Lee: Ed Lee
+  Ed Miliband: David Cameron
+  Ed Smith: Ed Smith
+  Ed Snyder: Ed Snyder
+  Eddy Cue: Eddy Cue
+  Edgar Silva: Edgar Silva
+  Edie Windsor: Edie Windsor
+  Edith Ramirez: Edith Ramirez
+  Edward Atorino: Edward Atorino
+  Edward C. Baig: Edward C. Baig
+  Edward Snowden: Edward Snowden
+  Edwin A. Suominen: Edwin A. Suominen
+  Eike Batista: Eike Batista
+  Elena Kagan: Ruth Bader Ginsburg
+  Elias Farrah: Elias Farrah
+  Ellen Pao: Ellen Pao
+  Ellen Zentner: Ellen Zentner
+  Elton Yang: Elton Yang
+  Emer Traynor: Emer Traynor
+  Emilio Palacio: Emilio Palacio
+  Emily: Emily
+  Enrico Moretti: Enrico Moretti
+  Eric Bruner: Eric Bruner
+  Eric Eichmann: Eric Eichmann
+  Eric Engleman: Eric Engleman
+  Eric J. Schwartz: Eric J. Schwartz
+  Eric Rosengren: Eric Rosengren
+  Eric Schmidt: Eric Schmidt
+  Eric Singley: Eric Singley
+  Eric Toder: Eric Toder
+  Eric Wold: Eric Wold
+  Erik Prusch: Erik Prusch
+  Erik Schatzker: Stephanie Ruhle
+  Erika Maschmeyer: Erika Maschmeyer
+  Erin-Michael Gill: Erin-Michael Gill
+  Ernesto Ramirez: Ernesto Ramirez
+  Eugene Christiansen: Eugene Christiansen
+  Eva Lee: Eva Lee
+  Evan Wilson: Evan Wilson
+  Evan Wolfson: Evan Wolfson
+  Eyal Desheh: Eyal Desheh
+  F. Scott Fitzgerald: F. Scott Fitzgerald
+  Fernando Verdasco: Fernando Verdasco
+  Ferran Adria: Ferran Adria
+  Flavia Rotondi: Flavia Rotondi
+  Flynn McRoberts: Flynn McRoberts
+  Frances Zwenig: Frances Zwenig
+  Francisco Balsemao: Francisco Balsemao
+  Francisco Costa: Francisco Costa
+  Francisco Roman: Francisco Roman
+  Francois Hollande: Arnaud Montebourg
+  Frank Gehry: Frank Gehry
+  Frank Lautenberg: Frank Lautenberg
+  Frank Partnoy: Frank Partnoy
+  Franklin Delano Roosevelt: Franklin Delano Roosevelt
+  Fred Goodwin: Fred Goodwin
+  Gale Garriott: Gale Garriott
+  Garry Lu: Garry Lu
+  Gary Gensler: Gary Gensler
+  Gary Johnson: George W. Bush
+  Gary Kelly: Gary Kelly
+  Gary Locke: Gary Locke
+  Gary Loveman: Gary Loveman
+  Gary Naftalis: Raj Rajaratnam
+  Gaston Acurio: Gaston Acurio
+  Gavin Coull: Damian Cleary
+  Gavin Darby: Gavin Darby
+  Gene Del Polito: Gene Del Polito
+  Gene Munster: Gene Munster
+  Geoff Blaber: Geoff Blaber
+  Geoff Greenwood: Geoff Greenwood
+  Geoffrey C. Ward: Geoffrey C. Ward
+  George: George
+  George Barany: George Barany
+  George Bellows: George Bellows
+  George Catlin: George Catlin
+  George Hamel: George Hamel
+  George Osborne: George Osborne
+  George Papandreou: George Papandreou
+  George Provopoulos: George Provopoulos
+  George Soros: Warren Buffett
+  George Tenet: George Tenet
+  George W. Bush: George W. Bush
+  Gerald Proehl: Gerald Proehl
+  Gerry Yim: Gerry Yim
+  Ghulam Ahmed Bilour: Ghulam Ahmed Bilour
+  Gil Luria: Gil Luria
+  Gilad Alper: Gilad Alper
+  Gilles Simon: Fernando Verdasco
+  Giovanni Bologna: Giovanni Bologna
+  Gizem Kara: Gizem Kara
+  Glen Tullman: Glen Tullman
+  Glen Yeung: Glen Yeung
+  Glenn Beck: Glenn Beck
+  Glenn Schultz: Glenn Schultz
+  Gordon Gekko: Gordon Gekko
+  Greg Lambert: Greg Lambert
+  Greg McAdoo: Greg McAdoo
+  Greg Peterson: Greg Peterson
+  Greg Schiller: Greg Schiller
+  Greg Sterling: Greg Sterling
+  Greg Taxin: Greg Taxin
+  Gregory Fernicola: Stuart Finkelstein
+  Guillermo Babatz: Guillermo Babatz
+  Gus Papageorgiou: Gus Papageorgiou
+  Guy Bisson: Guy Bisson
+  Guy G. Rutherfurd: Guy G. Rutherfurd
+  Guy Lawson: Guy Lawson
+  Guy LeBas: Guy LeBas
+  Gwyneth Paltrow: Justin Timberlake
+  H. David Kotz: H. David Kotz
+  Hal Tunick: Kristen Talgo
+  Hamid Karzai: Hamid Karzai
+  Hank Asher: Hank Asher
+  Hank Johnson: Hank Johnson
+  Harm Bandholz: Harm Bandholz
+  Haruhiko Kuroda: Haruhiko Kuroda
+  Hatim Tyabji: Hatim Tyabji
+  Hee-Jin Yoo: Hee-Jin Yoo
+  Henry Guo: Henry Guo
+  Henry King: David Loeb
+  Henry Ross Perot Jr.: Henry Ross Perot Jr.
+  Hideki Yasuda: Hideki Yasuda
+  Hillary Clinton: Hillary Clinton
+  Hina Rabbani Khar: Hina Rabbani Khar
+  Howard Buffett: Warren Buffett
+  Howard Coble: Howard Coble
+  Howard F. Ward: Howard F. Ward
+  Howard G. Buffett: Howard G. Buffett
+  Howard Stringer: Howard Stringer
+  Hu Jintao: Barack Obama
+  Hubert Aiwanger: Hubert Aiwanger
+  Hugo Miller: Hugo Miller
+  Hussein Allidina: Hussein Allidina
+  Ian Hogarth: Ian Hogarth
+  Ian King: Ian King
+  Igor Stravinsky: Igor Stravinsky
+  Ihor Prasolov: Ihor Prasolov
+  Imtiaz Gul: Imtiaz Gul
+  Ingo Queiser: Ingo Queiser
+  Iowa Attorney General Tom Miller: Iowa Attorney General Tom Miller
+  Iron Man: Spider-Man
+  Isabelle Falque-Pierrotin: Isabelle Falque-Pierrotin
+  J.G. Holland: J.G. Holland
+  J.K. Rowling: J.K. Rowling
+  J.R.R. Tolkien: J.R.R. Tolkien
+  Jack Ablin: Jack Ablin
+  Jack Lifton: Jack Lifton
+  Jacopo Tintoretto: Jacopo Tintoretto
+  James Baker: James Baker
+  James Blake: Fernando Verdasco
+  James Gibney: James Gibney
+  James Gildea: James Gildea
+  James Gooch: James Gooch
+  James Hance: James Hance
+  James Kwak: Simon Johnson
+  James Millar: James Millar
+  James Packer: James Packer
+  James Thickett: James Thickett
+  James Thyen: James Thyen
+  James Turrell: James Turrell
+  Jamie Dimon: Jamie Dimon
+  Jan Goehmann: Jan Goehmann
+  Jane Swift: George W. Bush
+  Janet Yellen: Ben S. Bernanke
+  Jared Cohen: Jared Cohen
+  Jas Athwal: David Spillane
+  Jason Alderman: Jason Alderman
+  Jasper Hauser: Jasper Hauser
+  Jay Rockefeller: Jay Rockefeller
+  Jayne Leung: Jayne Leung
+  Jean-Christophe Gray: Jean-Christophe Gray
+  Jean-Claude Juncker: Jean-Claude Juncker
+  Jean-Claude Trichet: Jean-Claude Trichet
+  Jean-Louis Lafayeedney: Jean-Louis Lafayeedney
+  Jed Rakoff: Gary Naftalis
+  Jeff Bezos: Jeff Bezos
+  Jeff Chester: Jeff Chester
+  Jeff Pu: Jeff Pu
+  Jeff Smisek: Jeff Smisek
+  Jeff Zarrillo: Jeff Zarrillo
+  Jeffrey Brill: Stuart Finkelstein
+  Jeffrey Gundlach: Jeffrey Gundlach
+  Jeffrey J. Rosen: Jeffrey J. Rosen
+  Jeffrey McCracken: Jeffrey McCracken
+  Jeffrey Nelson: Jeffrey Nelson
+  Jeffrey Schwartz: Jeffrey Schwartz
+  Jeffrey Smith: Jeffrey Smith
+  Jeffrey Ubben: Jeffrey Ubben
+  Jens Kramer: Jens Kramer
+  Jeremy Gerard: Jeremy Gerard
+  Jerry Brown: Jerry Brown
+  Jerry Cerasale: Jerry Cerasale
+  Jess: Jess
+  Jim Balsillie: Jim Balsillie
+  Jim Chanos: Jim Chanos
+  Jim Flaherty: Jim Flaherty
+  Jim Murren: Jim Murren
+  Jim Prosser: Jim Prosser
+  Jim Snyder: Jim Snyder
+  Jim Strugger: Jim Strugger
+  Jim Tang: Jim Tang
+  Jim Wong: Jim Wong
+  Jimmy Carter: Jimmy Carter
+  Jimmy Chen: Jimmy Chen
+  Joaquin Almunia: Joaquin Almunia
+  Jochen Reichert: Jochen Reichert
+  Jodi Olson: Jodi Olson
+  Jodi Sorensen: Jodi Sorensen
+  Joe Beninato: Joe Beninato
+  Joe Biden: Joe Biden
+  Joe Bonner: Joe Bonner
+  Joe Engo: Joe Engo
+  Joe Wittine: Joe Wittine
+  John: John
+  John A. Kronstadt: John A. Kronstadt
+  John Boehner: John Boehner
+  John Bogle: John Bogle
+  John Chen: John Chen
+  John Coates: John Coates
+  John Cornyn: Christopher Coons
+  John Curran: John Curran
+  John Desmarais: John Desmarais
+  John Farrall: John Farrall
+  John Greg Godsey: John Greg Godsey
+  John Hodulik: John Hodulik
+  John Kanyoni: John Kanyoni
+  John Key: John Key
+  John Legere: John Legere
+  John Lovelock: John Lovelock
+  John Malone: John Malone
+  John Mariani: John Mariani
+  John McFarlane: John McFarlane
+  John Milne: John Milne
+  "John O\u2019Connell": "John O\u2019Connell"
+  John Pitney: John Pitney
+  John Pluthero: John Pluthero
+  John Roberts: Antonin Scalia
+  John Schappert: John Schappert
+  John Stephens: John Stephens
+  John Toohey: John Toohey
+  John Varley: John Varley
+  John Vassallo: John Vassallo
+  John W. Olivo: John W. Olivo
+  Johnny Cameron: Johnny Cameron
+  Johnny Cash: Johnny Cash
+  Jon Huntsman Jr.: Jon Huntsman Jr.
+  Jon Hykawy: Jon Hykawy
+  Jon Landau: Jon Landau
+  Jon Southard: Jon Southard
+  Jon Wellinghoff: Jon Wellinghoff
+  Jonathan: Jonathan
+  Jonathan Browning: Jonathan Browning
+  Jonathan Bush: Jonathan Bush
+  Jonathan C. Roberts: Jonathan C. Roberts
+  Jonathan Schwartz: Jonathan Schwartz
+  Jonathan Silver: Jonathan Silver
+  Jonathan Weil: Jonathan Weil
+  Jony Ive: Jony Ive
+  Jorge Messi: Lionel Messi
+  Jorma Ollila: Jorma Ollila
+  Jose Berardo: Jose Berardo
+  Jose Maria Alvarez-Pallete: Jose Maria Alvarez-Pallete
+  Jose Serrano: Jose Serrano
+  Jose Vicente Curiel: Jose Vicente Curiel
+  Josef Blumenfeld: Josef Blumenfeld
+  Joseph Bastianich: Joseph Bastianich
+  Joseph Biden: Barack Obama
+  Joseph Chen: Joseph Chen
+  Joseph E. Stiglitz: Joseph E. Stiglitz
+  Joseph Euteneuer: Joseph Euteneuer
+  Joseph Gemini: Joseph Gemini
+  Joseph Kabila: Joseph Kabila
+  Joseph Lieberman: Clarine Nardi Riddle
+  Joseph Schneider: Joseph Schneider
+  Joseph Swedish: Joseph Swedish
+  Joseph Vassalluzzo: Joseph Vassalluzzo
+  Josh Olson: Josh Olson
+  Juan Falconi Puig: Juan Falconi Puig
+  Julia Karen Mueller: Julia Karen Mueller
+  Julian Assange: Julian Assange
+  Julian Day: Julian Day
+  Julian Persaud: Julian Persaud
+  Jun Yang: Jun Yang
+  Justice Anthony Kennedy: Justice Ruth Bader Ginsburg
+  Justice Antonin Scalia: Justice Antonin Scalia
+  Justice Antony Nicholas: Justice Antony Nicholas
+  Justice Clarence Thomas: Justice Ruth Bader Ginsburg
+  Justice Elena Kagan: Justice Ruth Bader Ginsburg
+  Justice Ruth Bader Ginsburg: Justice Ruth Bader Ginsburg
+  Justice Samuel Alito: Justice Samuel Alito
+  Justice Sonia Sotomayor: Justice Sonia Sotomayor
+  Justice Stephen Breyer: Justice Ruth Bader Ginsburg
+  Justin Doom: Justin Doom
+  Justin McClelland: Justin McClelland
+  Justin Timberlake: Justin Timberlake
+  Kakul Srivastava: Kakul Srivastava
+  Karine Berger: Karine Berger
+  Karl Baker: Karl Baker
+  Karl Robijns: Karl Robijns
+  Karolos Papoulias: Karolos Papoulias
+  Katelin Todhunter-Gerberg: Katelin Todhunter-Gerberg
+  Katharina Fritsch: Katharina Fritsch
+  Katherine Egbert: Katherine Egbert
+  Katie Curnutte: Katie Curnutte
+  Kay Weidner: Kay Weidner
+  Kazuo Hirai: Kazuo Hirai
+  Keita Wakabayashi: Keita Wakabayashi
+  Keith Arnott: Keith Arnott
+  Keith Horowitz: Keith Horowitz
+  Keith Wirtz: Keith Wirtz
+  Kelly Riddle: Kelly Riddle
+  Ken Heebner: Ken Heebner
+  Ken Prewitt: Ken Prewitt
+  Kenneth Fisher: Kenneth Fisher
+  Kenneth Wong: Kenneth Wong
+  Kent Matthews: Kent Matthews
+  Kerry Rice: Kerry Rice
+  Kevin Brady: Kevin Brady
+  Kevin Kosek: Kevin Kosek
+  Kevin Lu: Kevin Lu
+  Kevin Rendino: Kevin Rendino
+  Kevin Shacknofsky: Kevin Shacknofsky
+  Kevin Spacey: Kevin Spacey
+  Kim Dae Jung: Kim Dae Jung
+  Kim Dotcom: Kim Dotcom
+  Kim Jong Il: William Pesek
+  Kim Jong Un: Kim Jong Un
+  Kim Tae Woon: Kim Tae Woon
+  Kirsten Knight: Kirsten Knight
+  Kiyo A. Matsumoto: Kiyo A. Matsumoto
+  Komal Sri-Kumar: Komal Sri-Kumar
+  Koray Ozturkler: Koray Ozturkler
+  Kris Thompson: Kris Thompson
+  Kristen Schweizer: Kristen Schweizer
+  Kristen Talgo: Kristen Talgo
+  Kristin Huguet: Kristin Huguet
+  Kweku Adoboli: Kweku Adoboli
+  Lady Gaga: Glenn Beck
+  Lakshmi Mittal: Arnaud Montebourg
+  Lamar Smith: Lamar Smith
+  Larry Ellison: Larry Ellison
+  Larry Liebert: Larry Liebert
+  Larry Page: Larry Page
+  Lars Nyberg: Lars Nyberg
+  Latsis family: Latsis family
+  Laura Brown: Laura Brown
+  Laura Sweeney: Laura Sweeney
+  Lauren Armstrong: Lauren Armstrong
+  Lauren Willis: Lauren Willis
+  Laurence Parisot: Laurence Parisot
+  Laurene Powell Jobs: Laurene Powell Jobs
+  Laurie Muchnick: Laurie Muchnick
+  Lawrence K. Cagney: Lawrence K. Cagney
+  Lawrence Summers: Lawrence Summers
+  Lee Myung Bak: Lee Myung Bak
+  Leonard Davis: Leonard Davis
+  Leslie Appleton-Young: Leslie Appleton-Young
+  Leslie Moonves: Leslie Moonves
+  Levi P. Morton: Levi P. Morton
+  Li Ka-Shing: Li Ka-Shing
+  Li Ka-shing: Li Ka-shing
+  Liam Dalton: Liam Dalton
+  Lilian Karunungan: Lilian Karunungan
+  Lionel Messi: Lionel Messi
+  Lisa Jackson: Lisa Jackson
+  Lisa Lambert: Lisa Lambert
+  Lisa Namerow: Lisa Namerow
+  Lisette Kwong: Lisette Kwong
+  Liu Chuanzhi: Liu Chuanzhi
+  Liu Xiaobo: Liu Xiaobo
+  Liz Cheney: Richard Cheney
+  Lloyd Doggett: Lloyd Doggett
+  Loeb: Bill Ackman
+  Lothar Lanz: Lothar Lanz
+  Lou Kerner: Lou Kerner
+  Lou Rauchenberger: Lou Rauchenberger
+  Louis Stanton: Louis Stanton
+  Lucy Koh: Lucy Koh
+  Lukas Biewald: Lukas Biewald
+  Lyle Vander Schaaf: Lyle Vander Schaaf
+  Lynn Thomasson: Lynn Thomasson
+  MJ Moltenbrey: MJ Moltenbrey
+  Madhur Bhandarkar: Madhur Bhandarkar
+  Mami Imada: Mami Imada
+  "Manti Te\u2019o": "Manti Te\u2019o"
+  Marc Andreessen: Marc Andreessen
+  Marc Benioff: Marc Benioff
+  Marc Kasowitz: Marc Kasowitz
+  Marcelo Chimento: Marcelo Chimento
+  Marcelo Claure: Marcelo Claure
+  Marco Rubio: Bob McDonnell
+  Marcus Agius: Marcus Agius
+  Marcus Diebel: Marcus Diebel
+  Marcus Kappler: Marcus Kappler
+  Mardy Fish: Fernando Verdasco
+  Margaret Brennan: Margaret Brennan
+  Maria Levitov: Maria Levitov
+  Maria Pallante: Maria Pallante
+  Mariko Yasu: Mariko Yasu
+  Mario Draghi: Mario Draghi
+  Mario Gabelli: Mario Gabelli
+  Mario Monti: Christine Lagarde
+  Marisa Conway: Marisa Conway
+  Marisa Cuomo: Marisa Cuomo
+  Marisa Toro: Marisa Toro
+  Marissa Mayer: Marissa Mayer
+  Mark Bronzo: Mark Bronzo
+  Mark Cuban: Mark Cuban
+  Mark Dimor: Mark Dimor
+  Mark Fields: Mark Fields
+  Mark Kelleher: Mark Kelleher
+  Mark Lee: Mark Lee
+  Mark Luschini: Mark Luschini
+  Mark Pincus: Mark Zuckerberg
+  Mark Pryor: Max Baucus
+  Mark Rasch: Mark Rasch
+  Mark Siegel: Mark Siegel
+  Mark Twain: Mark Twain
+  Mark Warner: Mark Warner
+  Mark Zuckerberg: Mark Zuckerberg
+  Markus Persson: Markus Persson
+  Martha Barnett: Martha Barnett
+  Martha Hough: Martha Hough
+  Martha Maguire: Martha Maguire
+  Martin Gayford: Martin Gayford
+  Martin Gruenberg: Martin Gruenberg
+  Martin Taylor: Martin Taylor
+  Martin Winterkorn: Martin Winterkorn
+  Mary Jo White: Mary Jo White
+  Mary McDowell: Mary McDowell
+  Mary Schapiro: Mary Schapiro
+  Masaaki Shirakawa: Masaaki Shirakawa
+  Masaru Kato: Masaru Kato
+  Mason Morfit: Mason Morfit
+  Mathias Doepfner: Mathias Doepfner
+  Matt Idema: Matt Idema
+  Matthew Hedberg: Matthew Hedberg
+  Matthew Tucker: Matthew Tucker
+  Matthew Wilson: Matthew Wilson
+  Max Baucus: Max Baucus
+  Max Zhang: Max Zhang
+  Meg Whitman: Meg Whitman
+  Megan Neuburger: Megan Neuburger
+  Mervyn King: Mervyn King
+  Meryl Streep: Justin Timberlake
+  Meyer Shields: Meyer Shields
+  Michael Belwood: Michael Belwood
+  Michael Bilerman: Michael Bilerman
+  Michael Blandy: Michael Blandy
+  Michael Brown: Michael Brown
+  Michael C. Smith: Michael C. Smith
+  Michael Dell: Michael Dell
+  Michael DuVally: Michael DuVally
+  Michael Gartenberg: Michael Gartenberg
+  Michael Golden: Arthur Sulzberger Jr.
+  Michael Hytha: Michael Hytha
+  Michael Jordan: Michael Jordan
+  Michael Langley: Michael Langley
+  Michael Normal Hallatt: Michael Normal Hallatt
+  Michael Nusimow: Michael Nusimow
+  Michael Olson: Michael Olson
+  Michael P. Kelly: Michael P. Kelly
+  Michael Pachter: Michael Pachter
+  Michael Quiel: Stephen M. Kerr
+  Michael Rake: Michael Rake
+  Michael Sandel: Michael Sandel
+  Michael Shaoul: Michael Shaoul
+  Michael Tighe: Michael Tighe
+  Michael Walkley: Michael Walkley
+  Michael Wang: Michael Wang
+  Michael Yoshikami: Michael Yoshikami
+  Michelle Krebs: Michelle Krebs
+  Michelle Obama: Michelle Obama
+  Mick Jagger: Phil Mickelson
+  Mickey Boodaei: Mickey Boodaei
+  Mignon Clyburn: Mignon Clyburn
+  Miguel Albuquerque: Miguel Albuquerque
+  Mike Abramsky: Mike Abramsky
+  Mike Cavanagh: Lou Rauchenberger
+  Mike DiGioia: Mike DiGioia
+  Mike Duke: Mike Duke
+  Mike Fries: Neil Berkett
+  Mike Gerrard: Mike Gerrard
+  Mike Kowall: Mike Kowall
+  Mike Nelson: Mike Nelson
+  Mike Prew: Mike Prew
+  Mike Sievert: Mike Sievert
+  Mitt Romney: Jimmy Carter
+  Mohamed ElBaradei: Mohamed ElBaradei
+  Mole Man: Spider-Man
+  Moming Zhou: Moming Zhou
+  Morten Singleton: Morten Singleton
+  Mugur Isarescu: Mugur Isarescu
+  Muhammad Arif Saeed: Muhammad Arif Saeed
+  Muhammad Zubair Mughal: Muhammad Zubair Mughal
+  Mykola Azarov: Mykola Azarov
+  Nachum Helfgott: Nachum Helfgott
+  Najib Razak: Najib Razak
+  Nakoula Basseley Nakoula: Nakoula Basseley Nakoula
+  Nancy Pelosi: Nancy Pelosi
+  Nasaruddin Hassan: Nasaruddin Hassan
+  Nassim Nicholas Taleb: Nassim Nicholas Taleb
+  Natalie Harrison: Natalie Harrison
+  Natalie Kerris: Natalie Kerris
+  Naveed Sheikh: Naveed Sheikh
+  Neelie Kroes: Neelie Kroes
+  Neeraj Monga: Neeraj Monga
+  Neil Barofsky: Neil Barofsky
+  Neil Berkett: Neil Berkett
+  Neil Diamond: Neil Diamond
+  Neil Leff: Neil Leff
+  Neil Mawston: Neil Mawston
+  Neil Ruiz: Neil Ruiz
+  Neil Shearing: Neil Shearing
+  Neil Young: Neil Young
+  Nevada Attorney General Catherine Cortez Masto: Nevada Attorney General Catherine
+    Cortez Masto
+  New England Patriots: New England Patriots
+  New York Attorney General Eric Schneiderman: New York Attorney General Eric Schneiderman
+  New York Giants: New England Patriots
+  Nicholas Nanopoulos: Nicholas Nanopoulos
+  Nick Baker: Nick Baker
+  Nick Bubb: Nick Bubb
+  Nick Gentle: Nick Gentle
+  Nick Nelson: Nick Nelson
+  Nick Reynolds: Nick Reynolds
+  Nick Turner: Nick Turner
+  Nicolas Berggruen: Nicolas Berggruen
+  Nicolas Sarkozy: Nicolas Sarkozy
+  Nikhil Hutheesing: Nikhil Hutheesing
+  Nina Gussack: Nina Gussack
+  Nitsan Hargil: Nitsan Hargil
+  Noah Elkin: Noah Elkin
+  Nobuyuki Kashiwabara: Nobuyuki Kashiwabara
+  Norie Kuboyama: Norie Kuboyama
+  Norm Keith: Norm Keith
+  Norman Foster: Norman Foster
+  Norman Ornstein: Norman Ornstein
+  O. Mason Hawkins: O. Mason Hawkins
+  Obama: Obama
+  Ona Gasiulyte: Ona Gasiulyte
+  Osama Bedier: Osama Bedier
+  Oscar Choi: Oscar Choi
+  Pablo Picasso: Pablo Picasso
+  Park Chung Hee: Park Chung Hee
+  Park Geun Hye: Park Chung Hee
+  Park Hyun: Park Hyun
+  Patrick Donahoe: Patrick Donahoe
+  Patrick Leahy: Patrick Leahy
+  Paul Aiken: Paul Aiken
+  Paul Allen: Paul Allen
+  Paul Annacone: Fernando Verdasco
+  Paul Berghoff: Paul Berghoff
+  Paul Blum: Paul Blum
+  Paul Cellucci: George W. Bush
+  Paul Davis: Paul Davis
+  Paul DelVecchio Jr.: Paul DelVecchio Jr.
+  Paul Joseph Garcia: Paul Joseph Garcia
+  Paul Katami: Paul Katami
+  Paul Krugman: Paul Krugman
+  Paul Lejuez: Paul Lejuez
+  Paul Lis: Paul Lis
+  Paul Myners: Paul Myners
+  Paul Rivett: Doug Augustine
+  Paul Ryan: Curt Myers
+  Paul S. Grewal: Paul S. Grewal
+  Paul Simon: Paul Simon
+  Paul Singer: Jamie Dimon
+  Paul Volcker: Paul Volcker
+  Pawel Lopuszynski: Pawel Lopuszynski
+  Pedro Passos Coelho: Pedro Passos Coelho
+  Pen Pendleton: Pen Pendleton
+  Peng Xiaofeng: Peng Xiaofeng
+  Peter Braendle: Peter Braendle
+  Peter Cashin: Peter Cashin
+  Peter Cummings: Peter Cummings
+  Peter Cunningham: Peter Cunningham
+  Peter Dunne: Peter Dunne
+  Peter Elstrom: Peter Elstrom
+  Peter Klein: Peter Klein
+  Peter Lee: Peter Lee
+  Peter Lofrumento: Peter Lofrumento
+  Peter Mandelson: Peter Mandelson
+  Peter Oppenheimer: Peter Oppenheimer
+  Peter Plumb: Peter Plumb
+  Peter Sorrentino: Peter Sorrentino
+  Peter Westin: Peter Westin
+  Peter Wootton: Doug Augustine
+  Peter Yu: Peter Yu
+  Phil Flynn: Phil Flynn
+  Phil Magney: Phil Magney
+  Phil Mickelson: Phil Mickelson
+  Phil Schiller: Phil Schiller
+  Philip Delves Broughton: Philip Delves Broughton
+  Philip Hampton: Philip Hampton
+  Philip Orlando: Philip Orlando
+  Philippe Depoux: Philippe Depoux
+  Pierre Ferragu: Pierre Ferragu
+  Pierre Koffmann: Pierre Koffmann
+  Pierre Lapointe: Pierre Lapointe
+  Pierre Moscovici: Pierre Moscovici
+  Pipilotti Rist: Pipilotti Rist
+  Preet Bharara: Preet Bharara
+  President Barack Obama: President Barack Obama
+  Pui-Wing Tam: Pui-Wing Tam
+  Qinan Ji: Qinan Ji
+  Quek Chin Thean: Quek Chin Thean
+  R. Patrick Caldwell: R. Patrick Caldwell
+  Rafael Correa: Rafael Correa
+  Rafael Nadal: Rafael Nadal
+  Raimund Muecke: Raimund Muecke
+  Raj Rajaratnam: Raj Rajaratnam
+  Raja Pervez Ashraf: Raja Pervez Ashraf
+  Rajat Gupta: Raj Rajaratnam
+  Rajeev de Mello: Rajeev de Mello
+  Ralph Gleason: Ralph Gleason
+  Ralph Solveen: Ralph Solveen
+  Ralph Whitworth: Ralph Whitworth
+  Raquel Amado: Raquel Amado
+  Ray Halbritter: Ray Halbritter
+  Ray Irani: Ray Irani
+  Ray Neidl: Ray Neidl
+  Raymond Gilmartin: Raymond Gilmartin
+  Rebecca Arbogast: Rebecca Arbogast
+  Rebecca Warren: Katharina Fritsch
+  Reed Brodsky: Raj Rajaratnam
+  Reed Hastings: Reed Hastings
+  Reed Landberg: Reed Landberg
+  Reg Gale: Reg Gale
+  Remar Sutton: Remar Sutton
+  Rhonda Mims: Rhonda Mims
+  Rich Jaroslovsky: Rich Jaroslovsky
+  Richard A. Posner: Richard A. Posner
+  Richard Bennett: Richard Bennett
+  Richard Bove: Richard Bove
+  Richard Broughton: Richard Broughton
+  Richard Cheney: Richard Cheney
+  Richard Clemmer: Richard Clemmer
+  Richard Cordray: Richard Cordray
+  Richard Fisher: Charles Plosser
+  Richard Frost: Richard Frost
+  Richard Holwell: Richard Holwell
+  Richard L. Ditzik: Richard L. Ditzik
+  Richard Posner: Richard Posner
+  Richard Schulze: Richard Schulze
+  Richard Sichel: Richard Sichel
+  Richard Stone: Richard Stone
+  Richard Tse: Richard Tse
+  Richard Vines: Richard Vines
+  Richard Yu: Richard Yu
+  Rick Sherlund: Rick Sherlund
+  Rick White: David Flynn
+  Rita Nazareth: Rita Nazareth
+  Rob Arnott: Rob Arnott
+  Rob Atkinson: Rob Atkinson
+  Rob Portman: Bob McDonnell
+  Rob Rang: Rob Rang
+  Robert Dankner: Robert Dankner
+  Robert De Niro: Robert De Niro
+  Robert Diamond: Robert Diamond
+  Robert E. Heideck: Robert E. Heideck
+  Robert Fenner: Robert Fenner
+  Robert Greifeld: Robert Greifeld
+  Robert Griffin III: Robert Griffin III
+  Robert Iger: Robert Iger
+  Robert J. Shiller: Robert J. Shiller
+  Robert Kaplan: Robert Kaplan
+  Robert Khuzami: Robert Khuzami
+  Robert Murray: Robert Murray
+  Robert Pincus: Robert Pincus
+  Robert Sapolsky: Robert Sapolsky
+  Robert Sutton: Robert Sutton
+  Robert Yi: Robert Yi
+  Roberta Thomson: Roberta Thomson
+  Robin Lewis: Robin Lewis
+  Roger Entner: Roger Entner
+  Roger Federer: Fernando Verdasco
+  Roger Goodell: Roger Goodell
+  Roland Nash: Roland Nash
+  Ron Conway: Ron Conway
+  Ron Johnson: Allen Questrom
+  Ron Laurie: Ron Laurie
+  Ron Wyden: Darrell Issa
+  Ronaiah Tuiasosopo: Ronaiah Tuiasosopo
+  Rory Read: Dirk Meyer
+  Ross Bhappu: Ross Bhappu
+  Rudolph Contreras: Rudolph Contreras
+  Rufus: Rufus
+  Rupert Hoogewerf: Rupert Hoogewerf
+  Rupert Murdoch: Rupert Murdoch
+  Ruth Bader Ginsburg: Ruth Bader Ginsburg
+  Ruth Goldway: Ruth Goldway
+  Ryan Flinn: Ryan Flinn
+  Ryuji Yamada: Ryuji Yamada
+  Sachihisa Saishiki: Sachihisa Saishiki
+  Saeromi Shin: Saeromi Shin
+  Salvador Hernandez: Salvador Hernandez
+  Sam: Sam
+  Sam Altman: Sam Altman
+  Sam Chandan: Sam Chandan
+  Samantha McLemore: Samantha McLemore
+  Sampo Karjalainen: Sampo Karjalainen
+  Samuel Alito: Ruth Bader Ginsburg
+  Sandra Aistars: Sandra Aistars
+  Sandy Hendry: Sandy Hendry
+  Sandy Shen: Sandy Shen
+  Sarah Frier: Sarah Frier
+  Sarah Rotman Epps: Sarah Rotman Epps
+  Satoshi Kawano: Satoshi Kawano
+  Scott Daniels: Scott Daniels
+  Scott Ellison: Scott Ellison
+  Scott Green: Scott Green
+  Scott Helfman: Scott Helfman
+  Scott Liu: Scott Liu
+  Scott Malkin: Scott Malkin
+  Scott Moritz: Scott Moritz
+  Scott Reynolds Nelson: Scott Reynolds Nelson
+  Scott Rothstein: Scott Rothstein
+  Scott Sloat: Scott Sloat
+  Scott Totzke: Scott Totzke
+  Sean D. Jordan: Sean D. Jordan
+  Sean Wieland: Sean Wieland
+  Seema Seth: Madhur Bhandarkar
+  Senator Jay Rockefeller: Senator Jay Rockefeller
+  Senator Pat Leahy: Senator Pat Leahy
+  Serena Saitto: Serena Saitto
+  Sergey Dergachev: Sergey Dergachev
+  Shane Robison: Shane Robison
+  Shar VanBoskirk: Shar VanBoskirk
+  Shashank Upadhye: Shashank Upadhye
+  Shawn Harrison: Shawn Harrison
+  Sheryl Sandberg: Sheryl Sandberg
+  Shimon Zlotnikov: Shimon Zlotnikov
+  Shinzo Abe: Shinzo Abe
+  Shlomo Kramer: Shlomo Kramer
+  Shuichi Otsuka: Shuichi Otsuka
+  Simon Fox: Simon Fox
+  Simon Johnson: Simon Johnson
+  Sixten Sandstroem: Sixten Sandstroem
+  Skott Ahn: Skott Ahn
+  Sofia Song: Sofia Song
+  Song Dong: Song Dong
+  Sonia Sotomayor: Clarence Thomas
+  Spider-Man: Spider-Man
+  Stanley C. Gale Jr.: Stanley C. Gale Jr.
+  Stanley Fischer: Stanley Fischer
+  Stephanie Armour: Stephanie Armour
+  Stephanie Bodoni: Stephanie Bodoni
+  Stephanie Odle: Stephanie Odle
+  Stephanie Ruhle: Stephanie Ruhle
+  Stephanie Tilenius: Stephanie Tilenius
+  Stephen Breyer: Ruth Bader Ginsburg
+  Stephen Cambone: Stephen Cambone
+  Stephen Elop: Stephen Elop
+  Stephen Hester: Stephen Hester
+  Stephen L. Carter: Stephen L. Carter
+  Stephen M. Kerr: Stephen M. Kerr
+  Stephen Patel: Stephen Patel
+  Steve Ballmer: Steve Ballmer
+  Steve Cakebread: Steve Cakebread
+  Steve Dowling: Michael P. Kelly
+  Steve Jobs: Steve Jobs
+  Steve Oman: Steve Oman
+  Steve Park: Steve Park
+  Steve Walsh: Steve Walsh
+  Steve van Zandt: Steve van Zandt
+  Steven Balet: Steven Balet
+  Steven Donzinger: Steven Donzinger
+  Steven Roth: Steven Roth
+  Steven Temares: Steven Temares
+  Stu Ingis: Stu Ingis
+  Stuart Finkelstein: Stuart Finkelstein
+  Stuart Ingis: Stuart Ingis
+  Sue Robinson: Sue Robinson
+  Sue Sheridan: Sue Sheridan
+  Suki Lahav: Steve van Zandt
+  Sundar Pichai: Sundar Pichai
+  Surinder Saini: Surinder Saini
+  Susan Decker: Susan Decker
+  Susan E. D. Neuberg: Susan E. D. Neuberg
+  Susan Kohn Ross: Susan Kohn Ross
+  Suzanne Woolley: Nikhil Hutheesing
+  Tai Hui: Tai Hui
+  Tang Yizhi: Tang Yizhi
+  Taro Aso: Taro Aso
+  Tasha Pelio: Tasha Pelio
+  Ted Sarandos: Ted Sarandos
+  Ted Weschler: Ted Weschler
+  Teri Everett: Teri Everett
+  Teri Hagedorn: Teri Hagedorn
+  Terry Gou: Terry Gou
+  Terry Matthews: Terry Matthews
+  Thea Clara Spyer: Thea Clara Spyer
+  Thein Sein: Thein Sein
+  Theodore Olson: Theodore Olson
+  Thomas Harr: Jeffrey Schwartz
+  Thomas J. Cole Jr.: Thomas J. Cole Jr.
+  Thomas Molloy: Thomas Molloy
+  Thomas Nyheim: Thomas Nyheim
+  Thomas Sporkin: Thomas Sporkin
+  Thomas de Maiziere: Thomas de Maiziere
+  Thorsten Heins: Thorsten Heins
+  Tim Bajarin: Tim Bajarin
+  Tim Cook: Tim Cook
+  Tim Cornwell: Tim Cornwell
+  Tim Culpan: Tim Culpan
+  Tim Dees: Tim Dees
+  Tim Fraser: Tim Fraser
+  Tim Johnson: Tim Johnson
+  Tim Lindholm: Tim Lindholm
+  Tim Pawlenty: Tim Pawlenty
+  Tim Wagner: Tim Wagner
+  Timotheus Hoettges: Timotheus Hoettges
+  Timothy Geithner: Timothy Geithner
+  Tobin Ireland: Tobin Ireland
+  Todd Combs: Ted Weschler
+  Todd Teresi: Todd Teresi
+  Todd W. Shadle: Todd W. Shadle
+  Tom Adshed: Tom Adshed
+  Tom Carper: Tom Carper
+  Tom Coburn: Tom Coburn
+  Tom Giles: Tom Giles
+  Tom Keene: Ken Prewitt
+  Tom Neumayr: Tom Neumayr
+  Tom Rothman: Tom Rothman
+  Tom Simon: Tom Simon
+  Tom Szkutak: Tom Szkutak
+  Tony Hsieh: Tony Hsieh
+  Tony Shaffer: Michael Belwood
+  Tony Yu: Tony Yu
+  Tony Zingale: Tony Zingale
+  Toshiro Hasegawa: Toshiro Hasegawa
+  Tracy Hope Davis: Tracy Hope Davis
+  Trudy Muller: Trudy Muller
+  Turney Duff: Turney Duff
+  Tyler Lessard: Tyler Lessard
+  U.S. District Judge Jed Rakoff: U.S. District Judge Jed Rakoff
+  U.S. District Judge Richard Leon: U.S. District Judge Richard Leon
+  Urs Fischer: Urs Fischer
+  Vic Alboini: Vic Alboini
+  Vicki Bryan: Vicki Bryan
+  Vicky Bindra: Vicky Bindra
+  Victor Anthony: Victor Anthony
+  Victor C. Johnson: Victor C. Johnson
+  Victor Koo: Victor Koo
+  Victoria Buchan: Victoria Buchan
+  Victoriano Lopez: Victoriano Lopez
+  Vikram Pandit: Vikram Pandit
+  Vincent Villalba: Vincent Villalba
+  Vinod Khosla: Marc Andreessen
+  Virginia Postrel: Virginia Postrel
+  Vittorio Colao: Vittorio Colao
+  Viveca Novak: Viveca Novak
+  Viviane Reding: Viviane Reding
+  Vladimir Putin: Vladimir Putin
+  Walt Mossberg: Walt Mossberg
+  Walt Piecyk: Walt Piecyk
+  Walter Dellinger: Walter Dellinger
+  Walter Piecyk: Walter Piecyk
+  Walter Todd: Walter Todd
+  Wang Jianzhou: Wang Jianzhou
+  Warren Buffett: Warren Buffett
+  Wayne Watts: Wayne Watts
+  Whitney Kisling: Whitney Kisling
+  Will Stofega: Will Stofega
+  Will Tanous: Marisa Conway
+  Willem Buiter: Willem Buiter
+  William Alsup: William Alsup
+  William D. Regner: William D. Regner
+  William Martini: William Martini
+  William Mills: William Mills
+  William Pesek: William Pesek
+  William Poundstone: William Poundstone
+  William Power: William Power
+  William Weld: George W. Bush
+  Winston Yung: Winston Yung
+  Winthrop Rutherfurd: Winthrop Rutherfurd
+  Wojciech Kwasniak: Wojciech Kwasniak
+  Wolfgang Franz: Wolfgang Franz
+  Wong Wai Ming: Wong Wai Ming
+  Woosung Han: Woosung Han
+  Wu Kan: Wu Kan
+  Yang Yuanqing: Yang Yuanqing
+  Yannis Costopoulos: Yannis Costopoulos
+  Yin Tihua: Yin Tihua
+  Young-Sam Cho: Young-Sam Cho
+  Yu Kikuchi: Yu Kikuchi
+  Yuki Shima: Yuki Shima
+  Yukio Sakamoto: Yukio Sakamoto
+  Yuri Ushakov: Yuri Ushakov
+  Yuval Steinitz: Yuval Steinitz
+  Yves Behar: Yves Behar
+  Yves Marcais: Yves Marcais
+  Zach Nelson: Zach Nelson
+  Zhang Shidong: Zhang Shidong
+Product:
+  $1.4 billion: $1.4 billion
+  $1.7 billion: $1.7 billion
+  $12.1 billion: $12.1 billion
+  $2.97: $2.97
+  $20.1 billion: $20.1 billion
+  $200 million: $200 million
+  $25.5 billion: $25.5 billion
+  $258 million: $258 million
+  $3.30: $2.97
+  $3.40: $2.97
+  $31.18: $31.18
+  $368.2 million: $368.2 million
+  $52.8 billion: $52.8 billion
+  $62.9 million: $62.9 million
+  $63 billion: $52.8 billion
+  $8.8 billion: $8.8 billion
+  1-milliliter Integra product: 1-milliliter Integra product
+  1.05 billion: 1.05 billion
+  10,000 jobs: 10,000 jobs
+  100,000 children: 100,000 children
+  12 percent: 45 percent
+  13.4 percent: 13.4 percent
+  164 million: 164 million
+  18 percent: 18 percent
+  215 million Internet users: 215 million Internet users
+  235 million: 235 million
+  269.6 million: 269.6 million
+  3-milliliter Integra syringe: 3-milliliter Integra syringe
+  30 pounds: 30 pounds
+  337-745: 337-745
+  337-750: 337-750
+  360 billion: 360 billion
+  '40 Chances: Finding Hope in a Hungry World': '40 Chances: Finding Hope in a Hungry
+    World'
+  40 million euros: 40 million euros
+  421 Million: 421 Million
+  45 percent: 45 percent
+  450 billion yen: 450 billion yen
+  485 million Internet users: 485 million Internet users
+  4K TVs: 4K TVs
+  5 Billion Yuan: 5 Billion Yuan
+  50 Billion Yuan: 50 Billion Yuan
+  639.4 million: 639.4 million
+  68 percent: 18 percent
+  700 billion yen: 700 billion yen
+  800 billion yen: 800 billion yen
+  A$2.6 billion: A$2.6 billion
+  ABC News: ESPN Radio
+  Accurint: AutoTrack
+  American Indian Portraits: American Indian Portraits
+  Android: Android
+  Android Market: Android Market
+  Angry Birds: Angry Birds
+  AnyConnect: AnyConnect
+  App Store: App Store
+  AppLink: AppLink
+  Apple REITs: Apple REITs
+  Ascend D quad: Ascend D quad
+  Ascension of St. John the Evangelist Altarpiece: Ascension of St. John the Evangelist
+    Altarpiece
+  Australian Stock Futures: Australian Stock Futures
+  AutoTrack: AutoTrack
+  Autonomy Corp.: Autonomy Corp.
+  'Avengers Saving the Day #1': 'Avengers Saving the Day #1'
+  BET Index: BET Index
+  BSE India Sensitive Index: BSE India Sensitive Index
+  Baptism of Christ: Virgin of the Rocks
+  Beaugrenelle: Beaugrenelle
+  Bejeweled: Plants vs. Zombies
+  Big Jambox: Big Jambox
+  Bild: Bild
+  Bing: Bing
+  Bionic phone: Bionic phone
+  BitTorrent: BitTorrent
+  BlackBerry: BlackBerry
+  BlackBerry 10: BlackBerry 10
+  BlackBerry 7: BlackBerry 7
+  BlackBerry Bold 9788: BlackBerry Bold 9788
+  BlackBerry Bold 9900: BlackBerry Bold 9900
+  BlackBerry Bold 9930: BlackBerry Bold 9930
+  BlackBerry OS: BlackBerry OS
+  BlackBerry PlayBook: BlackBerry PlayBook
+  Blackberry: Blackberry
+  Bob the Builder: Bob the Builder
+  Boeing 747-400: Boeing 747-400
+  Bootleg Volume I: Bootleg Volume II
+  Bootleg Volume II: Bootleg Volume II
+  Born to Run: Born to Run
+  "Brazil\u2019s Bovespa": "Brazil\u2019s Bovespa"
+  "Brazil\u2019s Bovespa Index": "Brazil\u2019s Bovespa Index"
+  "Brazil\u2019s real": "Brazil\u2019s real"
+  C7 smartphone: C7 smartphone
+  CAC 40: FTSE 100
+  CAC 40 Index: CAC 40 Index
+  CBOE Volatility Index: CBOE Volatility Index
+  CGM Focus Fund: CGM Focus Fund
+  CSI 300 Index: CSI 300 Index
+  Cadillac SRX: Cadillac SRX
+  Campi Flegrei Piedrosso 2008: Campi Flegrei Piedrosso 2008
+  Chicago Board Options Exchange Emerging Markets ETF Volatility Index: Chicago Board
+    Options Exchange Emerging Markets ETF Volatility Index
+  Chrome OS: Chrome OS
+  Chromebook: Chromebook
+  Circumcision: Circumcision
+  CityVille: FarmVille
+  Cloud Player: Cloud Player
+  Curiosity: Curiosity
+  "Czech Republic\u2019s PX Index": "Czech Republic\u2019s PX Index"
+  DAX: FTSE 100
+  DAX Index: DAX Index
+  Defense of Marriage Act: Defense of Marriage Act
+  'Devotion by Design: Italian Altarpieces Before 1500': 'Devotion by Design: Italian
+    Altarpieces Before 1500'
+  Diwali Festival of Lights: Diwali Festival of Lights
+  Dodd-Frank Act: Dodd-Frank Act
+  Dollar: Dollar
+  Doryx: Doryx
+  DoubleLine Total Return Bond Fund: DoubleLine Total Return Bond Fund
+  Dow Jones Industrial Average: Dow Jones Industrial Average
+  "Dubai\u2019s DFM General Index": "Dubai\u2019s DFM General Index"
+  ESPN Radio: ESPN Radio
+  Emerging Market Stocks: Emerging Market Stocks
+  Entombment: Entombment
+  Euro: Italian Bonds
+  Expresso: Expresso
+  FTSE 100: FTSE 100
+  FTSE 100 Index: FTSE 100 Index
+  FTSE All-Share Index: FTSE All-Share Index
+  FTSE Bursa Malaysia KLCI Index: FTSE Bursa Malaysia KLCI Index
+  FTSE/JSE Africa All-Share Index: FTSE/JSE Africa All-Share Index
+  'Fallout: New Vegas': 'Fallout: New Vegas'
+  FarmVille: FarmVille
+  Fireman Sam: Fireman Sam
+  French bonds: Spanish bonds
+  Fuore Rosso 2009: Fuore Rosso 2009
+  GSessions: GSessions
+  Gabriel Connection Technology: Gabriel Connection Technology
+  Galaxy II S: Galaxy II S
+  Galaxy S: Galaxy S
+  Galaxy S III: Galaxy S III
+  Galaxy S smartphone: Galaxy S smartphone
+  Gold: Dollar
+  Google Books: Google Books
+  Google Play: Google Play
+  Google+: Google+
+  Gran Turismo 5: Gran Turismo 5
+  HK$7.51: HK$7.51
+  HTC Flyer: HTC Flyer
+  Hang Seng China Enterprises Index: Hang Seng China Enterprises Index
+  Hang Seng Index: Hang Seng Index
+  Harry Potter and the Deathly Hallows: Harry Potter and the Deathly Hallows
+  High Roller: High Roller
+  Hollingsworth v. Perry: United States v. Windsor
+  House of Cards: House of Cards
+  Huarong bonds: Huarong bonds
+  Hysan Place: Hysan Place
+  IBEX 35: IBEX 35
+  ISE National 100 Index: ISE National 100 Index
+  IShares MSCI Emerging Markets Index: IShares MSCI Emerging Markets Index
+  "India\u2019s Sensex Index": "India\u2019s Sensex Index"
+  Indonesian rupiah: Indonesian rupiah
+  Instagram: Instagram
+  Italian Bonds: Italian Bonds
+  Italie 2: Italie 2
+  Jambox: Big Jambox
+  Java: Android
+  Joe Fresh: Joe Fresh
+  K900: K900
+  KBW Bank Index: KBW Bank Index
+  Keystone pipeline: Keystone pipeline
+  Kidshape: Kidshape
+  Kindle Fire: Kindle Fire
+  Kinect: Kinect
+  Knox: Knox
+  Kospi Index: Kospi Index
+  Kratos 2010: Kratos 2010
+  Legg Mason Capital Management Opportunity Trust: Legg Mason Capital Management Opportunity
+    Trust
+  Legg Mason Value Trust: Legg Mason Value Trust
+  Linq: Linq
+  MSCI All-Country World Index: MSCI All-Country World Index
+  MSCI BRIC Index: MSCI BRIC Index
+  MSCI Emerging Markets Index: MSCI Emerging Markets Index
+  MSCI World Index: MSCI World Index
+  Mac: iCloud
+  MagFS: MagFS
+  Mario franchise: Mario franchise
+  Matrix: Matrix
+  Medal of Honor: Medal of Honor
+  Mexico IPC Index: Mexico IPC Index
+  Micex Index: Micex Index
+  Microsoft Windows: Microsoft Windows
+  Money Market Stress: Money Market Stress
+  Money Smart: Money Smart
+  Morgan Stanley Cyclical Index: Morgan Stanley Cyclical Index
+  Moto X: Moto X
+  Move: Move
+  MyFordTouch: MyFordTouch
+  N8: N8
+  NAND flash chips: NAND flash chips
+  NBA 2K11: NBA 2K11
+  NT$75.4: NT$75.4
+  NZX 50 Index: NZX 50 Index
+  Nexus S: Nexus S
+  Nikkei 225: Nikkei 225
+  Nikkei 225 Stock Average: Nikkei 225 Stock Average
+  Nintendo DS: Nintendo DS
+  Nokia 9000: Simon phone
+  Nokia Lumia 1020: Nokia Lumia 1020
+  Nook: Nook
+  Operation Eagle Claw: Operation Eagle Claw
+  Operation Neptune Spear: Operation Neptune Spear
+  Orkut: Google+
+  PARKnSHOP: PARKnSHOP
+  "Pakistan\u2019s KSE 100 Index": "Pakistan\u2019s KSE 100 Index"
+  PalmPilot: PalmPilot
+  Panama Canal: Panama Canal
+  Peppa Pig: Bob the Builder
+  Personal File: Bootleg Volume II
+  Plants vs. Zombies: Plants vs. Zombies
+  PlayBook: PlayBook
+  PlayStation 3: PlayStation 3
+  PlayStation 4: PlayStation 4
+  "Poland\u2019s WIG20 Index": "Poland\u2019s WIG20 Index"
+  Proposition 8: Proposition 8
+  Pulp Fiction: Pulp Fiction
+  QNX: QNX
+  RedQ: RedQ
+  Redbox: Redbox
+  Retail Sales: Retail Sales
+  Romanian leu: Romanian leu
+  Rookie Blue: Rookie Blue
+  Rubber Drops: Rubber Drops
+  Rupee: Rupee
+  Russian ruble: Russian ruble
+  "Russia\u2019s Micex": "Russia\u2019s Micex"
+  S&P 500: S&P 500
+  S&P 500 Media Index: S&P 500 Media Index
+  S&P GSCI: S&P GSCI
+  S&P GSCI Index: S&P GSCI Index
+  S&P/ASX 200: S&P/ASX 200
+  S&P/Case-Shiller index: S&P/Case-Shiller index
+  SeLoger.com: SeLoger.com
+  Secure-Enhanced Android: Secure-Enhanced Android
+  Self-Driving Vehicles: Self-Driving Vehicles
+  Shanghai Composite Index: Shanghai Composite Index
+  Simon phone: Simon phone
+  South Korean won: South Korean won
+  Spanish Bonds: Italian Bonds
+  Spanish bonds: Spanish bonds
+  Spotify: Spotify
+  "Standard & Poor\u2019s 500 Index": "Standard & Poor\u2019s 500 Index"
+  "Standard & Poor\u2019s GSCI Natural Gas Index": "Standard & Poor\u2019s GSCI Natural\
+    \ Gas Index"
+  "Standard & Poor\u2019s GSCI Total Return Index": "Standard & Poor\u2019s GSCI Total\
+    \ Return Index"
+  Stocks: Treasuries
+  Stoxx Europe 600 Index: Stoxx Europe 600 Index
+  Super Cruise: Super Cruise
+  Symbian 3: Symbian 3
+  Sync: Sync
+  TA-25: TA-25
+  TLOxp: AutoTrack
+  Telepresence: Telepresence
+  The Bang Years 1966-1968: The Bang Years 1966-1968
+  The Best Chocolate Cake in the World: The Best Chocolate Cake in the World
+  The Cookbook Collector: The Cookbook Collector
+  "The Freewheelin\u2019 Bob Dylan": "The Freewheelin\u2019 Bob Dylan"
+  The Innocence of Islam: The Innocence of Islam
+  The New Digital Age: The New Digital Age
+  The Social Network: The Social Network
+  'Through American Eyes: Frederic Church and the Landscape Oil Sketch': 'Through
+    American Eyes: Frederic Church and the Landscape Oil Sketch'
+  Topix Index: Topix Index
+  Trading Post: Trading Post
+  Treasuries: Treasuries
+  "Turkey\u2019s Istanbul Stock Exchange National 100 Index": "Turkey\u2019s Istanbul\
+    \ Stock Exchange National 100 Index"
+  Twilight: Twilight
+  Tyrannosaurus rex: Tyrannosaurus rex
+  U.S. Stocks: U.S. Stocks
+  U.S. economy: U.S. economy
+  U.S. personal spending: U.S. personal spending
+  U.S. stocks: "Standard & Poor\u2019s 500 Index"
+  Unified Communications Manager: Unified Communications Manager
+  United States v. Windsor: United States v. Windsor
+  VIX Tumbles Most in 19 Years as Profits Calm Equities: VIX Tumbles Most in 19 Years
+    as Profits Calm Equities
+  Vanguard MSCI Emerging Markets ETF: Vanguard MSCI Emerging Markets ETF
+  Villa Matilde Falanghina 2010: Villa Matilde Falanghina 2010
+  Virgin and Child: Virgin of the Rocks
+  Virgin of the Rocks: Virgin of the Rocks
+  Visao: Expresso
+  Volatility: Volatility
+  WebOS: WebOS
+  Weibo: Weibo
+  Wii: Wii
+  Windows: Windows
+  Windows 7: Windows 7
+  Windows 8: Windows 8
+  Windows Phone 7: Windows Phone 7
+  Windows Phone 8: Windows Phone 8
+  Winnie-the-Pooh: Winnie-the-Pooh
+  XBox One: XBox One
+  Xbox: Xbox
+  Xbox 360: Nintendo DS
+  Xoom tablet: Xoom tablet
+  Xperia smartphones: Xperia smartphones
+  Yacktman Focused Fund: Yacktman Focused Fund
+  Yasmin: Yasmin
+  Yen: Rubber Drops
+  YouTube: YouTube
+  YouView: YouView
+  Youku: Weibo
+  Zegerid: Zegerid
+  dynamic random access memory chips: dynamic random access memory chips
+  euro: euro
+  i: i
+  iCloud: iCloud
+  iHeart Radio: iHeart Radio
+  iOS: iOS
+  iOS 6: iOS 6
+  iPad: iPad
+  iPad 2 3G: iPad 2 3G
+  iPad 3G: iPhone 3GS
+  iPad2: iPad2
+  iPhone: iPhone
+  iPhone 3G: iPhone 3GS
+  iPhone 3GS: iPhone 3GS
+  iPhone 4: iPad 2 3G
+  iPhone 4S: iPhone 4S
+  iPhone 5: iPhone 5
+  iPhone 5c: iPhone 5c
+  iPhone 5s: iPhone 5s
+  iPhone4: iPhone4
+  iPod: iPod
+  iPod Touch: iPod Touch
+  iShares FTSE China 25 Index Fund: iShares FTSE China 25 Index Fund
+  iShares MSCI Emerging Markets Index: iShares MSCI Emerging Markets Index
+  iWatch: iWatch
+  linkomanija.net: linkomanija.net
+  pisco: pisco

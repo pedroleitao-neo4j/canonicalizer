@@ -1,0 +1,5 @@
+apicache/
+backup/
+.kg_cache
+*.log
+throttle.ctrl

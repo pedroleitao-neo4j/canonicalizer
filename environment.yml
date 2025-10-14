@@ -1,0 +1,25 @@
+name: canonicalizer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyter
+  - ipywidgets
+  - pip
+  - pip:
+    - langchain-neo4j
+    - langchain
+    - langchain-core
+    - langchain-ollama
+    - langchain-openai
+    - langchain-experimental
+    - langgraph
+    - langsmith
+    - rapidfuzz
+    - sentence-transformers
+    - rerankers
+    - requests
+    - datasets
+    - pywikibot
+    - pytest
+    - joblib
