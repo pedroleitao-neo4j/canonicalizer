@@ -3,3 +3,6 @@ backup/
 .kg_cache
 *.log
 throttle.ctrl
+canonical_map.yaml
+judge_results.csv
+__pycache__/

@@ -17,6 +17,11 @@ dependencies:
     - langsmith
     - rapidfuzz
     - sentence-transformers
+    - semchunk
+    - tiktoken
+    - pandas
+    - matplotlib
+    - seaborn
     - rerankers
     - requests
     - datasets
