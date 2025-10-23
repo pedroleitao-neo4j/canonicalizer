@@ -10,6 +10,8 @@ The Judge judges both **entities** (nodes) and **relationships** (edges) extract
 
 ![judge scoring](screenshots/judging.jpg)
 
+The models used for NLI judgment can be any of a variety of pretrained models fine-tuned for entailment tasks, such as FLAN-T5, DeBERTa-MNLI, or BART-MNLI. Depending on the model, it will have implicit world knowledge from pretraining on large corpora, but it will only make judgments based on the provided evidence text, not on memorized facts. Fine-tuning on domain-specific data can further improve performance.
+
 ## Background: The Precision–Recall Trade-off
 
 Achieving **high recall** in Entity–Relationship (E-R) extraction is essential to capture as many entities and relationships as possible. However, this goal is constrained by the **precision–recall trade-off** - pursuing higher recall typically reduces precision, introducing incorrect or spurious facts.
