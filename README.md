@@ -50,8 +50,7 @@ NLI models, on the other hand, act as **deterministic validators**, evaluating w
 
 Decoder-only LLMs (e.g., GPT, LLaMA) are **not designed to score their own outputs**. They generate text token-by-token, but they don’t produce a single probability representing the truth of a statement. While some APIs expose token-level log probabilities (`logprobs`), these are often unavailable or impractical for hosted models.
 
-To verify whether an extracted entity–relationship (E-R) claim is actually supported by evidence, we introduce a **Judge Model** -  
-a Natural Language Inference (NLI) model that deterministically evaluates *entailment*.
+To verify whether an extracted entity–relationship (E-R) claim is actually supported by evidence, we introduce a **Judge Model** - a Natural Language Inference (NLI) model that deterministically evaluates *entailment*.
 
 **Example:**
 
@@ -67,14 +66,13 @@ This approach enables:
 - **Quality control** - filters out unsupported or ambiguous E-R pairs before graph ingestion.  
 - **Balance** - complements high-recall LLM extraction with high-precision validation.
 
-> *Think of the Judge Model as the factual referee for your Knowledge*
+> *You can think of the Judge Model as the factual referee for your Knowledge Graph.*
 
 ## Models for NLI
 
-Natural Language Inference (NLI) models are designed to evaluate whether a **hypothesis** logically follows from a **premise**.  
-Unlike decoder-only LLMs, these models provide **deterministic, interpretable scores** (logits) representing *entailment*, *contradiction*, or *neutral* outcomes.
+Models capable of Natural Language Inference (NLI) are designed to evaluate whether a **hypothesis** logically follows from a **premise**. Unlike decoder-only LLMs, these models provide **deterministic, interpretable scores** (logits) representing *entailment*, *contradiction*, or *neutral* outcomes.
 
-They typically use **encoder–decoder** or **cross-encoder** architectures that process both the premise and hypothesis jointly, building a bi-directional representation before producing a prediction.
+They typically use **encoder–decoder** or **cross-encoder** [transformer](https://www.datacamp.com/tutorial/how-transformers-work) architectures that process both the premise and hypothesis jointly, building a bi-directional representation before producing a prediction.
 
 ### Key Characteristics
 
@@ -97,11 +95,11 @@ They typically use **encoder–decoder** or **cross-encoder** architectures that
 
 All of these are available on [Hugging Face](https://huggingface.co/models) and can be fine-tuned for domain-specific ER validation tasks.
 
-> ⚡ **Tip:** Pretrained NLI models can reach strong performance with minimal additional data - a few hundred labeled examples are often enough to adapt to your domain.
+> **Tip:** Pretrained NLI models can reach strong performance with minimal additional data - a few hundred labeled examples are often enough to adapt to your domain.
 
 ## Architecture Overview
 
-The system integrates **Large Language Models (LLMs)** and **Natural Language Inference (NLI)** models into a multi-stage pipeline for building clean, grounded Knowledge Graphs.
+The LangGraph pipeline we developed here integrates **Large Language Models (LLMs)** and **Natural Language Inference (NLI)** models into a multi-stage pipeline for building clean, grounded Knowledge Graphs.
 
 ### Pipeline Stages
 
