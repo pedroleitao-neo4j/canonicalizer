@@ -186,9 +186,11 @@ def setup_logging() -> logging.Logger:
     """
     Setup logging based on configuration.
     """
-    Path().parent.mkdir(parents=True, exist_ok=True)
+    log_file = os.getenv("KG_LOG_FILE", "out/kg_workflow.log")
+    log_path = Path(log_file)
+    log_path.parent.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(
-        filename=os.getenv("KG_LOG_FILE", "out/kg_workflow.log"),
+        filename=log_file,
         format=os.getenv("KG_LOG_FORMAT", "%(asctime)s %(levelname)s - %(message)s"),
         level=getattr(logging, os.getenv("KG_LOG_LEVEL", "DEBUG").upper(), logging.DEBUG),
         encoding="utf-8",
