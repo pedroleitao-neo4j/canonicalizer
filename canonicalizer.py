@@ -1,6 +1,5 @@
 # Cleaned & compact KG workflow
 from __future__ import annotations
-from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Dict, Any, TypedDict, Optional
 
@@ -8,8 +7,6 @@ import os
 import logging
 import json
 from dotenv import load_dotenv, find_dotenv
-
-from joblib import Memory
 
 import pandas as pd
 

@@ -302,7 +302,7 @@ KG_LOG_FORMAT=%(asctime)s %(levelname)s - %(message)s
 
 ```
 
-Note this code was developed and tested on Linux with an NVIDIA GPU and CUDA. It should work as is on a Mac with an M1/M2 chip, but performance may vary. Once you have run the pipeline, look at the `judge_stats.ipynb` notebook to see relevant stats and visualizations of the judged entities and relationships, and you can explore your judged graph in the configured Neo4j instance.
+Note this code was developed and tested on Linux with an NVIDIA GPU and CUDA. It should work as is on a Mac with an M1/M2 chip, but performance will be slow, especially if you have <= 32GB of RAM/NVRAM - this is not a reflection of the model or the code. In a properly sized production environment this will be orders of magnitude faster. Once you have run the pipeline, look at the `judge_stats.ipynb` notebook to see relevant stats and visualizations of the judged entities and relationships, and you can explore your judged graph in the configured Neo4j instance.
 
 Computed statistics and visualizations include the distribution of judge scores for entities and relationships, examples of high-and low-confidence facts, allowing you to evaluate the overall performance of both your LLM extraction as well as the Judge Model.
 
