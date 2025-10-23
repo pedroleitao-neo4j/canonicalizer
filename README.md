@@ -12,8 +12,7 @@ The Judge judges both **entities** (nodes) and **relationships** (edges) extract
 
 ## Background: The Precision–Recall Trade-off
 
-Achieving **high recall** in Entity–Relationship (E-R) extraction is essential to capture as many entities and relationships as possible.  
-However, this goal is constrained by the **precision–recall trade-off** - pursuing higher recall typically reduces precision, introducing incorrect or spurious facts.
+Achieving **high recall** in Entity–Relationship (E-R) extraction is essential to capture as many entities and relationships as possible. However, this goal is constrained by the **precision–recall trade-off** - pursuing higher recall typically reduces precision, introducing incorrect or spurious facts.
 
 A key challenge in information extraction is to balance **completeness** (recall) and **accuracy** (precision) so that the resulting knowledge graph is both **trustworthy** and **useful**.
 
@@ -47,9 +46,7 @@ NLI models, on the other hand, act as **deterministic validators**, evaluating w
 
 ## Why a Judge Model
 
-Decoder-only LLMs (e.g., GPT, LLaMA) are **not designed to score their own outputs**.  
-They generate text token-by-token, but they don’t produce a single probability representing the truth of a statement.  
-While some APIs expose token-level log probabilities (`logprobs`), these are often unavailable or impractical for hosted models.
+Decoder-only LLMs (e.g., GPT, LLaMA) are **not designed to score their own outputs**. They generate text token-by-token, but they don’t produce a single probability representing the truth of a statement. While some APIs expose token-level log probabilities (`logprobs`), these are often unavailable or impractical for hosted models.
 
 To verify whether an extracted entity–relationship (E-R) claim is actually supported by evidence, we introduce a **Judge Model** -  
 a Natural Language Inference (NLI) model that deterministically evaluates *entailment*.
@@ -141,9 +138,7 @@ flowchart LR
 
 The code in this repository is intended to demonstrate the concepts presented in the "Clean Knowledge Graphs with a Judge Model" talk, providing a starting point for building your own knowledge graph extraction and validation pipelines. The main re-usable components are the `t5_judge` and `deberta_judge` modules, which implement the Judge Model functionality using FLAN-T5 and DeBERTa-MNLI, respectively. You can adapt these modules to fit your specific use case, fine-tune them on your domain data, and integrate them into your knowledge graph construction workflows.
 
-Note that `t5_judge` is much more capable even without much fine-tuning, while `deberta_judge` is lighter and faster but will likely require more domain-specific training data to achieve similar performance.
-
-The fastest way to understand and experiment with the pipeline, is just to run it end-to-end on the provided sample documents:
+Note that `t5_judge` is much more capable even without much fine-tuning, while `deberta_judge` is lighter and faster but will likely require more domain-specific training data to achieve similar performance. The fastest way to understand and experiment with the pipeline, is just to run it end-to-end on the provided sample documents:
 
 ```bash
 conda env create -f environment.yml
@@ -240,6 +235,4 @@ KG_LOG_FORMAT=%(asctime)s %(levelname)s - %(message)s
 
 ```
 
-Note this code was developed and tested on Linux with an NVIDIA GPU. It should work as is on a Mac with an M1/M2 chip, but performance may vary.
-
-Once you have run the pipeline, look at the `judge_stats.ipynb` notebook to see relevant stats and visualizations of the judged entities and relationships.
+Note this code was developed and tested on Linux with an NVIDIA GPU. It should work as is on a Mac with an M1/M2 chip, but performance may vary. Once you have run the pipeline, look at the `judge_stats.ipynb` notebook to see relevant stats and visualizations of the judged entities and relationships, and you can explore your graph in the configured Neo4j instance.
