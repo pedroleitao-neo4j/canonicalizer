@@ -21,20 +21,43 @@ Once judged, the scored knowledge graph can be further processed to **filter out
 Besides filtering, the scored facts can also be used to **prioritize human review** of uncertain or borderline cases, enabling efficient **human-in-the-loop validation workflows**. They can also be used as **candidates for further fine-tuning** of the judge model itself, or for **weighting facts in downstream reasoning or analytics**.
 
 ```mermaid
+%%{init: {
+  "theme": "neutral",
+  "themeVariables": {
+    "primaryColor": "#EAF5F2",
+    "primaryBorderColor": "#00796B",
+    "primaryTextColor": "#004D40",
+    "edgeLabelBackground":"#FFFFFF",
+    "fontSize": "14px",
+    "fontFamily": "Inter, Helvetica, sans-serif"
+  }
+}}%%
 flowchart LR
-    JM[Judge Model] --> J
-    J[Judged Knowledge Graph] --> F[Filter low-confidence facts]
-    J --> H[Prioritize human review of borderline cases]
-    J --> G[Grounding / disambiguation]
-    J --> T[Candidates for judge fine-tuning]
-    J --> W[Weighted reasoning / analytics]
+    %% Core loop
+    JM([Judge Model]):::core --> J[[Judged Knowledge Graph]]
 
-    G --> KB[External Knowledge Base linking]
+    %% Main branches
+    J --> F[Filter<br>low-confidence facts]
+    J --> H[Prioritize<br>human review]
+    J --> G[Grounding /<br>disambiguation]
+    J --> T[Candidates for<br>fine-tuning]
+    J --> W[Weighted reasoning /<br>analytics]
+
+    %% Downstream & loopback
+    G --> KB[External KB linking]
     F --> C[Cleaned facts]
     H --> Q[Human-in-the-loop QA queue]
     W --> A[Downstream apps, agents, analytics]
     T --> M[Fine-tuned Judge Model]
     M --> JM
+
+    %% Grouping & style classes
+    classDef core fill:#C8E6C9,stroke:#388E3C,stroke-width:2px,color:#1B5E20;
+    classDef process fill:#E8F5E9,stroke:#4CAF50,stroke-width:1.5px;
+    classDef output fill:#F1F8E9,stroke:#8BC34A,stroke-width:1.5px,color:#33691E;
+    class JM,J core;
+    class J,F,H,G,T,W,M process;
+    class C,Q,A,KB output;
 ```
 
 ## Background: The Precision–Recall Trade-off
