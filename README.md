@@ -131,7 +131,7 @@ flowchart LR
 - **Extensible** - can support additional grounding sources beyond Wikipedia.  
 - **Trusted output** - produces graphs suitable for downstream AI reasoning and compliance contexts.
 
-## How to use this codebase
+## How to use this codebase
 
 The code in this repository is intended to demonstrate the concepts presented in the "Clean Knowledge Graphs with a Judge Model" talk, providing a starting point for building your own knowledge graph extraction and validation pipelines. The main re-usable components are the `t5_judge` and `deberta_judge` modules, which implement the Judge Model functionality using FLAN-T5 and DeBERTa-MNLI, respectively. You can adapt these modules to fit your specific use case, fine-tune them on your domain data, and integrate them into your knowledge graph construction workflows.
 
