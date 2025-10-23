@@ -8,7 +8,7 @@ import torch
 from textwrap import dedent
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, BitsAndBytesConfig
 
-DEFAULT_MODEL = os.getenv("MODEL", "google/flan-t5-xl")
+DEFAULT_MODEL = os.getenv("KG_JUDGE_MODEL", "google/flan-t5-xxl")
 DEFAULT_LABELS = ("entailment", "contradiction", "neutral")
 
 @dataclass(frozen=True)

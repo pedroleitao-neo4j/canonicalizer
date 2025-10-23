@@ -26,7 +26,7 @@ from deberta_judge.judge import DebertaJudge
 
 @dataclass(frozen=True)
 class JudgeValidatorConfig:
-    model_name: str = "google/flan-t5-large"
+    model_name: str = "google/flan-t5-xxl"
     device: Optional[str] = None
     action: str = "filter"           # 'filter' | 'annotate'
     batch_size: int = 16

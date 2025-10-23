@@ -5,7 +5,7 @@ from typing import Dict, List, Sequence, Tuple
 import os, time, torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-DEFAULT_MODEL = os.getenv("MODEL", "microsoft/deberta-v2-xxlarge-mnli")
+DEFAULT_MODEL = os.getenv("KG_JUDGE_MODEL", "microsoft/deberta-v2-xxlarge-mnli")
 DEFAULT_LABELS = ("entailed", "contradicted", "unknown")
 
 @dataclass(frozen=True)
