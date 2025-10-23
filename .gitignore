@@ -1,8 +1,10 @@
 apicache/
 backup/
+out/
 .kg_cache
+.env
 *.log
 throttle.ctrl
 canonical_map.yaml
 judge_results.csv
-__pycache__/
+**/__pycache__/

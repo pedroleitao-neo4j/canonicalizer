@@ -5,7 +5,7 @@ from typing import Dict, List, Sequence, Tuple
 import os, time, torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-DEFAULT_MODEL = os.getenv("MODEL", "khalidalt/DeBERTa-v3-large-mnli")
+DEFAULT_MODEL = os.getenv("MODEL", "microsoft/deberta-v2-xxlarge-mnli")
 DEFAULT_LABELS = ("entailed", "contradicted", "unknown")
 
 @dataclass(frozen=True)
@@ -45,7 +45,7 @@ class DebertaJudge:
         )
         self.model.to(device).eval()
 
-        # --- label mapping ---
+        # label mapping
         id2label = {int(k): v.lower() for k, v in self.model.config.id2label.items()}
         label2id = {v: k for k, v in id2label.items()}
         self.idx_entail = label2id.get("entailment")
@@ -140,6 +140,7 @@ def main():
         ("Paris is the capital of France.", "Paris is the capital of Germany."),
         ("Microsoft acquired GitHub in 2018.", "GitHub was acquired by Microsoft."),
         ("The square root of 16 is 4.", "The square root of 16 is 5."),
+        ("Mount Everest is the highest mountain on Earth.", "Mount Everest is in Asia."),
     ] * 8
 
     print("\nWarmup...")
@@ -153,8 +154,13 @@ def main():
     print(f"  micro-batch (bs=1):  {t_micro:.3f}s  →  {(len(pairs)/t_micro):.2f} samples/s")
     print(f"  batched     (bs=32): {t_batch:.3f}s  →  {(len(pairs)/t_batch):.2f} samples/s")
 
-    res = judge.judge_claim(*pairs[0])
-    print(f"\nExample result:\n  probs={res.probs}\n  truth_score={res.truth_score:+.3f}")
+    # Print results for each pair
+    print("\nSample results:")
+    results = judge.batch_judge_claims(pairs, batch_size=4)
+    for (premise, hypothesis), result in zip(pairs, results):
+        print(f"Premise:   {premise}")
+        print(f"Hypothesis:{hypothesis}")
+        print(f"Result:    {result.probs}, truth_score={result.truth_score:.4f}\n")
 
 
 if __name__ == "__main__":

@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 from dataclasses import dataclass
-from typing import Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import Dict, List, Optional, Sequence, Tuple
 import os, time
+import logging
 import torch
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from textwrap import dedent
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, BitsAndBytesConfig
 
-DEFAULT_MODEL = os.getenv("MODEL", "google/flan-t5-small")
-DEFAULT_LABELS = ("entailed", "contradicted", "unknown")
+DEFAULT_MODEL = os.getenv("MODEL", "google/flan-t5-xl")
+DEFAULT_LABELS = ("entailment", "contradiction", "neutral")
 
 @dataclass(frozen=True)
 class JudgeResult:
@@ -24,10 +26,16 @@ class EntityTypeResult:
 class T5Judge:
     """Deterministic label scorer using FLAN-T5, batched for GPU throughput."""
 
-    def __init__(self, model_name=DEFAULT_MODEL, device=None, torch_dtype=None,
+    def __init__(self,
+                 model_name="google/flan-t5-xxl",
+                 device: Optional[str] = None,
+                 torch_dtype=None,
                  max_enc_len: Optional[int] = None,
                  prompt_overhead: int = 96,
-                 evidence_ratio: float = 0.8):
+                 evidence_ratio: float = 0.8,
+                 logger: Optional[logging.Logger] = None,
+                 quantize: bool = False,
+                 qbits: int = 8):   # 8 or 4
         if device is None:
             if torch.cuda.is_available():
                 device = "cuda"
@@ -36,23 +44,63 @@ class T5Judge:
             else:
                 device = "cpu"
         self.device = device
+        self.logger = logger or logging.getLogger("t5_judge")
 
+        # tokenizer
         self.tok = AutoTokenizer.from_pretrained(model_name)
         if self.tok.pad_token is None:
+            # T5 uses </s> as both EOS & PAD in many checkpoints
             self.tok.pad_token = self.tok.eos_token
 
-        self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name, torch_dtype=torch_dtype)
-        self.model.to(self.device).eval()
+        # model (quantized if requested & on CUDA)
+        use_bnb = bool(quantize and device == "cuda")
+        device_map = "auto" if use_bnb else None  # let HF place quantized weights
 
+        if use_bnb:
+            if qbits == 8:
+                bnb_config = BitsAndBytesConfig(load_in_8bit=True)
+            elif qbits == 4:
+                bnb_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_quant_type="nf4",
+                    bnb_4bit_use_double_quant=True,
+                    bnb_4bit_compute_dtype=torch.float16,  # good for RTX 3090
+                )
+            else:
+                raise ValueError("qbits must be 4 or 8")
+
+            # torch_dtype is optional for 8-bit; for 4-bit compute dtype set above
+            self.model = AutoModelForSeq2SeqLM.from_pretrained(
+                model_name,
+                quantization_config=bnb_config,
+                device_map=device_map,
+                torch_dtype=torch_dtype
+            )
+        else:
+            # non-quantized path (CPU, MPS, or CUDA fp16/bf16)
+            self.model = AutoModelForSeq2SeqLM.from_pretrained(
+                model_name,
+                torch_dtype=torch_dtype
+            )
+            self.model.to(self.device)
+
+        self.model.eval()
+
+        # Ensure generation config has sane IDs
+        gc = self.model.generation_config
+        if gc.pad_token_id is None:
+            gc.pad_token_id = self.tok.pad_token_id
+        if gc.eos_token_id is None:
+            gc.eos_token_id = self.tok.eos_token_id
+
+        # caches / knobs
         self._label_cache: Dict[Tuple[str, ...], Tuple[torch.Tensor, torch.Tensor]] = {}
         self._amp_dtype = torch_dtype if (self.device == "cuda" and torch_dtype in (torch.float16, torch.bfloat16)) else None
-
-        # --- guardrail knobs ---
-        self._enc_max_len_cfg = max_enc_len  # if None, auto-detect
+        self._enc_max_len_cfg = max_enc_len
         self._prompt_overhead = int(max(0, prompt_overhead))
         self._evidence_ratio = float(min(max(evidence_ratio, 0.0), 1.0))
 
-    # ---- guardrail helpers ----
+    # guardrail helpers
     def _enc_max_len(self) -> int:
         # Try model config first, then tokenizer, then fall back to 512.
         for k in ("n_positions", "max_position_embeddings"):
@@ -78,7 +126,7 @@ class T5Judge:
             return text
         return self.tok.decode(ids[:max_tokens], skip_special_tokens=True).strip()
 
-    # ---- internals ----
+    # internals
     def _build_prompt(self, evidence: str, fact: str, labels: Sequence[str]) -> str:
         # labels expected like ("entailed", "contradicted", "unknown")
         if len(labels) != 3:
@@ -93,14 +141,34 @@ class T5Judge:
         ev_trunc = self._truncate_by_tokens(evidence, ev_budget)
         fa_trunc = self._truncate_by_tokens(fact, fa_budget)
 
-        return (
-            "Natural Language Inference.\n"
-            f"Premise: {ev_trunc}\n"
-            f"Hypothesis: {fa_trunc}\n"
-            "Task: Decide if the hypothesis is entailed by the premise.\n"
-            f"Labels: {labels[0]} (entailed), {labels[1]} (contradicted), {labels[2]} (unknown)\n"
-            "Answer:"
+        few_shot = dedent("""\
+        premise: Paris is the capital of France.
+        hypothesis: Paris is a city.
+        Does the premise entail the hypothesis? Answer with one of: entailment, contradiction, neutral.
+        answer: entailment
+        
+        premise: The Nile is the longest river in the world.
+        hypothesis: The Nile is an organization.
+        Does the premise entail the hypothesis? Answer with one of: entailment, contradiction, neutral.
+        answer: contradiction
+        
+        premise: The shop was doing a promotion on Apple.
+        hypothesis: Apple is a product.
+        Does the premise entail the hypothesis? Answer with one of: entailment, contradiction, neutral.
+        answer: neutral
+        """)
+        
+        prompt = (
+            few_shot.strip() +"\n\n"
+            f"premise: {ev_trunc}\n"
+            f"hypothesis: {fa_trunc}\n"
+            f"Does the premise entail the hypothesis? Answer with one of: {labels[0]}, {labels[1]}, {labels[2]}.\n"
+            "answer:"
         )
+
+        self.logger.debug("Built prompt (len=%d tokens): %s", self._tok_len(prompt), prompt)
+
+        return prompt
 
     def _prepare_label_tensors(self, labels: Sequence[str]) -> Tuple[torch.Tensor, torch.Tensor]:
         key = tuple(labels)
@@ -172,12 +240,12 @@ class T5Judge:
         ll_matrix = seq_ll.view(B, L)
         return torch.softmax(ll_matrix, dim=1)
 
-    # Public API (unchanged except for named args to _build_prompt)
+    # Public API
     def judge_claim(self, evidence, fact, labels=DEFAULT_LABELS):
         probs_mat = self._label_probs_batched([self._build_prompt(evidence=evidence, fact=fact, labels=labels)], labels)
         row = probs_mat[0].tolist()
         probs = {lbl: float(p) for lbl, p in zip(labels, row)}
-        return JudgeResult(tuple(labels), probs, probs.get("entailed", 0) - probs.get("contradicted", 0))
+        return JudgeResult(tuple(labels), probs, probs.get(labels[0], 0) - probs.get(labels[1], 0))
 
     def batch_judge_claims(self, pairs, labels=DEFAULT_LABELS, batch_size=32):
         results, batch = [], []
@@ -187,7 +255,7 @@ class T5Judge:
             probs_mat = self._label_probs_batched(prompts, labels)
             for row in probs_mat.detach().cpu().tolist():
                 probs = {lbl: float(p) for lbl, p in zip(labels, row)}
-                results.append(JudgeResult(tuple(labels), probs, probs.get("entailed", 0) - probs.get("contradicted", 0)))
+                results.append(JudgeResult(tuple(labels), probs, probs.get(labels[0], 0) - probs.get(labels[1], 0)))
         for ev, fa in pairs:
             batch.append((ev, fa))
             if len(batch) >= batch_size:
@@ -227,6 +295,7 @@ def main():
         ("Paris is the capital of France.", "Paris is the capital of Germany."),
         ("Microsoft acquired GitHub in 2018.", "GitHub was acquired by Microsoft."),
         ("The square root of 16 is 4.", "The square root of 16 is 5."),
+        ("Mount Everest is the highest mountain on Earth.", "Mount Everest is in Asia."),
     ] * 8  # repeat to simulate ~50 examples
 
     print("\nWarmup...")
@@ -240,9 +309,13 @@ def main():
     print(f"  micro-batch (bs=1):  {t_micro:.3f}s  →  {(len(pairs)/t_micro):.2f} samples/s")
     print(f"  batched     (bs=32): {t_batch:.3f}s  →  {(len(pairs)/t_batch):.2f} samples/s")
 
-    # Quick sanity check
-    res = judge.judge_claim(*pairs[0])
-    print(f"\nExample result:\n  probs={res.probs}\n  truth_score={res.truth_score:+.3f}")
+    # Print results for each pair
+    print("\nSample results:")
+    results = judge.batch_judge_claims(pairs, batch_size=4)
+    for (premise, hypothesis), result in zip(pairs, results):
+        print(f"Premise:   {premise}")
+        print(f"Hypothesis:{hypothesis}")
+        print(f"Result:    {result.probs}, truth_score={result.truth_score:.4f}\n")
 
 if __name__ == "__main__":
     torch.set_grad_enabled(False)

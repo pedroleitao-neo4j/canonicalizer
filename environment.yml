@@ -7,6 +7,9 @@ dependencies:
   - ipywidgets
   - pip
   - pip:
+    - accelerate
+    - dedent
+    - bitsandbytes
     - langchain-neo4j
     - langchain
     - langchain-core
@@ -17,9 +20,14 @@ dependencies:
     - langsmith
     - rapidfuzz
     - sentence-transformers
+    - sentencepiece
     - semchunk
+    - scikit-learn
     - tiktoken
     - pandas
+    - python-dotenv
+    - plotly
+    - protobuf
     - matplotlib
     - seaborn
     - rerankers

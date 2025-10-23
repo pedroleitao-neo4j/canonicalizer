@@ -13,23 +13,20 @@ from kg_utils import slugify, get_attr as _get
 @dataclass(frozen=True)
 class DocChunkerConfig:
     # ~1KB target by default (≈256 tokens @ ~4 chars/token)
-    target_bytes_default: int = 1024
+    target_bytes: int = 1024
     # if None, we’ll try to infer from your OpenAI model; else use this tiktoken encoding
     tiktoken_encoding: Optional[str] = None       # e.g. "o200k_base" or "cl100k_base"
     # when model name is available (from your main), we try encoding_for_model first
     openai_model_hint: Optional[str] = None
     # default overlap as a fraction of chunk_size_tokens
-    default_overlap_frac: float = 0.10
+    overlap_frac: float = 0.10
     # logger
     logger: Optional[logging.Logger] = None
 
 class DocChunker:
     """
     Splits state['docs'] into semantically-meaningful chunks with semchunk.
-    Reads per-run overrides from state:
-      - chunk_target_bytes
-      - chunk_size_tokens
-      - chunk_overlap_tokens
+    
     Returns {'docs': chunked_docs} replacing the input doc list.
     """
 
@@ -42,11 +39,9 @@ class DocChunker:
         token_counter = self._get_token_counter()
 
         # size & overlap (allow per-run overrides from state)
-        target_bytes = int(state.get("chunk_target_bytes") or self.cfg.target_bytes_default)
-        chunk_size_tokens = int(state.get("chunk_size_tokens") or max(1, target_bytes // 4))
-        overlap_tokens = state.get("chunk_overlap_tokens")
-        if overlap_tokens is None:
-            overlap_tokens = max(1, int(self.cfg.default_overlap_frac * chunk_size_tokens))
+        target_bytes = self.cfg.target_bytes
+        chunk_size_tokens = max(1, target_bytes // 4)
+        overlap_tokens = max(1, int(self.cfg.overlap_frac * chunk_size_tokens))
 
         # build semchunk chunker
         try:

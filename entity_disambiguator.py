@@ -24,6 +24,7 @@ class EntityDisambiguatorConfig:
     threshold: float = 0.85
     include_snippet: bool = False
     default_labels: List[str] = field(default_factory=lambda: ["Product"])
+    disambiguate_labels: List[str] = field(default_factory=lambda: [])
     write_yaml: bool = True            # write canonical_map.yaml
     auto_release_cuda: bool = True
     logger: Optional[logging.Logger] = None
@@ -47,7 +48,7 @@ class EntityDisambiguator:
 
     # LangGraph node
     def __call__(self, state: Dict[str, Any]) -> Dict[str, Any]:
-        labels = state.get("disambiguate_labels") or self.cfg.default_labels
+        labels = self.cfg.disambiguate_labels or self.cfg.default_labels
         threshold = float(state.get("disambiguation_threshold") or self.cfg.threshold)
         self.logger.info("Disambiguation start: labels=%s threshold=%.2f", labels, threshold)
 

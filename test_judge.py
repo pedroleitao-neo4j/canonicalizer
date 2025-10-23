@@ -10,7 +10,7 @@ print(f"Evidence (entailed): {evidence_ent}")
 print(f"Evidence (contradicted): {evidence_con}")
 print(f"Evidence (unknown): {evidence_unk}")
 
-judge = T5Judge(model_name="google/flan-t5-xl")
+judge = T5Judge(model_name="google/flan-t5-xxl", quantize=True, qbits=8)
 result_ent = judge.judge_claim(evidence_ent, fact)
 print(result_ent)
 result_con = judge.judge_claim(evidence_con, fact)

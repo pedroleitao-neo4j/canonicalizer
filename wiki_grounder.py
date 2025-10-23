@@ -1,13 +1,14 @@
 # wiki_grounder.py
 from __future__ import annotations
 from dataclasses import dataclass
-from typing import Any, Dict, List, Optional, Sequence, Tuple
+from typing import Any, Dict, List, Optional
+from dataclasses import field
 import logging
 import re
+import os
 import difflib
 import html
 
-from functools import lru_cache
 from joblib import Memory
 from tqdm.auto import tqdm
 
@@ -51,8 +52,14 @@ DEFAULT_WIKI_CATEGORY: Dict[str, str] = {
 class WikipediaGrounderConfig:
     cache_dir: str = ".kg_cache"
     user_agent: str = "PedroSearchBot/1.0"
-    reranker_model: Optional[str] = "mixedbread-ai/mxbai-rerank-base-v1"
-    log: Optional[logging.Logger] = None
+    ground_labels: List[str] = field(default_factory=lambda: ["Organization", "Product"])
+    wiki_lang: str = "en"
+    wiki_search_k: int = 5
+    wiki_match_threshold: float = 0.9
+    wiki_use_deepcat: bool = False
+    wiki_query_hints: Dict[str, str] = field(default_factory=dict)
+    reranker_model: str = "mixedbread-ai/mxbai-rerank-base-v1"
+    logger: Optional[logging.Logger] = None
 
 # Main class
 
@@ -67,7 +74,7 @@ class WikipediaGrounder:
 
     def __init__(self, cfg: WikipediaGrounderConfig):
         self.cfg = cfg
-        self.logger = cfg.log or logging.getLogger("wiki_grounder")
+        self.logger = cfg.logger or logging.getLogger("wiki_grounder")
         self.memory = Memory(location=cfg.cache_dir, verbose=0)
 
         # Lazily wrap impl functions with joblib cache so we keep clean method signatures
@@ -86,19 +93,18 @@ class WikipediaGrounder:
         # Make pywikibot happy for read-only ops
         pywikibot.config.user_agent = cfg.user_agent
         # Avoid requiring a user-config file
-        import os
         os.environ.setdefault("PYWIKIBOT_NO_USER_CONFIG", "1")
 
     # Public entrypoint (LangGraph node)
 
     def __call__(self, state: Dict[str, Any]) -> Dict[str, Any]:
         """Grounds nodes in state['graph_docs'] using the Wikipedia API."""
-        labels = state.get("ground_labels") or ["Organization", "Product"]
-        lang = state.get("wiki_language") or "en"
-        k = int(state.get("wiki_search_k") or 5)
-        use_deepcat = bool(state.get("wiki_use_deepcat") or False)
-        threshold = float(state.get("wiki_match_threshold") or 0.9)
-        hints_map: Dict[str, str] = state.get("wiki_query_hints") or {}
+        labels = self.cfg.ground_labels
+        lang = self.cfg.wiki_lang
+        k = self.cfg.wiki_search_k
+        use_deepcat = self.cfg.wiki_use_deepcat
+        threshold = self.cfg.wiki_match_threshold
+        hints_map = self.cfg.wiki_query_hints
 
         self.logger.info(
             "Wikipedia grounding start: labels=%s lang=%s k=%d threshold=%.2f",
