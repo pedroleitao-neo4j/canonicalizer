@@ -152,13 +152,30 @@ The LangGraph pipeline we developed here integrates **Large Language Models (LLM
 ### Pipeline Stages
 
 ```mermaid
+%%{init: {
+  "theme": "neutral",
+  "themeVariables": {
+    "primaryColor": "#EAF5F2",
+    "primaryBorderColor": "#00796B",
+    "primaryTextColor": "#004D40",
+    "edgeLabelBackground":"#FFFFFF",
+    "fontSize": "14px",
+    "fontFamily": "Inter, Helvetica, sans-serif"
+  }
+}}%%
 flowchart LR
-    A[Documents] --> B[Raw Graph]
-    B --> C[Judged Graph]
-    C --> D[Grounded Graph]
-    C -->|Judges & Scores| E[ER Extraction Validation]
-    D --> F[Wikipedia Grounding]
+    A([Documents]):::input --> B[[Raw Graph]]:::process
+    B --> C[[Judged Graph]]:::core
+    C --> D[[Grounded Graph]]:::process
+    C -->|Judges & Scores| E[[ER Extraction Validation]]:::process
+    D --> F[[Wikipedia Grounding]]:::output
     E --> C
+
+    %% Define styles
+    classDef input fill:#F1F8E9,stroke:#8BC34A,stroke-width:2px,color:#1B5E20;
+    classDef core fill:#C8E6C9,stroke:#388E3C,stroke-width:2px,color:#1B5E20;
+    classDef process fill:#E8F5E9,stroke:#4CAF50,stroke-width:1.5px,color:#1B5E20;
+    classDef output fill:#E0F2F1,stroke:#26A69A,stroke-width:1.5px,color:#004D40;
 ```
 
 1. **Documents → Raw Graph**  
