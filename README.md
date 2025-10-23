@@ -2,7 +2,13 @@
 
 This repository accompanies the presentation [“Clean Knowledge Graphs with a Judge Model”](https://docs.google.com/presentation/d/18vC1CbmhKj3WVNa4z-AZe633xf_VV1sZatxJ0nROEAc/edit?usp=sharing) and provides code and examples for entity–relationship (E-R) extraction, factual validation, and graph cleaning using LLMs and Natural Language Inference (NLI) models.
 
-Producing high-quality knowledge graphs from unstructured text is challenging due to noisy LLM extractions. This repo presents an overall approach and implementation towards addressing this by integrating deterministic judge models for validation within the extraction pipeline.
+Producing high-quality knowledge graphs from unstructured text is challenging due to noisy LLM extractions. This repo presents an overall approach and implementation towards addressing this by integrating deterministic judge models for validation within the extraction pipeline. It is a scalable, traceable approach which alleviates hallucination and which can significantly improve the precisions of knowledge graphs built from text, while allowing for high recall.
+
+This approach is also significantly more efficient and less biased than using LLMs alone for both extraction and validation, as a deterministic NLI model can be much smaller, cheaper, and faster to run at scale.
+
+The Judge judges both **entities** (nodes) and **relationships** (edges) extracted by an LLM, scoring them based on whether they are actually supported by the source text, effectively stopping cases where the LLM makes inferences from memory or associations which are not evidenced in the text. This enables building knowledge graphs that are both **complete enough** for insight and **clean enough** for trust.
+
+![judge scoring](screenshots/judging.jpg)
 
 ## Background: The Precision–Recall Trade-off
 
