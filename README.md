@@ -14,6 +14,29 @@ The Judge judges both **entities** (nodes) and **relationships** (edges) extract
 
 The models used for NLI judgment can be any of a variety of pretrained models fine-tuned for entailment tasks, such as FLAN-T5, DeBERTa-MNLI, or BART-MNLI. Depending on the model, it will have implicit world knowledge from pretraining on large corpora, but it will only make judgments based on the provided evidence text, not on memorized facts. Fine-tuning on domain-specific data can further improve performance.
 
+### Downstream Uses of a Judged Knowledge Graph
+
+Once judged, the scored knowledge graph can be further processed to **filter out low-confidence facts**, or to ground entities further based on external knowledge bases such as Wikipedia, internal ontologies, etc.
+
+Besides filtering, the scored facts can also be used to **prioritize human review** of uncertain or borderline cases, enabling efficient **human-in-the-loop validation workflows**. They can also be used as **candidates for further fine-tuning** of the judge model itself, or for **weighting facts in downstream reasoning or analytics**.
+
+```mermaid
+flowchart LR
+    JM[Judge Model] --> J
+    J[Judged Knowledge Graph] --> F[Filter low-confidence facts]
+    J --> H[Prioritize human review of borderline cases]
+    J --> G[Grounding / disambiguation]
+    J --> T[Candidates for judge fine-tuning]
+    J --> W[Weighted reasoning / analytics]
+
+    G --> KB[External Knowledge Base linking]
+    F --> C[Cleaned facts]
+    H --> Q[Human-in-the-loop QA queue]
+    W --> A[Downstream apps, agents, analytics]
+    T --> M[Fine-tuned Judge Model]
+    M --> JM
+```
+
 ## Background: The Precision–Recall Trade-off
 
 Achieving **high recall** in Entity–Relationship (E-R) extraction is essential to capture as many entities and relationships as possible. However, this goal is constrained by the **precision–recall trade-off** - pursuing higher recall typically reduces precision, introducing incorrect or spurious facts.
