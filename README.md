@@ -7,14 +7,14 @@ Producing high-quality knowledge graphs from unstructured text is challenging du
 ## Background: The Precision–Recall Trade-off
 
 Achieving **high recall** in Entity–Relationship (E-R) extraction is essential to capture as many entities and relationships as possible.  
-However, this goal is constrained by the **precision–recall trade-off** — pursuing higher recall typically reduces precision, introducing incorrect or spurious facts.
+However, this goal is constrained by the **precision–recall trade-off** - pursuing higher recall typically reduces precision, introducing incorrect or spurious facts.
 
 A key challenge in information extraction is to balance **completeness** (recall) and **accuracy** (precision) so that the resulting knowledge graph is both **trustworthy** and **useful**.
 
 | Recall | Precision | Outcome | Description |
 |:-------|:-----------|:---------|:-------------|
-| **High** | Low | *Noisy & Risky Graph* | Captures many facts but polluted with false entities or relationships — misleading for analytics or AI reasoning. |
-| **Low** | High | *Accurate but Incomplete* | Trusted but sparse — safe for compliance or regulated domains, yet limited for discovery and insight generation. |
+| **High** | Low | *Noisy & Risky Graph* | Captures many facts but polluted with false entities or relationships - misleading for analytics or AI reasoning. |
+| **Low** | High | *Accurate but Incomplete* | Trusted but sparse - safe for compliance or regulated domains, yet limited for discovery and insight generation. |
 | **Balanced** | Balanced | *Trusted & Complete Graph* | Captures most relationships while maintaining accuracy; enables reliable downstream analytics and AI agents. |
 
 **Goal:** Build graphs that are both *complete enough* for insight and *clean enough* for trust.
@@ -23,7 +23,7 @@ A key challenge in information extraction is to balance **completeness** (recall
 
 Large Language Models (LLMs) and Natural Language Inference (NLI) models serve very different purposes in knowledge graph construction.
 
-LLMs are excellent for *discovery* — they can extract a wide range of entities and relationships from text.  
+LLMs are excellent for *discovery* - they can extract a wide range of entities and relationships from text.  
 However, they are **generative** and **probabilistic**, meaning their outputs may include hallucinations or inconsistencies.  
 
 NLI models, on the other hand, act as **deterministic validators**, evaluating whether a given extracted claim is actually supported by the source text.
@@ -45,7 +45,7 @@ Decoder-only LLMs (e.g., GPT, LLaMA) are **not designed to score their own outpu
 They generate text token-by-token, but they don’t produce a single probability representing the truth of a statement.  
 While some APIs expose token-level log probabilities (`logprobs`), these are often unavailable or impractical for hosted models.
 
-To verify whether an extracted entity–relationship (E-R) claim is actually supported by evidence, we introduce a **Judge Model** —  
+To verify whether an extracted entity–relationship (E-R) claim is actually supported by evidence, we introduce a **Judge Model** -  
 a Natural Language Inference (NLI) model that deterministically evaluates *entailment*.
 
 **Example:**
@@ -54,13 +54,13 @@ a Natural Language Inference (NLI) model that deterministically evaluates *entai
 > **Hypothesis:** “Direct Edge is an organization.”  
 > **Does the premise entail the hypothesis?** → **Neutral**
 
-The NLI model doesn’t hallucinate or rely on prior training associations — it bases its answer **entirely on the given text**.
+The NLI model doesn’t hallucinate or rely on prior training associations - it bases its answer **entirely on the given text**.
 
 This approach enables:
-- **Deterministic scoring** — each fact gets a reproducible entailment score (logit).  
-- **Evidence grounding** — ensures facts are supported by the source text.  
-- **Quality control** — filters out unsupported or ambiguous E-R pairs before graph ingestion.  
-- **Balance** — complements high-recall LLM extraction with high-precision validation.
+- **Deterministic scoring** - each fact gets a reproducible entailment score (logit).  
+- **Evidence grounding** - ensures facts are supported by the source text.  
+- **Quality control** - filters out unsupported or ambiguous E-R pairs before graph ingestion.  
+- **Balance** - complements high-recall LLM extraction with high-precision validation.
 
 > *Think of the Judge Model as the factual referee for your Knowledge*
 
@@ -73,12 +73,12 @@ They typically use **encoder–decoder** or **cross-encoder** architectures that
 
 ### Key Characteristics
 
-- **Deterministic entailment model** — evaluates support, contradiction, or uncertainty.  
-- **True scoring** — returns logits (not generated probabilities).  
-- **Grounded in evidence** — decisions are based only on provided text.  
-- **Lightweight and efficient** — smaller models, quantizable, GPU-friendly.  
-- **Easily fine-tuned** — often improved with just a few hundred domain examples.  
-- **Complements LLMs** — adds factual verification and consistency checking.
+- **Deterministic entailment model** - evaluates support, contradiction, or uncertainty.  
+- **True scoring** - returns logits (not generated probabilities).  
+- **Grounded in evidence** - decisions are based only on provided text.  
+- **Lightweight and efficient** - smaller models, quantizable, GPU-friendly.  
+- **Easily fine-tuned** - often improved with just a few hundred domain examples.  
+- **Complements LLMs** - adds factual verification and consistency checking.
 
 ### Common Pretrained NLI Models
 
@@ -92,7 +92,7 @@ They typically use **encoder–decoder** or **cross-encoder** architectures that
 
 All of these are available on [Hugging Face](https://huggingface.co/models) and can be fine-tuned for domain-specific ER validation tasks.
 
-> ⚡ **Tip:** Pretrained NLI models can reach strong performance with minimal additional data — a few hundred labeled examples are often enough to adapt to your domain.
+> ⚡ **Tip:** Pretrained NLI models can reach strong performance with minimal additional data - a few hundred labeled examples are often enough to adapt to your domain.
 
 ## Architecture Overview
 
@@ -125,11 +125,11 @@ flowchart LR
 
 ### Key Advantages
 
-- **Combines discovery and validation** — LLMs for recall, NLI models for precision.  
-- **Evidence-based scoring** — every fact is traceable to its source text.  
-- **Lightweight and modular** — works efficiently with quantized models on a single GPU.  
-- **Extensible** — can support additional grounding sources beyond Wikipedia.  
-- **Trusted output** — produces graphs suitable for downstream AI reasoning and compliance contexts.
+- **Combines discovery and validation** - LLMs for recall, NLI models for precision.  
+- **Evidence-based scoring** - every fact is traceable to its source text.  
+- **Lightweight and modular** - works efficiently with quantized models on a single GPU.  
+- **Extensible** - can support additional grounding sources beyond Wikipedia.  
+- **Trusted output** - produces graphs suitable for downstream AI reasoning and compliance contexts.
 
 ## How to use this codebase
 
