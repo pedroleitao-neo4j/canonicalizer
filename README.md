@@ -19,7 +19,7 @@ A key challenge in information extraction is to balance **completeness** (recall
 
 **Goal:** Build graphs that are both *complete enough* for insight and *clean enough* for trust.
 
-## 3️⃣ LLMs vs NLI Models
+## LLMs vs NLI Models
 
 Large Language Models (LLMs) and Natural Language Inference (NLI) models serve very different purposes in knowledge graph construction.
 
@@ -64,7 +64,7 @@ This approach enables:
 
 > *Think of the Judge Model as the factual referee for your Knowledge*
 
-## 5️⃣ Models for NLI
+## Models for NLI
 
 Natural Language Inference (NLI) models are designed to evaluate whether a **hypothesis** logically follows from a **premise**.  
 Unlike decoder-only LLMs, these models provide **deterministic, interpretable scores** (logits) representing *entailment*, *contradiction*, or *neutral* outcomes.
@@ -145,7 +145,94 @@ conda activate canonicalizer
 python canonicalizer.py
 ```
 
-Make sure you fill in all necessary variables in `.env` before running the code.
+Make sure you fill in all necessary variables in `.env` before running the code. Here's an example `.env` file:
+
+```
+# ==============================
+# LLM configuration
+# ==============================
+# Choose which LLM backend to use: "openai" or "ollama"
+LLM_PROVIDER=openai
+
+# OpenAI (set when LLM_PROVIDER=openai)
+# Get a key from https://platform.openai.com/
+OPENAI_API_KEY=sk-...your_api_key_here...
+# Example model: gpt-4o-mini, gpt-4o, o4-mini, etc.
+OPENAI_MODEL=gpt-4o-mini
+
+# Ollama (set when LLM_PROVIDER=ollama)
+# Default local server URL: https://github.com/ollama/ollama
+OLLAMA_BASE_URL=http://localhost:11434
+# Example local model: llama3.1, qwen2.5, mistral, etc.
+OLLAMA_MODEL=llama3.1
+
+
+# ==============================
+# Wikipedia grounding / reranker
+# ==============================
+# Local cache directory for Wikipedia API responses and reranker cache
+WIKI_CACHE_DIR=wiki_cache
+
+# Cross-encoder reranker model (used if installed and available)
+RERANKERS_MODEL=mixedbread-ai/mxbai-rerank-base-v1
+
+# Wikipedia language and search behavior
+WIKI_LANG=en
+WIKI_SEARCH_K=50
+WIKI_MATCH_THRESHOLD=0.9
+# NOTE: Due to code using bool(os.getenv(...)), leave this UNSET to keep False.
+# WIKI_USE_DEEPCAT=
+
+# Optional JSON map to bias search queries by label (keep valid JSON)
+WIKI_QUERY_HINTS={}
+
+# Labels to attempt Wikipedia grounding for (valid JSON array)
+WIKI_GROUND_LABELS=[]
+
+
+# ==============================
+# Judge configuration
+# ==============================
+# Model used by the JudgeValidator (T5 recommended; can be very large)
+KG_JUDGE_MODEL=google/flan-t5-xxl
+# annotate: score and keep everything with scores; filter: drop below thresholds
+KG_JUDGE_ACTION=annotate
+KG_JUDGE_NODE_THRESHOLD=0.5
+KG_JUDGE_REL_THRESHOLD=0.5
+
+
+# ==============================
+# Extractor settings (throughput and rate limits)
+# ==============================
+KG_EXTRACT_BATCH_SIZE=8
+KG_EXTRACT_MAX_CONCURRENCY=1
+# Requests-per-minute cap (optional; unset to disable)
+# KG_EXTRACT_RPM=
+
+
+# ==============================
+# Neo4j connection
+# ==============================
+NEO4J_URI=neo4j+s://...your_neo4j_instance_here...
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=...your_password_here...
+
+
+# ==============================
+# Logging
+# ==============================
+KG_LOG_FILE=out/kg_workflow.log
+KG_LOG_LEVEL=DEBUG
+KG_LOG_CONSOLE=0
+KG_LOG_FORMAT=%(asctime)s %(levelname)s - %(message)s
+
+
+# ==============================
+# Optional: ecosystem tokens (not read directly by code, but commonly needed)
+# ==============================
+# HUGGINGFACE_HUB_TOKEN=
+
+```
 
 Note this code was developed and tested on Linux with an NVIDIA GPU. It should work as is on a Mac with an M1/M2 chip, but performance may vary.
 
