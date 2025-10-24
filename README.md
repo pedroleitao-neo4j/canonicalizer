@@ -83,13 +83,13 @@ However, they are **generative** and **probabilistic**, meaning their outputs wi
 
 For example, the following is a violin plot of LLM-extracted relationship confidence scores (from token log-probabilities) on a small corpus:
 
-![Violin plot of LLM-extracted relationship confidence scores](screenshots/violin-charts.png)
+![Violin plot of LLM-extracted relationship confidence scores](screenshots/violin-charts.jpg)
 
 One can see that while many extracted relationships have high confidence, there is a significant tail of low-confidence or uncertain extractions.
 
 Different named entities and relationships will have varying acceptance curves, depending on how well the LLM can ground them in the source text. For example, common entities like organizations may be extracted with higher confidence than more obscure relationships such as products or services:
 
-![Acceptance curves for different entity/relationship types](screenshots/acceptance-curves.png)
+![Acceptance curves for different entity/relationship types](screenshots/acceptance-curves.jpg)
 
 NLI models, on the other hand, act as **deterministic validators**, evaluating whether a given extracted claim is actually supported by the source text.
 
