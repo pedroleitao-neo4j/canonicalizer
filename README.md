@@ -304,7 +304,7 @@ KG_LOG_FORMAT=%(asctime)s %(levelname)s - %(message)s
 
 Note this code was developed and tested on Linux with an NVIDIA GPU and CUDA. It should work as is on a Mac with an M1/M2 chip, but performance will be slow, especially if you have <= 32GB of RAM/NVRAM - this is not a reflection of the model or the code. In a properly sized production environment this will be orders of magnitude faster.
 
-If you have problems running `canonicalizer.py` because of memory constaints, try switching your Judge Model to:
+If you have problems running `canonicalizer.py` because of memory constaints, try switching your Judge Model in your `.env` file to:
 
 ```
 KG_JUDGE_MODEL=google/flan-t5-xl
