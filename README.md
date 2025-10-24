@@ -4,15 +4,15 @@
 
 This repository accompanies the presentation [“Clean Knowledge Graphs with a Judge Model”](https://docs.google.com/presentation/d/18vC1CbmhKj3WVNa4z-AZe633xf_VV1sZatxJ0nROEAc/edit?usp=sharing) and provides code and examples for entity–relationship (E-R) extraction, factual validation, and graph cleaning using LLMs and Natural Language Inference (NLI) models.
 
-Producing high-quality knowledge graphs from unstructured text is challenging due to noisy LLM extractions. This repo presents an overall approach and implementation towards addressing this by integrating deterministic judge models for validation within the extraction pipeline. It is a scalable, traceable approach which alleviates hallucination and which can significantly improve the precisions of knowledge graphs built from text, while allowing for high recall.
+Producing high-quality knowledge graphs from unstructured text is challenging due to noisy LLM extractions. This repo presents an overall approach and implementation towards addressing this by integrating deterministic judge models for validation within the extraction pipeline. It is a scalable, traceable approach which alleviates hallucination and which can significantly improve the precision of knowledge graphs built from text, while allowing for high recall.
 
 This approach is also significantly more efficient and less biased than using LLMs alone for both extraction and validation, as a deterministic NLI model can be much smaller, cheaper, and faster to run at scale.
 
-The Judge judges both **entities** (nodes) and **relationships** (edges) extracted by an LLM, scoring them based on whether they are actually supported by the source text, effectively stopping cases where the LLM makes inferences from memory or associations which are not evidenced in the text. This enables building knowledge graphs that are both **complete enough** for insight and **clean enough** for trust.
+The Judge evaluates both **entities** (nodes) and **relationships** (edges) extracted by an LLM, scoring them based on whether they are actually supported by the source text, effectively stopping cases where the LLM makes inferences from memory or associations which are not evidenced in the text. This enables building knowledge graphs that are both **complete enough** for insight and **clean enough** for trust.
 
 ![judge scoring](screenshots/judging.jpg)
 
-The models used for NLI judgment can be any of a variety of pretrained models fine-tuned for entailment tasks, such as FLAN-T5, DeBERTa-MNLI, or BART-MNLI. Depending on the model, it will have implicit world knowledge from pretraining on large corpora, but it will only make judgments based on the provided evidence text, not on memorized facts. Fine-tuning on domain-specific data can further improve performance.
+The models used for NLI judgment can be any of a variety of pretrained models fine-tuned for entailment tasks, such as [FLAN-T5](https://huggingface.co/google/flan-t5-xl), [DeBERTa-MNLI](https://huggingface.co/microsoft/deberta-large-mnli), or [BART-MNLI](https://huggingface.co/facebook/bart-large-mnli). Depending on the model, it will have implicit world knowledge from pretraining on large corpora, but it will only make judgments based on the provided evidence text, not on memorized facts. Fine-tuning on domain-specific data can further improve performance.
 
 ### Downstream Uses of a Judged Knowledge Graph
 
@@ -79,7 +79,17 @@ A key challenge in information extraction is to balance **completeness** (recall
 Large Language Models (LLMs) and Natural Language Inference (NLI) models serve very different purposes in knowledge graph construction.
 
 LLMs are excellent for *discovery* - they can extract a wide range of entities and relationships from text.  
-However, they are **generative** and **probabilistic**, meaning their outputs may include hallucinations or inconsistencies.  
+However, they are **generative** and **probabilistic**, meaning their outputs will include hallucinations or inconsistencies.  
+
+For example, the following is a violin plot of LLM-extracted relationship confidence scores (from token log-probabilities) on a small corpus:
+
+![Violin plot of LLM-extracted relationship confidence scores](screenshots/violin-charts.png)
+
+One can see that while many extracted relationships have high confidence, there is a significant tail of low-confidence or uncertain extractions.
+
+Different named entities and relationships will have varying acceptance curves, depending on how well the LLM can ground them in the source text. For example, common entities like organizations may be extracted with higher confidence than more obscure relationships such as products or services:
+
+![Acceptance curves for different entity/relationship types](screenshots/acceptance-curves.png)
 
 NLI models, on the other hand, act as **deterministic validators**, evaluating whether a given extracted claim is actually supported by the source text.
 
@@ -320,6 +330,3 @@ KG_JUDGE_MODEL=google/flan-t5-large
 Once you have run the pipeline, look at the `judge_stats.ipynb` notebook to see relevant stats and visualizations of the judged entities and relationships, and you can explore your judged graph in the configured Neo4j instance.
 
 Computed statistics and visualizations include the distribution of judge scores for entities and relationships, examples of high-and low-confidence facts, allowing you to evaluate the overall performance of both your LLM extraction as well as the Judge Model.
-
-![violin-charts](screenshots/violin-charts.jpg)
-![acceptance-curves](screenshots/acceptance-curves.jpg)
