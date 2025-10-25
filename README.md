@@ -12,7 +12,7 @@ The Judge evaluates both **entities** (nodes) and **relationships** (edges) extr
 
 ![judge scoring](screenshots/judging.jpg)
 
-The models used for NLI judgment can be any of a variety of pretrained models fine-tuned for entailment tasks, such as [FLAN-T5](https://huggingface.co/google/flan-t5-xl), [DeBERTa-MNLI](https://huggingface.co/microsoft/deberta-large-mnli), or [BART-MNLI](https://huggingface.co/facebook/bart-large-mnli). Depending on the model, it will have implicit world knowledge from pretraining on large corpora, but it will only make judgments based on the provided evidence text, not on memorized facts. Fine-tuning on domain-specific data can further improve performance.
+The models used for NLI judgment can be any of a variety of pretrained models fine-tuned for entailment tasks, such as [FLAN-T5](https://huggingface.co/google/flan-t5-xl), [DeBERTa-MNLI](https://huggingface.co/microsoft/deberta-large-mnli), or [BART-MNLI](https://huggingface.co/facebook/bart-large-mnli). Depending on the model, it will have implicit world knowledge from pretraining on large corpora, but it will only make judgments based on the provided evidence text, not on memorized facts. Fine-tuning on domain-specific data can further improve performance. to 
 
 ### Downstream Uses of a Judged Knowledge Graph
 
