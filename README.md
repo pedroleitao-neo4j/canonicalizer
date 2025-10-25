@@ -119,7 +119,7 @@ To verify whether an extracted entity–relationship (E-R) claim is actually sup
 The NLI model doesn’t hallucinate or rely on prior training associations - it bases its answer **entirely on the given text**.
 
 This approach enables:
-- **Deterministic scoring** - each fact gets a reproducible entailment score (logit).  
+- **Deterministic scoring** - each fact gets a reproducible entailment score.  
 - **Evidence grounding** - ensures facts are supported by the source text.  
 - **Quality control** - filters out unsupported or ambiguous E-R pairs before graph ingestion.  
 - **Balance** - complements high-recall LLM extraction with high-precision validation.
@@ -128,7 +128,7 @@ This approach enables:
 
 ## Models for NLI
 
-Models capable of Natural Language Inference (NLI) are designed to evaluate whether a **hypothesis** logically follows from a **premise**. Unlike decoder-only LLMs, these models provide **deterministic, interpretable scores** (logits) representing *entailment*, *contradiction*, or *neutral* outcomes.
+Models capable of Natural Language Inference (NLI) are designed to evaluate whether a **hypothesis** logically follows from a **premise**. Unlike decoder-only LLMs, these models provide **deterministic, interpretable scores** representing *entailment*, *contradiction*, or *neutral* outcomes.
 
 They typically use **encoder–decoder** or **cross-encoder** [transformer](https://www.datacamp.com/tutorial/how-transformers-work) architectures that process both the premise and hypothesis jointly, building a bi-directional representation before producing a prediction.
 
